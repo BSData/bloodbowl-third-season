@@ -41,7 +41,7 @@
             <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AS</characteristic>
             <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">50,000</characteristic>
             <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
-            <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">**Human**, **Lineman**</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Human**, **Lineman**</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -83,7 +83,7 @@
             <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">S</characteristic>
             <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">85,000</characteristic>
             <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
-            <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">**Catcher**, **Human**</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Catcher**, **Human**</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -129,7 +129,7 @@
             <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AS</characteristic>
             <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">80,000</characteristic>
             <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
-            <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">**Human**, **Thrower**</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Human**, **Thrower**</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -176,7 +176,7 @@
             <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">A</characteristic>
             <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">95,000</characteristic>
             <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
-            <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">**Blitzer**, **Human**</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blitzer**, **Human**</characteristic>
           </characteristics>
         </profile>
       </profiles>

@@ -36,7 +36,7 @@
             <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">GPS</characteristic>
             <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">45,000</characteristic>
             <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
-            <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">**Goblin**, **Lineman**</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Goblin**, **Lineman**</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -84,7 +84,7 @@
             <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AD</characteristic>
             <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">90,000</characteristic>
             <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
-            <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">**Blocker**, **Orc**</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blocker**, **Orc**</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -129,7 +129,7 @@
             <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGP</characteristic>
             <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">115,000</characteristic>
             <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
-            <characteristic name="Key Words" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Troll**</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Troll**</characteristic>
           </characteristics>
         </profile>
       </profiles>
