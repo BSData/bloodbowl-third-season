@@ -223,7 +223,7 @@
             <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
             <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Bone Head, Loner (3+), Mighty Blow, Thick Skull, Throw Team-mate</characteristic>
             <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
-            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGM</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AG</characteristic>
             <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">140,000</characteristic>
             <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
             <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Ogre**</characteristic>
@@ -239,7 +239,6 @@
         <entryLink import="true" name="Secondary Skill" hidden="false" id="3d8f-b83c-b726-7cf0" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
           <entryLinks>
             <entryLink import="true" name="Agility" hidden="false" id="ac25-bacd-55b6-f111" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
-            <entryLink import="true" name="Mutation" hidden="false" id="7a83-b307-5459-a681" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
             <entryLink import="true" name="General" hidden="false" id="6e29-2af5-0bf2-4500" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
           </entryLinks>
         </entryLink>
