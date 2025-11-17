@@ -325,7 +325,7 @@
             <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
             <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5+</characteristic>
             <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
-            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Bone Head, Loner (4+), Thick Skull, Throw Team-mate</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Bone Head, Loner (4+), Mighty Blow, Thick Skull, Throw Team-mate</characteristic>
             <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
             <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGM</characteristic>
             <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">140,000</characteristic>
@@ -339,6 +339,7 @@
         <infoLink name="Loner (X+)* (Passive)" id="ee9a-edfe-768e-7e1d" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
         <infoLink name="Thick Skull (Passive)" id="9bec-604d-8b38-1e35" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
         <infoLink name="Throw Team-mate (Active)" id="4b6d-9f0c-57e6-8639" hidden="false" type="rule" targetId="25e0-225c-008f-bda3"/>
+        <infoLink name="Mighty Blow (Active)" id="f236-2721-f8cf-acb1" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Primary Skill" hidden="false" id="fc84-e041-013d-e857" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
@@ -356,6 +357,7 @@
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Minotaur" hidden="false" id="1883-da18-d4a7-8e0a">

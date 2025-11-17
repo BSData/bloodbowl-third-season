@@ -8,7 +8,7 @@
     </categoryEntry>
     <categoryEntry name="Halfling Hopeful" id="c367-a817-1e7d-6813" hidden="false">
       <constraints>
-        <constraint type="max" value="5" field="selections" scope="roster" shared="true" id="0e92-71c4-62d0-7b31" includeChildSelections="true"/>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="0e92-71c4-62d0-7b31" includeChildSelections="true"/>
       </constraints>
     </categoryEntry>
     <categoryEntry name="Human Catcher" id="fd70-ff3b-d558-9cfa" hidden="false">
@@ -72,7 +72,7 @@
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Human Lineman" hidden="false" id="4085-e2e0-981f-d7f7" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Human Lineman" hidden="false" id="4085-e2e0-981f-d7f7">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="56ea-629f-8f84-8eea" primary="true" name="Player"/>
         <categoryLink targetId="a129-00ba-4498-9668" id="657a-9068-ba32-7263" primary="false" name="Human Lineman"/>
@@ -108,7 +108,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Halfling Hopeful" hidden="false" id="b4b6-8990-576b-5d6e" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Halfling Hopeful" hidden="false" id="b4b6-8990-576b-5d6e">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="ed69-68cf-8480-861b" primary="true" name="Player"/>
         <categoryLink targetId="c367-a817-1e7d-6813" id="4c58-4b22-2641-b106" primary="false" name="Halfling Hopeful"/>
@@ -152,7 +152,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Human Catcher" hidden="false" id="0431-6a94-6e52-3a3a" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Human Catcher" hidden="false" id="0431-6a94-6e52-3a3a">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="86ad-faae-ad4d-4c37" primary="true" name="Player"/>
         <categoryLink targetId="fd70-ff3b-d558-9cfa" id="a6ea-0d6a-45d0-cb87" primary="false" name="Human Catcher"/>
@@ -197,7 +197,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Dwarf Lineman" hidden="false" id="71a9-f1a4-e30c-5ccd" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Dwarf Lineman" hidden="false" id="71a9-f1a4-e30c-5ccd">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="6b58-5289-87bd-6b6b" primary="true" name="Player"/>
         <categoryLink targetId="3467-a6ee-9d05-cd42" id="5ff0-4ac5-ad51-a99f" primary="false" name="Dwarf Lineman"/>
@@ -243,7 +243,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Human Thrower" hidden="false" id="3e66-ca34-d7d0-0012" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Human Thrower" hidden="false" id="3e66-ca34-d7d0-0012">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="dac5-c423-1192-5ed6" primary="true" name="Player"/>
         <categoryLink targetId="c01d-a147-16c0-d7df" id="6020-e2a0-3712-b972" primary="false" name="Human Thrower"/>
@@ -288,7 +288,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.27b1-e9c4-d427-d2d8"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Dwarf Runner" hidden="false" id="91e4-b1cb-f2ca-bd1f" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Dwarf Runner" hidden="false" id="91e4-b1cb-f2ca-bd1f">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="517a-6f55-d691-0a0c" primary="true" name="Player"/>
         <categoryLink targetId="bc70-dd41-5696-4130" id="4180-b135-50ff-1cdc" primary="false" name="Dwarf Runner"/>
@@ -335,7 +335,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Human Blitzer" hidden="false" id="3a80-cba8-07b4-610c" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Human Blitzer" hidden="false" id="3a80-cba8-07b4-610c">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="dc4d-4dbd-4442-c2ce" primary="true" name="Player"/>
         <categoryLink targetId="9e59-ed3a-c36c-8e75" id="6b41-d5ea-118e-002a" primary="false" name="Human Blitzer"/>
@@ -379,7 +379,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.730f-16ec-313f-88ce"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Dwarf Blitzer" hidden="false" id="7c98-07fc-ea39-e07a" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Dwarf Blitzer" hidden="false" id="7c98-07fc-ea39-e07a">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="73d3-d640-93c8-ce2f" primary="true" name="Player"/>
         <categoryLink targetId="2716-94d2-039b-1265" id="11b2-6e6e-a5aa-229b" primary="false" name="Dwarf Blitzer"/>
@@ -427,7 +427,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Troll Slayer" hidden="false" id="4626-9b15-2271-e732" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Troll Slayer" hidden="false" id="4626-9b15-2271-e732">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="7381-b4fe-a397-9ace" primary="true" name="Player"/>
         <categoryLink targetId="8a8d-07dd-43d5-bf89" id="fa21-076c-ccec-c137" primary="false" name="Troll Slayer"/>
@@ -476,7 +476,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Ogre" hidden="false" id="f791-5e53-4e7c-bfad" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Ogre" hidden="false" id="f791-5e53-4e7c-bfad">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="2041-d791-e13e-44f6" primary="true" name="Player"/>
         <categoryLink targetId="fbf7-5e16-85d2-1908" id="dbd0-129b-6c03-c549" primary="false" name="Big Guy"/>
@@ -491,7 +491,7 @@
             <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
             <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Bone Head, Loner (3+), Mighty Blow, Thick Skull, Throw Team-mate</characteristic>
             <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
-            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGM</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AG</characteristic>
             <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">140,000</characteristic>
             <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
             <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Big Guy**, **Ogre**</characteristic>
@@ -508,7 +508,6 @@
           <entryLinks>
             <entryLink import="true" name="Agility" hidden="false" id="b9b5-32f7-9c10-100b" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
             <entryLink import="true" name="General" hidden="false" id="a0ba-a17c-2fd8-d083" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
-            <entryLink import="true" name="Mutation" hidden="false" id="f4ac-1984-5b13-7bf0" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
           </entryLinks>
         </entryLink>
       </entryLinks>
@@ -524,7 +523,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Altern Forest Treeman" hidden="false" id="df71-11fa-f234-2a56" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Altern Forest Treeman" hidden="false" id="df71-11fa-f234-2a56">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="3697-3f77-1e30-f565" primary="true" name="Player"/>
         <categoryLink targetId="fbf7-5e16-85d2-1908" id="b030-a2f8-3735-f6ba" primary="false" name="Big Guy"/>
