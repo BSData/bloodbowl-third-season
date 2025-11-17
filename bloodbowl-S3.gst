@@ -1767,43 +1767,6 @@ If a team has a choice of any alignment, they can choose from any of the followi
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Team Re-Rolls" hidden="false" id="9350-0bc7-c2fc-7af5" publicationId="46da-ba61-6439-83e5" collective="false">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="f37a-5296-6889-de00-min" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="f37a-5296-6889-de00-max" includeChildSelections="false"/>
-      </constraints>
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Team Re-Rolls" hidden="false" id="2bd1-7ef4-41e1-a14a">
-          <constraints>
-            <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="4f62-e1dd-61b0-21e1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-          <modifierGroups>
-            <modifierGroup type="and">
-              <modifiers>
-                <modifier type="append" value="(double cost after creation)" field="name" join=" ">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="7aa1-6377-3726-b943" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" value="50000" field="c4da-96df-1abd-13be"/>
-              </modifiers>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="34cc-57bf-d579-af26" shared="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifierGroup>
-          </modifierGroups>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name=" Total SPP" typeId="39e2-ec20-0c67-eba6" value="0"/>
-        <cost name=" TV" typeId="ffff-7836-9be4-196c" value="0"/>
-        <cost name=" Used SPP" typeId="069c-526e-7481-6bb7" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Roster Status" hidden="false" id="f9a9-1a07-bb0d-66f9">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="force" shared="true" id="15f9-11ee-7b96-e92d-min" includeChildSelections="false"/>
@@ -1909,12 +1872,6 @@ If a team has a choice of any alignment, they can choose from any of the followi
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Team Re-Rolls" hidden="false" id="18e0-709a-8d63-a381" type="selectionEntry" targetId="9350-0bc7-c2fc-7af5">
-      <categoryLinks>
-        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="0890-5820-eee6-ae1d" primary="true" name="Team Management"/>
-      </categoryLinks>
-      <comment>Team Management</comment>
-    </entryLink>
     <entryLink import="true" name="Roster Status" hidden="false" id="91ec-e00f-e467-9302" type="selectionEntry" targetId="f9a9-1a07-bb0d-66f9"/>
   </entryLinks>
   <selectionEntries>
@@ -5508,6 +5465,156 @@ If a Frog suffers a Casualty, do not make a Casualty Roll for them. Instead, the
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Assistant Coaches" hidden="false" id="2e83-99b7-a1df-9497" sortIndex="-1">
+      <comment>Team Management</comment>
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="5e5c-bbab-4f4b-d150" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b1af-a479-349e-3435" includeChildSelections="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Assistant Coach" hidden="false" id="b6ee-a100-7018-5041">
+          <costs>
+            <cost name="TV" typeId="c4da-96df-1abd-13be" value="10000"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a682-df36-6c15-9529" includeChildSelections="false"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="a2ba-fb4e-787a-b881" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Team Re-rolls" hidden="false" id="2e41-9378-25e7-aabc" sortIndex="-1">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="612d-53dc-8be3-1731" includeChildSelections="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Team Re-roll" hidden="false" id="f081-6613-09f2-77c7">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1924-3074-7823-ec8a" includeChildSelections="false"/>
+            <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="1a32-48df-81bf-397c" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="TV" typeId="c4da-96df-1abd-13be" value="60000"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="50000" field="c4da-96df-1abd-13be">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7acc-b169-4ef0-0d5d" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="6268-bda5-6978-a74e" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="a311-a007-cff9-a6fe" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="a2a0-3311-0c44-5f11" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="34cc-57bf-d579-af26" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="ae96-b698-9f4d-33ee" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="fafd-b15d-0669-a69c" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="70000" field="c4da-96df-1abd-13be">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="02f0-ac7b-8698-0f4c" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f9bf-bd84-1c46-be17" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="14be-6c15-533c-080f" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="e0ad-e04c-eef1-b9a6" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2288-066b-b8d7-55d7" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="04e9-03f2-f19e-b92e" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f5b0-a314-d66f-220d" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="b08e-436c-6efa-3651" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="e895-bbd8-b569-0541" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="0503-a968-b871-f93a" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <comment>Team Management</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Cheerleaders" hidden="false" id="f688-607a-964d-0a30" sortIndex="-1">
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="4641-fd4e-ef79-a75f" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <comment>Team Management</comment>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a43e-4a13-4f5f-0258" includeChildSelections="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Cheerleader" hidden="false" id="ab61-bc53-5b06-1fbf">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b909-a438-3863-ff95" includeChildSelections="false"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="11ca-4b10-7845-312a" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="TV" typeId="c4da-96df-1abd-13be" value="10000"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Dedicated Fans" hidden="false" id="bafe-208f-4a4d-d5ba" sortIndex="-1">
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="5d24-ea83-7c33-c522" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="efe5-2c11-792f-9711" includeChildSelections="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Dedicated Fan" hidden="false" id="c1d9-7e41-85de-5550">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ccd8-aac8-5475-6254" includeChildSelections="false"/>
+            <constraint type="max" value="7" field="selections" scope="parent" shared="true" id="86f8-bd70-0ab6-6000" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <comment>Team Management</comment>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Apothecary" hidden="false" id="e853-f26b-c0c9-4316" sortIndex="-1">
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="0bce-21f2-b5a5-d1ce" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <comment>Team Management</comment>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="50000"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="136f-98c5-9f0e-b219" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="e0ad-e04c-eef1-b9a6" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="b5fe-fd79-2dee-8038" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f5b0-a314-d66f-220d" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="de08-2113-2ccd-49d8" shared="true"/>
+              </conditions>
+              <comment>These teams cannot have apothecaries</comment>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Treasury" hidden="false" id="7fc2-d13d-1416-3271" sortIndex="-1">
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="1fa2-02b6-88ff-bc50" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cfd1-c758-e57e-001f" includeChildSelections="true"/>
+      </constraints>
+      <comment>Team Management</comment>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Gold Pieces" hidden="false" id="9042-5c53-a135-9cfe"/>
+      </selectionEntries>
     </selectionEntry>
   </selectionEntries>
 </gameSystem>
