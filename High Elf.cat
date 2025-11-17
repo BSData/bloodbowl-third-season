@@ -215,4 +215,23 @@
       </costs>
     </entryLink>
   </entryLinks>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Team League" hidden="false" id="d9dc-22e6-7259-fd38">
+      <categoryLinks>
+        <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="7af9-c3db-9bcb-d88a" primary="true" name="Team Management"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="c64a-816a-8eaa-429a-min" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c64a-816a-8eaa-429a-max" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Elven Kingdoms League" hidden="false" id="a808-ddca-6565-7169" type="selectionEntry" targetId="31ad-4a7b-7a5b-c6ea">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7045-443e-8666-556e-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7045-443e-8666-556e-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+  </selectionEntries>
 </catalogue>
