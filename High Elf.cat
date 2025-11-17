@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="8b63-e747-31ee-7b01" name="High Elf" gameSystemId="sys-783d-8aac-9dfc-917b" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry name="High Elf Lineman" id="1394-d1be-93b9-a721" hidden="false">
+      <constraints>
+        <constraint type="max" value="16" field="selections" scope="roster" shared="true" id="3d4f-2f0c-f797-5101" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="High Elf Thrower" id="1976-5d9c-2a24-a692" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="7139-184c-cfaf-cb28" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="High Elf Catcher" id="24cc-eff6-694d-bda8" hidden="false">
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="6a40-c660-6ce2-08a1" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="High Elf Blitzer" id="392e-2665-f148-2f3c" hidden="false">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="d68d-a421-fbd0-0bfd" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="High Elf Lineman" hidden="false" id="d815-c010-af2b-6447">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="0980-4998-7283-e6cf" primary="true" name="Player"/>
+        <categoryLink targetId="1394-d1be-93b9-a721" id="8c86-48a7-5d91-e657" primary="false" name="High Elf Lineman"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="High Elf Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="6c8c-526b-aa33-f889">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">2+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4"/>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AG</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">PS</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">65,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Elf**, **Lineman**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="ddb9-9f7b-d470-c12c" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="cfc1-e16d-ea21-d5c6" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="71b4-d9b5-1418-41ec" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="8d7f-e97d-d450-c575" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Passing" hidden="false" id="05ef-09d0-9d7d-33ce" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+            <entryLink import="true" name="Strength" hidden="false" id="a6a9-7c4d-5f5f-0db7" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="High Elf Thrower" hidden="false" id="d55f-e6b7-6987-01ad">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="86ca-41f0-56cb-0754" primary="true" name="Player"/>
+        <categoryLink targetId="1976-5d9c-2a24-a692" id="9fcd-b906-e132-2361" primary="false" name="High Elf Thrower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="High Elf Thrower" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="ece9-6e1a-561a-27e3">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">2+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">2+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Cloud Burster, Pass, Safe Pass</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AGP</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">S</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">100,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Elf**, **Thrower**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="06a1-be4a-2e7b-8daf" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="963e-3a0c-9fa5-e5e4" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="ed77-b42c-4d74-bec3" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+            <entryLink import="true" name="Passing" hidden="false" id="09b1-1ae5-3a23-8000" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="4182-6f42-5d10-b1e9" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="096c-64e5-8c16-2d5e" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.32dd-25fd-d3a2-9ab7"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.ee13-527f-f1cd-c4ca"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.92fa-d3e4-5627-dce4"/>
+      </modifiers>
+      <infoLinks>
+        <infoLink name="Cloud Burster (Active)" id="d33a-e0e1-7b4c-0d39" hidden="false" type="rule" targetId="b8ac-a6d8-a64b-386a"/>
+        <infoLink name="Pass (Active)" id="7ff1-874d-9977-f9c1" hidden="false" type="rule" targetId="5149-08e1-df59-78bd"/>
+        <infoLink name="Safe Pass (Active)" id="7f73-74c0-10d2-80fe" hidden="false" type="rule" targetId="58c3-5b5a-6799-3086"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="High Elf Catcher" hidden="false" id="ce6d-73b1-07b1-5dc1">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="0640-2674-9a36-55b8" primary="true" name="Player"/>
+        <categoryLink targetId="24cc-eff6-694d-bda8" id="9850-1c10-f6d5-386b" primary="false" name="High Elf Catcher"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="High Elf Catcher" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="7985-3d7f-51de-03cd">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">8</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">2+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Catch</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AG</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">S</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">90,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Elf**, **Catcher**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="1d59-4aaf-fbc8-90cc" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="7cda-cdac-f5bc-b8fc" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="3400-7701-d8a6-52ce" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="8876-44e7-1c5a-6997" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Strength" hidden="false" id="d248-4a44-8a10-a5ea" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Catch (Active)" id="375e-5475-b7b7-2363" hidden="false" type="rule" targetId="098e-6fa4-284c-49ca"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.3cbf-9190-877a-dd8d"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="High Elf Blitzer" hidden="false" id="f7bf-a686-4375-4bf5">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="52f2-fe6d-a2df-9000" primary="true" name="Player"/>
+        <categoryLink targetId="392e-2665-f148-2f3c" id="2db3-07c3-206a-c50f" primary="false" name="High Elf Blitzer"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="High Elf Blitzer" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="5b23-3973-660a-f6c8">
+          <characteristics>
+            <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">7</characteristic>
+            <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
+            <characteristic name="AG" typeId="644d-fe29-947f-5eb7">2+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Block</characteristic>
+            <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AG</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">PS</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">100,000</characteristic>
+            <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Elf**, **Blitzer**</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Primary Skill" hidden="false" id="4ce4-3c28-5937-2a17" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+          <entryLinks>
+            <entryLink import="true" name="Agility" hidden="false" id="ef43-f19b-d1cc-ea90" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
+            <entryLink import="true" name="General" hidden="false" id="b61d-c2c5-6517-a07b" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
+          </entryLinks>
+        </entryLink>
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="3859-7b16-9061-cee5" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+          <entryLinks>
+            <entryLink import="true" name="Passing" hidden="false" id="352d-a6b9-962f-2dd5" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
+            <entryLink import="true" name="Strength" hidden="false" id="7c8a-2750-65f4-3e49" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.0e89-4745-7902-b155"/>
+      </modifiers>
+      <infoLinks>
+        <infoLink name="Block (Active)" id="d50b-174a-ae63-a379" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="High Elf Blitzer" hidden="false" id="a7d0-8b18-c31e-67f8" type="selectionEntry" targetId="f7bf-a686-4375-4bf5" sortIndex="4">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="100000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="High Elf Catcher" hidden="false" id="5cd9-8f0f-7d0d-5c53" type="selectionEntry" targetId="ce6d-73b1-07b1-5dc1" sortIndex="3">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="90000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="High Elf Lineman" hidden="false" id="91d6-f534-fad7-1039" type="selectionEntry" targetId="d815-c010-af2b-6447" sortIndex="1">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="65000"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="High Elf Thrower" hidden="false" id="3c25-eb87-1876-2cab" type="selectionEntry" targetId="d55f-e6b7-6987-01ad" sortIndex="2">
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="100000"/>
+      </costs>
+    </entryLink>
+  </entryLinks>
+</catalogue>
