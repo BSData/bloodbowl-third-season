@@ -1894,6 +1894,11 @@ If a team has a choice of any alignment, they can choose from any of the followi
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8100-8686-c141-010d" includeChildSelections="true"/>
       </constraints>
       <comment>Inducement</comment>
+      <rules>
+        <rule name="Prayers to Nuffle" id="a6c4-79e7-0c15-b843" hidden="false">
+          <description>For each Prayer to Nuffle a team purchases, roll a D16 (re-rolling any results a team has already rolled) and consult the Prayers to Nuffle table to see the effect that Nuffle has bestowed upon the team. Prayers to Nuffle last until the end of the game. If a Prayer to Nuffle requires players to be selected, then Star Players may never be selected under any circumstances.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Part-time Assistant Coaches" hidden="false" id="951c-c7eb-86a1-ced0" sortIndex="2">
       <selectionEntries>
@@ -1914,6 +1919,11 @@ If a team has a choice of any alignment, they can choose from any of the followi
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="648c-15b0-effc-571d" includeChildSelections="true"/>
       </constraints>
       <comment>Inducement</comment>
+      <rules>
+        <rule name="Part-time Assistant Coaches" id="283a-5ee1-6a92-2d83" hidden="false">
+          <description>For the duration of the game, increase your number of Assistant Coaches by 1 for each Part-time Assistant Coach purchased.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Temp Agency Cheerleaders" hidden="false" id="450e-d88d-d7e5-f924" sortIndex="3">
       <selectionEntries>
@@ -1934,6 +1944,11 @@ If a team has a choice of any alignment, they can choose from any of the followi
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="aa1e-af54-8a91-2661" includeChildSelections="true"/>
       </constraints>
       <comment>Inducement</comment>
+      <rules>
+        <rule name="Temp Agency Cheerleaders" id="0cc7-680c-2f18-2ebb" hidden="false">
+          <description>For the duration of the game, increase your number of Cheerleaders by 1 for each Temp Agency Cheerleader purchased</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Team Mascot" hidden="false" id="5a39-4357-a633-33a8" sortIndex="4">
       <categoryLinks>
@@ -1946,6 +1961,14 @@ If a team has a choice of any alignment, they can choose from any of the followi
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="18cf-e69d-16df-98cc" includeChildSelections="true"/>
       </constraints>
       <comment>Inducement</comment>
+      <rules>
+        <rule name="Team Mascot" id="bae7-ca4e-3ed9-8944" hidden="false">
+          <description>A team with a Team Mascot gains an additional Team Re-roll for each half. However, whenever the team wishes to use this Team Re-roll, they must first roll a D6. On a 4+, the Team Re-roll may be used as normal. On a 1-3, the Team Mascot proved themselves to be ineffective and the Team Re-roll is lost for this half. Another Team Re-roll may be used instead.
+
+
+Additionally, a team with a Team Mascot can re-roll any rolls of a natural 1 when rolling the D6 for the Cheering Fans result on the Kick-off Event Table.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Weather Mage" hidden="false" id="1546-0878-536a-88f2" sortIndex="5">
       <costs>
@@ -1958,6 +1981,11 @@ If a team has a choice of any alignment, they can choose from any of the followi
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6e6a-4f10-b49d-c69f" includeChildSelections="true"/>
       </constraints>
       <comment>Inducement</comment>
+      <rules>
+        <rule name="Weather Mage" id="61b4-4d98-227a-5d09" hidden="false">
+          <description>Once per game, at the start of any of your Turns, you may immediately make a roll on the Weather Table, applying a modifier of up to +2 or -2 to the roll. The resulting weather conditions are applied immediately and will last until the next time a Changing Weather result is rolled on the Kick-off Event Table.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Blitzer&apos;s Best Kegs" hidden="false" id="bff7-eab3-5ad0-f655" sortIndex="6">
       <constraints>
@@ -1978,6 +2006,11 @@ If a team has a choice of any alignment, they can choose from any of the followi
         <categoryLink targetId="82fd-d32b-a2e0-5e91" id="7d68-33e0-1425-bd0c" primary="true" name="Inducements"/>
       </categoryLinks>
       <comment>Inducement</comment>
+      <rules>
+        <rule name="Blitzer&apos;s Best Kegs" id="7573-c31d-89f3-221f" hidden="false">
+          <description>For the duration of the game, for each Blitzer&apos;s Best Keg purchased, apply a +1 modifier to the roll whenever you are rolling to recover a Knocked-out player.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Bribes" hidden="false" id="644b-dc18-e4f4-f8de" sortIndex="7">
       <categoryLinks>
@@ -2010,6 +2043,11 @@ If a team has a choice of any alignment, they can choose from any of the followi
         </selectionEntry>
       </selectionEntries>
       <comment>Inducement</comment>
+      <rules>
+        <rule name="Bribes" id="e24b-9aa7-9d27-78b7" hidden="false">
+          <description>When a player is Sent-off, after any attempt to Argue the Call has been made, you may use a Bribe so long as you are still able. When a Bribe is used, roll a D6. On a 2+, the player is not Sent-off (and no Turnover is caused). On a natural 1, the referee pockets the Bribe but sends the player off anyway - the player is still Sent-off and the Bribe is lost.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Extra Team Training" hidden="false" id="aa66-772f-9b15-6739" sortIndex="8">
       <categoryLinks>
@@ -2030,6 +2068,11 @@ If a team has a choice of any alignment, they can choose from any of the followi
         </selectionEntry>
       </selectionEntries>
       <comment>Inducement</comment>
+      <rules>
+        <rule name="Extra Team Training" id="eda1-e075-ae97-db1d" hidden="false">
+          <description>Each Extra Team Training grants an additional Team Re-roll for the duration of the game.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Mortuary Assistant" hidden="true" id="2827-3a04-29f0-abf9" sortIndex="9">
       <comment>Inducement</comment>
@@ -2049,6 +2092,11 @@ If a team has a choice of any alignment, they can choose from any of the followi
           </conditions>
         </modifier>
       </modifiers>
+      <rules>
+        <rule name="Mortuary Assistant" id="c10e-600f-9b1c-7f76" hidden="false">
+          <description>Once per game, a team that has purchased a Mortuary Assistant can use them to re-roll a failed Regeneration Roll for one of their players.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Plague Doctor" hidden="true" id="1c5d-96c7-357a-0e6b" sortIndex="10">
       <comment>Inducement</comment>
@@ -2068,6 +2116,11 @@ If a team has a choice of any alignment, they can choose from any of the followi
           </conditions>
         </modifier>
       </modifiers>
+      <rules>
+        <rule name="Plague Doctor" id="ec2c-a717-066a-5c55" hidden="false">
+          <description>Once per game, a team that has purchased a Plague Doctor can use them to re-roll a failed Regeneration Roll for one of their players. Alternatively, a team that has purchased a Plague Doctor can use them in the same manner as an Apothecary.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Riotous Rookies" hidden="true" id="60e6-5894-0f13-cbbf" sortIndex="11">
       <categoryLinks>
@@ -2087,6 +2140,11 @@ If a team has a choice of any alignment, they can choose from any of the followi
           </conditions>
         </modifier>
       </modifiers>
+      <rules>
+        <rule name="Riotous Rookies" id="7fb5-2869-ffb8-9709" hidden="false">
+          <description>After adding any Journeymen needed to bring the player count up to 11, a team that has purchased Riotous Rookies gains an additional 2D3+1 Journeymen for the game. These additional Journeymen may temporarily take the number of players on your Team Draft List above 16. These additional Journeymen are treated the same as regular Journeymen in every way and, unless they are hired after the game, will leave the team at the end of the game.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Wandering Apothecary" hidden="false" id="e7f8-4cfc-1a85-3057" sortIndex="12">
       <constraints>
@@ -2122,6 +2180,11 @@ If a team has a choice of any alignment, they can choose from any of the followi
         <categoryLink targetId="82fd-d32b-a2e0-5e91" id="c363-0106-c47c-1dbb" primary="true" name="Inducements"/>
       </categoryLinks>
       <comment>Inducement</comment>
+      <rules>
+        <rule name="Wandering Apothecary" id="d285-88b1-3a9d-8e55" hidden="false">
+          <description>A team that has purchased a Wandering Apothecary can use them, once per game, in the same manner as a regular Apothecary.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Halfling Master Chef" hidden="false" id="5b09-34cc-945b-75d5" sortIndex="13">
       <costs>
@@ -2141,6 +2204,11 @@ If a team has a choice of any alignment, they can choose from any of the followi
           </conditions>
         </modifier>
       </modifiers>
+      <rules>
+        <rule name="Halfling Master Chef" id="e4be-2f41-4d49-df94" hidden="false">
+          <description>At the start of each half, before the Kick-off takes place, a team that has purchased a Halfling Master Chef may roll three D6s. For each roll of a 4+, the team gains an additional Team Re-roll for the half and the opposition team loses a Team Re-roll for the half. Team Re-rolls granted by Skills, Traits or other special rules cannot be lost in this way.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Biased Referee" hidden="false" id="0310-4f4b-bb84-2ee1" sortIndex="14">
       <constraints>
@@ -3113,7 +3181,7 @@ If a team has a choice of any alignment, they can choose from any of the followi
               </infoLinks>
               <rules>
                 <rule name="Consummate Professional" id="7b58-11c2-dd44-1c8e" hidden="false">
-                  <description>Once per game, Griff may apply a +1 modifier to an Agility Test has has made. This modifier may be applied after the roll has been made.</description>
+                  <description>Once per game, Griff may apply a +1 modifier to an Agility Test he has made. This modifier may be applied after the roll has been made.</description>
                 </rule>
               </rules>
               <modifiers>
@@ -3843,6 +3911,11 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <categoryLinks>
                 <categoryLink targetId="69f8-eb37-db8c-47de" id="c03e-aa82-d4d7-497b" primary="false" name="Player"/>
               </categoryLinks>
+              <rules>
+                <rule name="Lord of Chaos" id="359e-3de3-41c6-dc5c" hidden="false">
+                  <description>Once per game, when Lord Borak performs a Block Action he may re-roll a single Block Dice.</description>
+                </rule>
+              </rules>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Maple Highgrove" hidden="true" id="9d10-0522-2735-03a8">
               <costs>
@@ -4891,7 +4964,7 @@ If a team has a choice of any alignment, they can choose from any of the followi
               </infoLinks>
               <rules>
                 <rule name="Savage Mauling" id="bfa2-6618-7c0e-171b" hidden="false">
-                  <description>Once per game, when Wilhelm makes and Injury Roll against an opposition player, he may choose to re-roll the result.</description>
+                  <description>Once per game, when Wilhelm makes an Injury Roll against an opposition player, he may choose to re-roll the result.</description>
                 </rule>
               </rules>
               <modifiers>
