@@ -5,6 +5,7 @@
     <categoryEntry name="Team Management" id="9e9f-1d0d-a83d-4cba" hidden="false"/>
     <categoryEntry name="Positional" id="0c44-468c-6a37-e6c8" hidden="false"/>
     <categoryEntry name="Inducements" id="82fd-d32b-a2e0-5e91" hidden="false"/>
+    <categoryEntry name="Elite Skill" id="d731-f15b-0940-46c6" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Standard" id="0430-7fcc-d8c8-f3d8" hidden="false">
@@ -109,6 +110,9 @@
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f29-e00a-607c-3f20"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink targetId="d731-f15b-0940-46c6" id="15cc-185d-e515-1956" primary="false" name="Elite Skill"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Sidestep" hidden="false" id="fd16-5b77-2cb1-ae29">
           <infoLinks>
@@ -370,6 +374,9 @@
           <infoLinks>
             <infoLink name="Block (Active)" id="e6f0-8f1e-fa53-761a" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="d731-f15b-0940-46c6" id="ae62-f83c-45ef-7baa" primary="false" name="Elite Skill"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Sure Hands" hidden="false" id="27b1-e9c4-d427-d2d8">
           <constraints>
@@ -778,6 +785,9 @@
           <infoLinks>
             <infoLink name="Guard (Active)" id="b4d2-eba8-895f-1f02" hidden="false" type="rule" targetId="6772-a834-2b47-9255"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="d731-f15b-0940-46c6" id="33ce-c13d-57c2-8be8" primary="false" name="Elite Skill"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Stand Firm" hidden="false" id="d009-274e-d212-e2df">
           <constraints>
@@ -800,6 +810,9 @@
           <modifiers>
             <modifier type="append" value="Mighty Blow" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
           </modifiers>
+          <categoryLinks>
+            <categoryLink targetId="d731-f15b-0940-46c6" id="ed79-3bd5-eec2-52ae" primary="false" name="Elite Skill"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Arm Bar" hidden="false" id="cbe1-6acd-9485-681c">
           <constraints>
@@ -916,6 +929,15 @@
         </modifier>
         <modifier type="set" value="20000" field="c4da-96df-1abd-13be" affects="entry"/>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <comment>Elite Skill</comment>
+          <modifiers>
+            <modifier type="append" value="(Elite)" field="name" affects="d731-f15b-0940-46c6"/>
+            <modifier type="increment" value="10000" field="c4da-96df-1abd-13be" affects="d731-f15b-0940-46c6"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </selectionEntryGroup>
     <selectionEntryGroup name="Secondary Skill" id="290c-cda9-c02e-31a1" hidden="false">
       <constraints>
@@ -929,6 +951,15 @@
         </modifier>
         <modifier type="set" value="40000" field="c4da-96df-1abd-13be" affects="entry"/>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <comment>Elite Skill</comment>
+          <modifiers>
+            <modifier type="append" value="(Elite)" field="name" affects="d731-f15b-0940-46c6"/>
+            <modifier type="increment" value="10000" field="c4da-96df-1abd-13be" affects="d731-f15b-0940-46c6"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </selectionEntryGroup>
     <selectionEntryGroup name="Chaos Alignment" id="486f-d6fb-4f44-1a32" hidden="false">
       <entryLinks>
