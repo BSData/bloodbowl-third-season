@@ -54,6 +54,8 @@
             <entryLink import="true" name="Passing" hidden="false" id="a075-f86e-ec07-33ba" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="2b0e-848a-ffd1-cfa0" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="0247-b084-c2ed-5cc3" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Dodge (Active)" id="fafa-24ec-8ea0-24a6" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
@@ -105,6 +107,8 @@
             <entryLink import="true" name="Devious" hidden="false" id="89db-fd51-9b42-9351" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="7595-60fb-1be8-053f" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="f599-9a16-5636-f432" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.9256-339d-7987-49c4"/>
@@ -146,6 +150,8 @@
             <entryLink import="true" name="General" hidden="false" id="e2e9-3555-8ffd-a64c" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="9216-80f6-b190-91ac" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="19a2-0edf-7cc3-c879" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Always Hungry* (Active)" id="f8ab-4e0c-6fc1-5f06" hidden="false" type="rule" targetId="e071-25e9-5e97-ad86"/>
@@ -179,10 +185,6 @@
   </entryLinks>
   <selectionEntries>
     <selectionEntry type="upgrade" import="true" name="Special Rules" hidden="false" id="c0bc-c2b5-5997-06e4">
-      <infoLinks>
-        <infoLink name="Brawlin&apos; Brutes" id="27d8-cdb0-bfc8-5d5e" hidden="false" type="rule" targetId="15e6-1d61-20ad-257a"/>
-        <infoLink name="Bribery and Corruption" id="f7f0-7a61-07b8-6c71" hidden="false" type="rule" targetId="6fc4-29e3-00cc-86de"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink targetId="9e9f-1d0d-a83d-4cba" id="e7ee-4b00-6970-8c70" primary="true" name="Team Management"/>
       </categoryLinks>
@@ -190,6 +192,20 @@
         <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="86b8-64b2-8273-bd96-min" includeChildSelections="true"/>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="86b8-64b2-8273-bd96-max" includeChildSelections="true"/>
       </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Brawlin&apos; Brutes" hidden="false" id="67e0-7a6e-b7ad-cbba" type="selectionEntry" targetId="0d8a-9c12-8664-38e8">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="930c-f2a1-8ec8-fd88" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="940a-ed40-5866-1777" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Bribery &amp; Corruption" hidden="false" id="5cca-4154-658d-48e1" type="selectionEntry" targetId="e4b5-6057-7d9c-2e20">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e785-aafb-261e-ffe7" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="463a-2835-4e24-e067" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Team League" hidden="false" id="d7f4-ed40-5258-4986">
       <constraints>
