@@ -2175,88 +2175,88 @@ If a team has a choice of any alignment, they can choose from any of the followi
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Badlands Brawl" hidden="false" id="1eb9-891a-5a20-b694" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Badlands Brawl" hidden="false" id="1eb9-891a-5a20-b694" sortIndex="10">
       <comment>Team Leauge</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Chaos Clash" hidden="false" id="59e3-4dbf-4f7b-9276" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Chaos Clash" hidden="false" id="59e3-4dbf-4f7b-9276" sortIndex="10">
       <comment>Team Leauge</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Elven Kingdoms League" hidden="false" id="31ad-4a7b-7a5b-c6ea" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Elven Kingdoms League" hidden="false" id="31ad-4a7b-7a5b-c6ea" sortIndex="10">
       <comment>Team Leauge</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Halfling Thimble Cup" hidden="false" id="a414-eded-2c3f-26bb" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Halfling Thimble Cup" hidden="false" id="a414-eded-2c3f-26bb" sortIndex="10">
       <comment>Team Leauge</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Lustrian Superleague" hidden="false" id="9e52-21d6-b650-0f2e" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Lustrian Superleague" hidden="false" id="9e52-21d6-b650-0f2e" sortIndex="10">
       <comment>Team Leauge</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Old World Classic" hidden="false" id="3d18-00d7-c09b-d261" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Old World Classic" hidden="false" id="3d18-00d7-c09b-d261" sortIndex="10">
       <comment>Team Leauge</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Sylvanian Spotlight" hidden="false" id="9070-d888-956b-b3f0" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Sylvanian Spotlight" hidden="false" id="9070-d888-956b-b3f0" sortIndex="10">
       <comment>Team Leauge</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Underworld Challenge" hidden="false" id="fdab-28ae-ae4b-eac1" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Underworld Challenge" hidden="false" id="fdab-28ae-ae4b-eac1" sortIndex="10">
       <comment>Team Leauge</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Woodland League" hidden="false" id="6c75-8f97-472e-204c" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Woodland League" hidden="false" id="6c75-8f97-472e-204c" sortIndex="10">
       <comment>Team Leauge</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Worlds Edge Superleague" hidden="false" id="a8a2-1453-da6f-731c" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Worlds Edge Superleague" hidden="false" id="a8a2-1453-da6f-731c" sortIndex="10">
       <comment>Team Leauge</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Brawlin&apos; Brutes" hidden="false" id="0d8a-9c12-8664-38e8" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Brawlin&apos; Brutes" hidden="false" id="0d8a-9c12-8664-38e8" sortIndex="20">
       <infoLinks>
         <infoLink name="Brawlin&apos; Brutes" id="99e8-4580-d8ad-96de" hidden="false" type="rule" targetId="15e6-1d61-20ad-257a"/>
       </infoLinks>
       <comment>Team Special Rules</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Bribery &amp; Corruption" hidden="false" id="e4b5-6057-7d9c-2e20" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Bribery &amp; Corruption" hidden="false" id="e4b5-6057-7d9c-2e20" sortIndex="20">
       <infoLinks>
         <infoLink name="Bribery and Corruption" id="ddfc-1cbf-db09-5ce6" hidden="false" type="rule" targetId="6fc4-29e3-00cc-86de"/>
       </infoLinks>
       <comment>Team Special Rules</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Low Cost Linemen" hidden="false" id="c2c1-b518-69c8-5c91" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Low Cost Linemen" hidden="false" id="c2c1-b518-69c8-5c91" sortIndex="20">
       <infoLinks>
         <infoLink name="Low Cost Linemen" id="8a14-20c2-cfb3-29a4" hidden="false" type="rule" targetId="5144-7fbb-8adf-ff4f"/>
       </infoLinks>
       <comment>Team Special Rules</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Masters of Undeath" hidden="false" id="4ce9-c686-aec9-b623" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Masters of Undeath" hidden="false" id="4ce9-c686-aec9-b623" sortIndex="20">
       <infoLinks>
         <infoLink name="Masters of Undeath" id="c7a2-796b-3e5c-eab6" hidden="false" type="rule" targetId="7f71-cda8-2d0d-b094"/>
       </infoLinks>
       <comment>Team Special Rules</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Team Captain" hidden="false" id="b037-bf7f-5a39-c29b" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Team Captain" hidden="false" id="b037-bf7f-5a39-c29b" sortIndex="20">
       <infoLinks>
         <infoLink name="Team Captain" id="a6dc-a199-f2c4-e9e3" hidden="false" type="rule" targetId="6753-eb3f-0bf5-63ee"/>
       </infoLinks>
       <comment>Team Special Rules</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Favoured of Hashut" hidden="false" id="29dc-51bf-a4d4-e460" sortIndex=""/>
-    <selectionEntry type="upgrade" import="true" name="Favoured of Khorne" hidden="false" id="fff5-8bb0-409e-4125" sortIndex=""/>
-    <selectionEntry type="upgrade" import="true" name="Favoured of Undivided" hidden="false" id="1cd7-0234-b42d-8b5d" sortIndex=""/>
-    <selectionEntry type="upgrade" import="true" name="Favoured of Tzeentch" hidden="false" id="12ee-8bbc-e957-279b" sortIndex=""/>
-    <selectionEntry type="upgrade" import="true" name="Favoured of Slaanesh" hidden="false" id="a1f9-87ba-0db6-989a" sortIndex=""/>
-    <selectionEntry type="upgrade" import="true" name="Favoured of Nurgle" hidden="false" id="d66c-3805-c337-bbb6" sortIndex=""/>
-    <selectionEntry type="upgrade" import="true" name="Favored of ..." hidden="false" id="7614-610c-c42c-5a78" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Favoured of Hashut" hidden="false" id="29dc-51bf-a4d4-e460" sortIndex="21"/>
+    <selectionEntry type="upgrade" import="true" name="Favoured of Khorne" hidden="false" id="fff5-8bb0-409e-4125" sortIndex="21"/>
+    <selectionEntry type="upgrade" import="true" name="Favoured of Undivided" hidden="false" id="1cd7-0234-b42d-8b5d" sortIndex="21"/>
+    <selectionEntry type="upgrade" import="true" name="Favoured of Tzeentch" hidden="false" id="12ee-8bbc-e957-279b" sortIndex="21"/>
+    <selectionEntry type="upgrade" import="true" name="Favoured of Slaanesh" hidden="false" id="a1f9-87ba-0db6-989a" sortIndex="21"/>
+    <selectionEntry type="upgrade" import="true" name="Favoured of Nurgle" hidden="false" id="d66c-3805-c337-bbb6" sortIndex="21"/>
+    <selectionEntry type="upgrade" import="true" name="Favored of ..." hidden="false" id="7614-610c-c42c-5a78" sortIndex="21">
       <infoLinks>
         <infoLink name="Favoured of ..." id="f76e-423c-4f15-d2dd" hidden="false" type="rule" targetId="84ac-f521-708b-c779"/>
       </infoLinks>
       <comment>Team Special Rules</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Swarming" hidden="false" id="b2f3-aacd-c386-8944" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Swarming" hidden="false" id="b2f3-aacd-c386-8944" sortIndex="20">
       <comment>Team Special Rules</comment>
       <infoLinks>
         <infoLink name="Swarming" id="6ad7-2642-cf13-56e0" hidden="false" type="rule" targetId="9b44-f5b3-b98e-1bd5"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Random Primary" hidden="false" id="9db9-87f1-4f71-503c" sortIndex=""/>
-    <selectionEntry type="upgrade" import="true" name="Primary Skill" hidden="false" id="24b1-712d-1b55-0e5c" sortIndex=""/>
-    <selectionEntry type="upgrade" import="true" name="Secondary Skill" hidden="false" id="eeb0-8b2b-d19e-868d" sortIndex=""/>
-    <selectionEntry type="upgrade" import="true" name="Random Characteristics" hidden="false" id="33c5-a36e-b2b3-39cb" sortIndex=""/>
+    <selectionEntry type="upgrade" import="true" name="Random Primary" hidden="false" id="9db9-87f1-4f71-503c" sortIndex="30"/>
+    <selectionEntry type="upgrade" import="true" name="Primary Skill" hidden="false" id="24b1-712d-1b55-0e5c" sortIndex="31"/>
+    <selectionEntry type="upgrade" import="true" name="Secondary Skill" hidden="false" id="eeb0-8b2b-d19e-868d" sortIndex="32"/>
+    <selectionEntry type="upgrade" import="true" name="Random Characteristics" hidden="false" id="33c5-a36e-b2b3-39cb" sortIndex="33"/>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Roster Status" hidden="false" id="91ec-e00f-e467-9302" type="selectionEntry" targetId="f9a9-1a07-bb0d-66f9"/>
