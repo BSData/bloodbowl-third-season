@@ -5511,6 +5511,7 @@ If a Frog suffers a Casualty, do not make a Casualty Roll for them. Instead, the
                     <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="34cc-57bf-d579-af26" shared="true"/>
                     <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="ae96-b698-9f4d-33ee" shared="true"/>
                     <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="fafd-b15d-0669-a69c" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="8b63-e747-31ee-7b01" shared="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
