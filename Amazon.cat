@@ -26,17 +26,19 @@
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Primary Skill" hidden="false" id="3d0f-163e-0cbf-b452" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+        <entryLink import="true" name="Primary Skill" hidden="false" id="3d0f-163e-0cbf-b452" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7" sortIndex="">
           <entryLinks>
             <entryLink import="true" name="General" hidden="false" id="f05e-f261-771f-99dd" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
           </entryLinks>
         </entryLink>
-        <entryLink import="true" name="Secondary Skill" hidden="false" id="1cad-d76a-72a4-7223" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="1cad-d76a-72a4-7223" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1" sortIndex="">
           <entryLinks>
             <entryLink import="true" name="Agility" hidden="false" id="dde1-1595-5a08-3592" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
             <entryLink import="true" name="Strength" hidden="false" id="7bbb-b55b-c2e8-71cf" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Career" hidden="false" id="4bbd-c88e-e050-fd7b" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b" sortIndex=""/>
+        <entryLink import="true" name="Advancement" hidden="false" id="587f-98fb-cc5b-6022" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738" sortIndex=""/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
@@ -72,17 +74,19 @@
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Primary Skill" hidden="false" id="708f-f0fd-87ad-a642" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
+        <entryLink import="true" name="Primary Skill" hidden="false" id="708f-f0fd-87ad-a642" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7" sortIndex="">
           <entryLinks>
             <entryLink import="true" name="General" hidden="false" id="1dbf-5cb9-cd01-d161" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
             <entryLink import="true" name="Strength" hidden="false" id="c5ed-fac6-c73f-3cfd" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
-        <entryLink import="true" name="Secondary Skill" hidden="false" id="ed84-f0d7-8ae9-cf16" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
+        <entryLink import="true" name="Secondary Skill" hidden="false" id="ed84-f0d7-8ae9-cf16" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1" sortIndex="">
           <entryLinks>
             <entryLink import="true" name="Agility" hidden="false" id="e98b-c531-b027-3312" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="39b1-5910-9cb5-2251" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738" sortIndex=""/>
+        <entryLink import="true" name="Career" hidden="false" id="658f-b54e-ebd0-d517" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b" sortIndex=""/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.2ff8-d21a-4569-a1a9"/>
@@ -133,6 +137,8 @@
             <entryLink import="true" name="Strength" hidden="false" id="11ca-805a-2b02-3b20" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="b347-7b72-32de-7f78" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="6042-8840-5142-4cdf" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
@@ -183,6 +189,8 @@
             <entryLink import="true" name="Strength" hidden="false" id="24af-9f43-14c7-a655" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="c0ce-f8dd-3705-2ca4" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="094e-49ca-7aa7-a52a" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b" sortIndex=""/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
