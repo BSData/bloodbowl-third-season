@@ -1759,12 +1759,6 @@ If a team has a choice of any alignment, they can choose from any of the followi
     <rule name="A Sneaky Pair" id="04c2-46de-ff4d-9b2a" hidden="false">
       <description>Dribl &amp; Drull must be hired as a pair. Additionally, whenever Dribl or Drull perform either a Foul Action or a Stab Special Action against an opposition player Marked by both Dribl &amp; Drull, they may apply a +1 modifier to the roll.</description>
     </rule>
-    <rule name="I&apos;ll Carry You" id="794d-d4fb-7533-5f4d" hidden="false">
-      <description>Grak &amp; Crumbleberry must be hired as a pair. Additionally, once per half, if Grak begins his activation adjacent to Crumbleberry he may pick up Crumbleberry; temporarily remove Crumbleberry from the pitch. At the end of Grak&apos;s activation, place Crumbleberry in an unoccupied square adjacent to Grak.</description>
-    </rule>
-    <rule name="Working in Tandem" id="cf67-538c-1aa5-5461" hidden="false">
-      <description>The Swift Twins must be hired as a pair. Additionally, if Lucien performs a Block Action against an opposition player who is also Marked by Valen, Lucien may re-roll a single Block Dice.</description>
-    </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Roster Status" hidden="false" id="f9a9-1a07-bb0d-66f9">
@@ -5189,14 +5183,13 @@ Additionally, a team with a Team Mascot can re-roll any rolls of a natural 1 whe
                         <characteristic name="AV" typeId="cebc-58d6-5a7d-f218">10+</characteristic>
                         <characteristic name="Skills &amp; Traits" typeId="f974-956a-6c59-800c">Bone Head, Kick Team-mate, Loner (4+), Mighty Blow, Thick Skull</characteristic>
                         <characteristic name="Cost" typeId="13bb-e948-03cd-dd76">250,000 (for Grak &amp; Crumbleberry)</characteristic>
-                        <characteristic name="Special Rules" typeId="fa21-46b4-f90c-9fcc">I&apos;ll Carry You</characteristic>
+                        <characteristic name="Special Rules" typeId="fa21-46b4-f90c-9fcc">I&apos;ll Carry You (Grak)</characteristic>
                         <characteristic name="Keywords" typeId="3c7f-89be-2bca-8ca7">**Big Guy**, **Ogre**</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink name="Bone Head* (Passive)" id="23f1-634c-e832-d97b" hidden="false" type="rule" targetId="6e98-03d2-86a2-66e2"/>
-                    <infoLink name="I&apos;ll Carry You" id="1335-7f51-43db-14e5" hidden="false" type="rule" targetId="794d-d4fb-7533-5f4d"/>
                     <infoLink name="Kick Team-mate (Passive)" id="f681-6140-945e-bfa4" hidden="false" type="rule" targetId="03f5-2b56-bcea-abf3"/>
                     <infoLink name="Loner (X+)* (Passive)" id="097d-e0b7-bfe2-216e" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
                     <infoLink name="Mighty Blow (Active)" id="9038-67f8-ef4d-3570" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
@@ -5209,6 +5202,11 @@ Additionally, a team with a Team Mascot can re-roll any rolls of a natural 1 whe
                   <categoryLinks>
                     <categoryLink targetId="69f8-eb37-db8c-47de" id="a6fd-b710-be79-fae9" primary="false" name="Player"/>
                   </categoryLinks>
+                  <rules>
+                    <rule name="I&apos;ll Carry You (Grak)" id="584d-bb45-711b-620e" hidden="false">
+                      <description>Grak &amp; Crumbleberry must be hired as a pair. Additionally, once per half, if Grak begins his activation adjacent to Crumbleberry he may pick up Crumbleberry; temporarily remove Crumbleberry from the pitch. At the end of Grak&apos;s activation, place Crumbleberry in an unoccupied square adjacent to Grak.</description>
+                    </rule>
+                  </rules>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Crumbleberry" hidden="false" id="4c2d-0bf9-2a56-3282">
                   <profiles>
@@ -5221,14 +5219,13 @@ Additionally, a team with a Team Mascot can re-roll any rolls of a natural 1 whe
                         <characteristic name="AV" typeId="cebc-58d6-5a7d-f218">7+</characteristic>
                         <characteristic name="Skills &amp; Traits" typeId="f974-956a-6c59-800c">Dodge, Lethal Flight, Loner (4+), Right Stuff, Stunty, Sure Hands</characteristic>
                         <characteristic name="Cost" typeId="13bb-e948-03cd-dd76">250,000 (for Grak &amp; Crumbleberry)</characteristic>
-                        <characteristic name="Special Rules" typeId="fa21-46b4-f90c-9fcc">I&apos;ll Carry You</characteristic>
+                        <characteristic name="Special Rules" typeId="fa21-46b4-f90c-9fcc">I&apos;ll Carry You  (Crumbleberry)</characteristic>
                         <characteristic name="Keywords" typeId="3c7f-89be-2bca-8ca7">**Halfling**, **Lineman**</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink name="Dodge (Active)" id="f8c4-e76e-58c9-6bdd" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
-                    <infoLink name="I&apos;ll Carry You" id="9105-e6bf-8803-495f" hidden="false" type="rule" targetId="794d-d4fb-7533-5f4d"/>
                     <infoLink name="Lethal Flight (Active)" id="a072-083c-1146-c715" hidden="false" type="rule" targetId="e561-c980-89af-2f71"/>
                     <infoLink name="Loner (X+)* (Passive)" id="d5f9-d837-d396-d7d2" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
                     <infoLink name="Right Stuff* (Passive)" id="68e3-1085-52ec-f607" hidden="false" type="rule" targetId="021c-5ca4-371f-a36d"/>
@@ -5242,6 +5239,11 @@ Additionally, a team with a Team Mascot can re-roll any rolls of a natural 1 whe
                   <categoryLinks>
                     <categoryLink targetId="69f8-eb37-db8c-47de" id="ea4d-08ce-0bd6-efbd" primary="false" name="Player"/>
                   </categoryLinks>
+                  <rules>
+                    <rule name="I&apos;ll Carry You (Crumbleberry)" id="dd98-69aa-5d21-4840" hidden="false">
+                      <description>Grak &amp; Crumbleberry must be hired as a pair. Additionally, whilst Crumbleberry is being carried by Grak, Grak gains the Break Tackle and Dodge skills.</description>
+                    </rule>
+                  </rules>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
@@ -5354,7 +5356,7 @@ Additionally, a team with a Team Mascot can re-roll any rolls of a natural 1 whe
                         <characteristic name="AV" typeId="cebc-58d6-5a7d-f218">9+</characteristic>
                         <characteristic name="Skills &amp; Traits" typeId="f974-956a-6c59-800c">Block, Loner (4+), Mighty Blow, Tackle</characteristic>
                         <characteristic name="Cost" typeId="13bb-e948-03cd-dd76">300,000 (for Lucien &amp; Valen)</characteristic>
-                        <characteristic name="Special Rules" typeId="fa21-46b4-f90c-9fcc">Working in Tandem</characteristic>
+                        <characteristic name="Special Rules" typeId="fa21-46b4-f90c-9fcc">Working in Tandem (Lucien)</characteristic>
                         <characteristic name="Keywords" typeId="3c7f-89be-2bca-8ca7">**Blitzer**, **Elf**</characteristic>
                       </characteristics>
                     </profile>
@@ -5364,7 +5366,6 @@ Additionally, a team with a Team Mascot can re-roll any rolls of a natural 1 whe
                     <infoLink name="Loner (X+)* (Passive)" id="8f28-f96b-c85d-c732" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
                     <infoLink name="Mighty Blow (Active)" id="f8ef-048a-6960-2dff" hidden="false" type="rule" targetId="14aa-a202-4417-3e92"/>
                     <infoLink name="Tackle (Active)" id="8291-a162-735f-49f9" hidden="false" type="rule" targetId="8f90-114d-5eba-8a39"/>
-                    <infoLink name="Working in Tandem" id="8082-b6be-ada1-ad2c" hidden="false" type="rule" targetId="cf67-538c-1aa5-5461"/>
                   </infoLinks>
                   <categoryLinks>
                     <categoryLink targetId="69f8-eb37-db8c-47de" id="408a-45c3-e50f-61a5" primary="false" name="Player"/>
@@ -5373,6 +5374,11 @@ Additionally, a team with a Team Mascot can re-roll any rolls of a natural 1 whe
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dbbf-9c5e-85a0-5efb-min" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dbbf-9c5e-85a0-5efb-max" includeChildSelections="false"/>
                   </constraints>
+                  <rules>
+                    <rule name="Working in Tandem (Lucien)" id="5d01-7422-53ba-f0f0" hidden="false">
+                      <description>The Swift Twins must be hired as a pair. Additionally, if Lucien performs a Block Action against an opposition player who is also Marked by Valen, Lucien may re-roll a single Block Dice.</description>
+                    </rule>
+                  </rules>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Valen Swift" hidden="false" id="292e-fd9d-6d56-64f4">
                   <categoryLinks>
@@ -5388,7 +5394,7 @@ Additionally, a team with a Team Mascot can re-roll any rolls of a natural 1 whe
                         <characteristic name="AV" typeId="cebc-58d6-5a7d-f218">9+</characteristic>
                         <characteristic name="Skills &amp; Traits" typeId="f974-956a-6c59-800c">Accurate, Loner (4+), Nerves of Steel, Pass, Safe Pass, Sure Hands</characteristic>
                         <characteristic name="Cost" typeId="13bb-e948-03cd-dd76">300,000 (for Lucien &amp; Valen)</characteristic>
-                        <characteristic name="Special Rules" typeId="fa21-46b4-f90c-9fcc">Working in Tandem</characteristic>
+                        <characteristic name="Special Rules" typeId="fa21-46b4-f90c-9fcc">Working in Tandem (Valen)</characteristic>
                         <characteristic name="Keywords" typeId="3c7f-89be-2bca-8ca7">**Elf**, **Thrower**</characteristic>
                       </characteristics>
                     </profile>
@@ -5400,12 +5406,16 @@ Additionally, a team with a Team Mascot can re-roll any rolls of a natural 1 whe
                     <infoLink name="Pass (Active)" id="089e-4f84-3ea1-1d10" hidden="false" type="rule" targetId="5149-08e1-df59-78bd"/>
                     <infoLink name="Safe Pass (Active)" id="e235-cbc5-34b6-5251" hidden="false" type="rule" targetId="58c3-5b5a-6799-3086"/>
                     <infoLink name="Sure Hands (Active)" id="8018-d900-52fa-60c6" hidden="false" type="rule" targetId="ff07-cb36-b759-cfa7"/>
-                    <infoLink name="Working in Tandem" id="e31c-e58e-fd0e-7e61" hidden="false" type="rule" targetId="cf67-538c-1aa5-5461"/>
                   </infoLinks>
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6d6a-cc2b-01c5-0e47-min" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d6a-cc2b-01c5-0e47-max" includeChildSelections="false"/>
                   </constraints>
+                  <rules>
+                    <rule name="Working in Tandem (Valen)" id="d384-2a80-9f2e-0efd" hidden="false">
+                      <description>The Swift Twins must be hired as a pair. Additionally, if Valen performs a Pass Action that targets a square containing Lucien, then Valen suffers no modifiers to the PA Test for the range of the Pass Action.</description>
+                    </rule>
+                  </rules>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
