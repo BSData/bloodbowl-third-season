@@ -999,7 +999,7 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="387a-168b-d622-13d6-max" includeChildSelections="false"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Career" id="c6d8-1cc6-977d-945b" hidden="false" sortIndex="">
+    <selectionEntryGroup name="Career" id="c6d8-1cc6-977d-945b" hidden="false">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Cas" hidden="false" id="35bc-6d2f-9b97-ae53" sortIndex="1">
           <costs>
@@ -1316,6 +1316,101 @@
           </modifiers>
         </selectionEntryGroup>
       </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Characteristics Improvement" id="7eb2-4d02-cfdf-c71d" hidden="false" collapsible="true">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="MA" hidden="false" id="1164-d3f0-6f1e-ffdc" sortIndex="2">
+          <costs>
+            <cost name="TV" typeId="c4da-96df-1abd-13be" value="20000"/>
+            <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8dec-f0b4-f7b5-e824"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="5b6f-6247-0c21-83d3" scope="root-entry" affects="profiles.Player">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="1164-d3f0-6f1e-ffdc" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="ST" hidden="false" id="0de8-39ac-6c2e-79ea" sortIndex="5">
+          <costs>
+            <cost name="TV" typeId="c4da-96df-1abd-13be" value="60000"/>
+            <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9035-ea96-caec-3ba9"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="6fbf-0646-8c8f-4851" scope="root-entry" affects="profiles.Player">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="0de8-39ac-6c2e-79ea" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="AV" hidden="false" id="845c-39e8-6915-4d09" sortIndex="1">
+          <costs>
+            <cost name="TV" typeId="c4da-96df-1abd-13be" value="10000"/>
+            <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="631a-13f7-dffe-2f9c"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="599c-91d6-b1ed-6aba" scope="root-entry" affects="profiles.Player">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="845c-39e8-6915-4d09" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="PA" hidden="false" id="4db7-d4a0-269c-50f5" sortIndex="3">
+          <costs>
+            <cost name="TV" typeId="c4da-96df-1abd-13be" value="20000"/>
+            <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="0997-3b9d-4c7a-bd0b"/>
+          </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="51bf-7f91-4729-9e2d" scope="root-entry" affects="profiles.Player">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="4db7-d4a0-269c-50f5" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="AG" hidden="false" id="0345-e9a0-e73b-f801" sortIndex="4">
+          <costs>
+            <cost name="TV" typeId="c4da-96df-1abd-13be" value="30000"/>
+            <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5691-3e6f-c566-b8ed"/>
+          </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="644d-fe29-947f-5eb7" scope="root-entry" affects="profiles.Player">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="0345-e9a0-e73b-f801" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="40fd-1c23-2ebc-8551"/>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="229e-13ab-7bb1-e9d0"/>
+      </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="229e-13ab-7bb1-e9d0">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="33c5-a36e-b2b3-39cb" shared="true" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
@@ -2150,7 +2245,7 @@ If a team has a choice of any alignment, they can choose from any of the followi
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Roster Status" hidden="false" id="f9a9-1a07-bb0d-66f9" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Roster Status" hidden="false" id="f9a9-1a07-bb0d-66f9">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="force" shared="true" id="15f9-11ee-7b96-e92d-min" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="15f9-11ee-7b96-e92d-max" includeChildSelections="false"/>
