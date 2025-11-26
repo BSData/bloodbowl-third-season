@@ -37,6 +37,9 @@
             <entryLink import="true" name="Strength" hidden="false" id="b4f0-225d-ed43-3680" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="cbac-5f71-f19f-9787" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="8f67-a68e-182e-04ff" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="9adb-a3ee-3919-6072" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Animosity (X)* (Active)" id="2a6d-0bc3-e903-bbff" hidden="false" type="rule" targetId="aa6c-6271-5286-2826"/>
@@ -87,6 +90,9 @@
             <entryLink import="true" name="Passing" hidden="false" id="de86-7d3d-eb92-093b" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="4e90-47e0-9bb1-0de9" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="cdd7-dcf0-af81-5738" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="b6a7-2352-7ade-486d" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Renegade Orc" hidden="false" id="5853-ed0d-1c47-fe82">
@@ -128,6 +134,9 @@
             <entryLink import="true" name="Strength" hidden="false" id="dcbd-c50a-027e-8e82" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="1a96-e2b5-8173-cef5" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="d3f6-1744-2b18-42d2" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="8daf-b63d-b5d7-ff12" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Renegade Skaven" hidden="false" id="6379-00e6-f2ba-42fc">
@@ -166,6 +175,9 @@
             <entryLink import="true" name="Strength" hidden="false" id="3ed4-20f7-ddd7-5d98" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="2153-29ea-01ad-c69c" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="6629-10d1-cd66-afc6" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="2f18-837b-5f84-5920" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Animosity (X)* (Active)" id="6688-b341-9642-65c1" hidden="false" type="rule" targetId="aa6c-6271-5286-2826"/>
@@ -210,6 +222,9 @@
             <entryLink import="true" name="Strength" hidden="false" id="fb5b-8e0f-3142-55a2" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="0774-09ac-6bde-3a51" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="c841-80ad-0ab9-3dc4" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="dfe0-00c5-39a0-fc99" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Renegade Human Thrower" hidden="false" id="968d-884a-98da-9787">
@@ -258,6 +273,9 @@
             <entryLink import="true" name="Strength" hidden="false" id="d2d4-7f6d-9122-9532" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="ed98-4dff-7e2d-3473" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="f23f-0b65-ddbc-9a2e" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="0695-e200-9619-4868" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Troll" hidden="false" id="bc34-241a-f480-6b1d">
@@ -309,6 +327,9 @@
             <entryLink import="true" name="Mutation" hidden="false" id="4a14-b295-5e66-c745" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="895d-0600-fa1a-5af4" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="68fe-83ca-5190-cc13" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="119d-4cec-7c09-0a73" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Ogre" hidden="false" id="c852-dc88-7211-b2f5">
@@ -354,6 +375,9 @@
             <entryLink import="true" name="General" hidden="false" id="d012-a536-4caf-b06c" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="390a-1bd1-694c-fc71" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="71c2-f1ee-f67a-c586" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="4622-74c5-e1e1-f8db" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
@@ -404,6 +428,9 @@
             <entryLink import="true" name="Mutation" hidden="false" id="22f7-41db-639a-2b13" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="eab6-fa13-ecc1-9f1b" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="ebdc-1397-396e-e399" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="ec02-a47c-c18f-c16c" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.174f-5c4a-d02f-096e"/>
@@ -448,6 +475,9 @@
             <entryLink import="true" name="General" hidden="false" id="2343-8408-00c1-7ef6" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="0c08-2128-93c3-0b5a" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="7581-8e24-8914-db16" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="e19c-7c61-e342-289a" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Animal Savagery* (Passive)" id="f473-f885-7d16-bb17" hidden="false" type="rule" targetId="6820-cb49-ce8b-6357"/>

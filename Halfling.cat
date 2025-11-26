@@ -94,6 +94,9 @@
             <entryLink import="true" name="General" hidden="false" id="af00-92e0-7c2c-1efb" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="5fe6-d3eb-1d59-14a9" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="25f0-cb24-b2dd-d8fb" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="7fa8-ec72-cc23-ada9" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
@@ -135,6 +138,9 @@
             <entryLink import="true" name="General" hidden="false" id="a8fc-a9cb-47c4-8240" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="6366-2655-22c7-387d" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="d6b3-9280-1375-03c0" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="09a0-b09e-5c94-fcb4" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Dodge (Active)" id="7cf1-7d4a-4af2-e8df" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
@@ -193,6 +199,9 @@
             <entryLink import="true" name="General" hidden="false" id="550f-06e0-cb9d-5f31" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="6c50-ebdb-7bb5-2c4f" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="5d17-5e4f-25cc-2b69" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="b1a9-5734-64c0-9c70" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Altern Forest Treeman" hidden="false" id="9bd5-7095-c9d7-36b7">
@@ -245,6 +254,9 @@
             <entryLink import="true" name="Passing" hidden="false" id="d9eb-ca1a-cd12-2cc7" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="7a0b-f2ff-3e65-fdbd" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="dc71-fb2f-17c3-4408" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="fdee-cbc5-6d91-94fb" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>

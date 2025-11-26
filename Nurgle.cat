@@ -108,6 +108,9 @@
             <entryLink import="true" name="Agility" hidden="false" id="7b4c-d920-e80f-65e2" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="f6a5-2aab-bdaa-bae1" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="c27a-3bfd-49fa-0b56" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="4197-26b8-d314-c525" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Pestigor" hidden="false" id="4388-e69b-dcf5-35d3">
@@ -147,6 +150,9 @@
             <entryLink import="true" name="Passing" hidden="false" id="e8ac-ab05-dd1a-7b50" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="256b-3489-e893-386b" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="1baa-31f2-99a2-86c9" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="50c1-054f-cc55-4d0e" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Horns (Active)" id="4d66-03db-b83a-682f" hidden="false" type="rule" targetId="6470-3281-c861-bbae"/>
@@ -197,6 +203,9 @@
             <entryLink import="true" name="Agility" hidden="false" id="8a82-c270-2627-9671" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="dd77-867c-bf33-71a1" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="3335-7a9b-7ae5-fc13" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="9965-e19b-b0fc-dda4" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Disturbing Presence* (Active)" id="ce93-b1b8-eb1c-c0f3" hidden="false" type="rule" targetId="7c10-67d5-0349-a4b8"/>
@@ -247,6 +256,9 @@
             <entryLink import="true" name="Mutation" hidden="false" id="168f-b70b-9449-8424" type="selectionEntryGroup" targetId="cc5f-a16a-3abc-1266"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="10ec-285d-d811-4d1c" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="55e1-e255-fac4-3516" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="ff32-165e-696d-093e" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Disturbing Presence* (Active)" id="5ae2-6fd1-c05f-2e19" hidden="false" type="rule" targetId="7c10-67d5-0349-a4b8"/>

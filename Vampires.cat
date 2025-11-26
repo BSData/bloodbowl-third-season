@@ -124,6 +124,9 @@
             <entryLink import="true" name="Strength" hidden="false" id="2c9a-4306-2aad-2850" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="a7d0-4525-d0b0-6677" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="832a-ae37-2b38-eaaf" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="e790-469a-18b0-a1e3" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Thrall Lineman" id="c683-f7ae-b394-162f" hidden="false" type="profile" targetId="9b2e-79e0-b07a-2cdc"/>
@@ -146,6 +149,9 @@
           </entryLinks>
         </entryLink>
         <entryLink import="true" name="Secondary Skill" hidden="false" id="397e-7ce5-d3a8-7d6c" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1"/>
+        <entryLink import="true" name="Advancements" hidden="false" id="e8ad-97f2-25e5-4ea9" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="3421-f5ff-65bc-33f1" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="b63e-b73a-7f21-3322" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Vampire Blitzer" id="4753-0137-58ba-4d71" hidden="false" type="profile" targetId="fa08-30bf-18f8-b358"/>
@@ -178,6 +184,9 @@
             <entryLink import="true" name="General" hidden="false" id="f1d1-a187-c2a5-60a8" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="ce8b-a646-96cb-ccf7" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="fb1a-1027-b05a-b0ca" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="fc8c-104c-50d6-3f0f" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Vargheist" id="10b9-4a16-5969-b61b" hidden="false" type="profile" targetId="dc65-796f-8e0c-1d06"/>
@@ -213,6 +222,9 @@
             <entryLink import="true" name="Passing" hidden="false" id="bf34-a073-15c4-2526" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="4333-1c99-fe69-cb95" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="8b42-ec3e-12c9-8b04" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="06f2-fe3a-8353-94ab" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Vampire Runner" id="bee2-c325-d2dc-7722" hidden="false" type="profile" targetId="23b9-ae1f-9c98-3a59"/>
@@ -242,6 +254,9 @@
             <entryLink import="true" name="Strength" hidden="false" id="2521-d7c0-a475-2f7a" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="bb16-a331-d064-08e5" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="0dbf-1464-9191-c786" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="3a74-9468-43b4-0765" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Vampire Thrower" id="2c48-0869-6812-0fac" hidden="false" type="profile" targetId="e6f5-cd39-0898-493f"/>

@@ -155,6 +155,9 @@
             <entryLink import="true" name="Strength" hidden="false" id="c45e-d55d-7869-b56a" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="e6b1-f414-aa02-1d7c" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="6def-791e-ad62-d632" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="6a28-03f9-745b-d40e" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Zombie Lineman" id="c203-6551-1cf2-2ebe" hidden="false" type="profile" targetId="8005-11a1-3316-d849"/>
@@ -187,6 +190,9 @@
             <entryLink import="true" name="Strength" hidden="false" id="5f18-14de-2717-0bdb" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="eb81-b02a-5161-ac2d" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="422d-2a3c-151e-76a3" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="663c-6dc5-3488-18b8" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Ghoul Runner" id="c744-3c41-2a7b-8d60" hidden="false" type="profile" targetId="6d91-1ef3-9e68-9f1d"/>
@@ -218,6 +224,9 @@
             <entryLink import="true" name="Devious" hidden="false" id="22ab-94f9-0562-d60c" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="b14b-1d09-1691-2898" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="c592-17df-4717-be06" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="a571-f36f-ad13-236e" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Wight Blitzer" id="fd82-5494-9eac-7593" hidden="false" type="profile" targetId="37cc-332b-6fa6-0b11"/>
@@ -252,6 +261,9 @@
             <entryLink import="true" name="General" hidden="false" id="bfe8-2b51-d0ef-4a82" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="17e6-9de0-ca3e-5195" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="26a8-27bd-3c34-9633" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="a108-4ca6-fc65-346a" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Mummy" id="e74b-894d-472b-c70e" hidden="false" type="profile" targetId="37cb-29e2-995e-b848"/>
@@ -283,6 +295,9 @@
             <entryLink import="true" name="Strength" hidden="false" id="a245-425a-a6f2-d0b7" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="0233-023c-137a-fb73" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="f429-d7e6-56eb-5756" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="d95d-5b3a-6039-14be" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Skeleton Lineman" id="4950-0017-b096-e38c" hidden="false" type="profile" targetId="7a2c-9df1-b2a8-374d"/>
