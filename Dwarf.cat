@@ -70,7 +70,7 @@
     </categoryEntry>
   </categoryEntries>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Dwarf Lineman" hidden="false" id="b2dd-51e5-6183-0724" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Dwarf Lineman" hidden="false" id="b2dd-51e5-6183-0724">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="f466-54ca-504a-d545" primary="true" name="Player"/>
         <categoryLink targetId="c65e-b7b8-4dc9-7423" id="778d-104d-aac1-afac" primary="false" name="Dawrf Lineman"/>
@@ -109,6 +109,9 @@
             <entryLink import="true" name="Strength" hidden="false" id="009b-5e24-26bb-5be9" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="33ca-f0c6-cdca-a4ff" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="1116-bf23-c862-4e94" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="2bd1-7b9e-9751-61e8" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.0e89-4745-7902-b155"/>
@@ -116,7 +119,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Dwarf Runner" hidden="false" id="92b7-e877-e21d-074f" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Dwarf Runner" hidden="false" id="92b7-e877-e21d-074f">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="8ea3-7b1f-8782-4995" primary="true" name="Player"/>
         <categoryLink targetId="16ab-a251-137c-534b" id="a6a4-5076-41ae-be92" primary="false" name="Dwarf Runner"/>
@@ -155,6 +158,9 @@
             <entryLink import="true" name="Strength" hidden="false" id="1316-5355-e32d-3c43" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="58bf-6c1c-f390-24fb" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="aa1b-683b-5ea6-ef79" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="082c-7541-6e34-6da4" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.be8c-ebf4-021c-1083"/>
@@ -162,7 +168,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Dwarf Blitzer" hidden="false" id="77f9-5b50-eeb3-0fc7" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Dwarf Blitzer" hidden="false" id="77f9-5b50-eeb3-0fc7">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="3606-028d-8873-7ac2" primary="true" name="Player"/>
         <categoryLink targetId="bddf-dab2-2a4e-fead" id="aea1-5ba0-bd9f-2054" primary="false" name="Dwarf Blitzer"/>
@@ -196,6 +202,9 @@
             <entryLink import="true" name="Passing" hidden="false" id="7cc8-fbb1-fdad-2c13" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="9146-a5e8-4a5b-ac8e" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="1c64-a6ba-719f-428f" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="3c2e-43a7-d998-b5cb" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Block (Active)" id="0a8c-5e02-f7d6-fbab" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
@@ -210,7 +219,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Troll Slayer" hidden="false" id="c3ea-16c0-ff68-f4f6" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Troll Slayer" hidden="false" id="c3ea-16c0-ff68-f4f6">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="5941-995c-38dc-6e7c" primary="true" name="Player"/>
         <categoryLink targetId="6aaf-5ab0-ece6-ffe0" id="1480-34c5-8776-ffee" primary="false" name="Troll Slayer"/>
@@ -244,6 +253,9 @@
             <entryLink import="true" name="Devious" hidden="false" id="89ea-c88e-015a-267f" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="fa7d-53fb-3ee6-8584" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="e0bd-1120-63a6-a8b0" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="5bfb-defe-a860-afc8" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Block (Active)" id="500c-bdd8-b73e-4c38" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
@@ -259,7 +271,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Death Roller" hidden="false" id="1041-75eb-159d-2832" sortIndex="">
+    <selectionEntry type="upgrade" import="true" name="Death Roller" hidden="false" id="1041-75eb-159d-2832">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="53f8-a9a8-1945-55a3" primary="true" name="Player"/>
         <categoryLink targetId="042c-9ecd-9f36-f9db" id="844b-55d3-07c8-bb52" primary="false" name="Deathroller"/>
@@ -293,6 +305,9 @@
             <entryLink import="true" name="General" hidden="false" id="7c17-9958-c1da-de89" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="cac3-301f-745f-08b7" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="f9d1-a883-20f0-b7b2" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="4325-0679-9a0f-70d5" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Break Tackle (Active)" id="7b92-95bc-87c9-e49d" hidden="false" type="rule" targetId="2003-6026-6a4f-38bd"/>

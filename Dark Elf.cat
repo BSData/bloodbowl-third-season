@@ -63,6 +63,9 @@
             <entryLink import="true" name="Strength" hidden="false" id="0c1c-4e92-31a4-853c" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="fb4d-ffec-edb7-5f7d" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="ecec-0098-e680-b3ea" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="264a-24d5-8ca8-1d2e" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Dark Elf Runner" hidden="false" id="f370-cf76-f7b7-1e2a">
@@ -109,6 +112,9 @@
             <entryLink import="true" name="Strength" hidden="false" id="bb85-e880-0d19-8dd9" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="216f-432f-f101-0a8b" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="5ede-248e-a4b5-25f1" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="686c-772a-ef5e-e9fd" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Dark Elf Assassin" hidden="false" id="672a-deb2-5096-7cd9">
@@ -155,6 +161,9 @@
             <entryLink import="true" name="Strength" hidden="false" id="4ff6-3288-ddda-3be5" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="9f8c-ef00-1a4e-cf86" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="d466-2121-be17-0826" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="6985-b294-f7bd-40a4" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Dark Elf Blitzer" hidden="false" id="6c73-4d20-8f6a-e569">
@@ -199,6 +208,9 @@
             <entryLink import="true" name="Strength" hidden="false" id="e510-da7d-ab3f-e24a" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="afa1-4622-dd69-e69b" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="2a7a-91b8-a1cd-17de" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="d665-8480-6700-43f5" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Witch Elf" hidden="false" id="82bf-de65-c8f1-2514">
@@ -246,6 +258,9 @@
             <entryLink import="true" name="Strength" hidden="false" id="3f28-91f0-67a1-d71d" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="1a16-ebd4-f585-111a" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="20b9-9b3e-e5b7-e736" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="9b85-d7fa-9edc-9253" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>

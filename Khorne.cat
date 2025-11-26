@@ -104,6 +104,9 @@
             <entryLink import="true" name="Agility" hidden="false" id="3dd3-bccd-8067-0af4" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="2ed9-9dbf-9cb3-8d0d" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="3604-a8f8-7389-7196" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="5b89-ee85-a438-f96e" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Frenzy* (Active)" id="6143-5d65-86ae-608b" hidden="false" type="rule" targetId="23bd-8f90-1641-a278"/>
@@ -149,6 +152,9 @@
             <entryLink import="true" name="Agility" hidden="false" id="673f-fe0d-a8b9-0d16" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="3e1d-4c06-5e78-5486" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="923b-ecca-c51f-39bd" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="1594-7155-3555-df4b" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Horns (Active)" id="7980-9e03-2735-c655" hidden="false" type="rule" targetId="6470-3281-c861-bbae"/>
@@ -199,6 +205,9 @@
             <entryLink import="true" name="Agility" hidden="false" id="37a3-62e4-e187-2779" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="0b39-9aed-4cc4-4943" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="dea1-5d94-15aa-1857" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="3caa-5b35-1ee4-8690" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Frenzy* (Active)" id="7347-233b-a398-03b3" hidden="false" type="rule" targetId="23bd-8f90-1641-a278"/>
@@ -242,6 +251,9 @@
             <entryLink import="true" name="Agility" hidden="false" id="cc6c-585b-0a28-73e4" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="9f79-5d77-5821-c41b" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="8495-dbd0-f547-9dd5" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="d306-e37f-4394-e59f" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Claws (Passive)" id="93fb-9788-6dc8-f28e" hidden="false" type="rule" targetId="6f08-6919-3fb4-77b1"/>

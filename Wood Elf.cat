@@ -121,6 +121,9 @@
             <entryLink import="true" name="Strength" hidden="false" id="030d-f681-5a22-1eb5" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="e0b6-d013-6f1a-efbb" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="bd8f-511f-6041-4af6" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="f234-2a2a-aa0c-2be1" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Wood Elf Lineman" id="3627-875f-cbfc-3fe4" hidden="false" type="profile" targetId="3de4-2569-9d3c-9953"/>
@@ -152,6 +155,9 @@
             <entryLink import="true" name="Strength" hidden="false" id="af8d-616b-fbf2-b30d" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="6318-90aa-dc5e-c49b" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="690e-d9a2-fe06-861b" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="4e2c-781a-4b76-c60e" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.ee13-527f-f1cd-c4ca"/>
@@ -185,6 +191,9 @@
             <entryLink import="true" name="Passing" hidden="false" id="bf2e-8c8d-7be5-069b" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="9933-ed31-82b0-f10f" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="e0f7-04b2-cdbb-b58a" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="98e9-4ab7-9c95-c7b4" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.3cbf-9190-877a-dd8d"/>
@@ -223,6 +232,9 @@
             <entryLink import="true" name="General" hidden="false" id="4ad9-b0bc-5279-67a8" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="3823-5c49-6411-68d9" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="9cbd-dcdd-d898-8976" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="3bd0-434b-677d-493e" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>
@@ -258,6 +270,9 @@
             <entryLink import="true" name="Passing" hidden="false" id="bf6c-c0b3-f6fe-bf54" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="4e39-72b8-8e4f-3550" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="7d68-d12d-1353-07fb" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="cc61-c09c-b634-0c8b" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.0e89-4745-7902-b155"/>

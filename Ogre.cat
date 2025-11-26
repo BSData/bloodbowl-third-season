@@ -106,6 +106,9 @@
             <entryLink import="true" name="General" hidden="false" id="585f-cfdb-3e20-73f7" type="selectionEntryGroup" targetId="f7fd-b955-21d7-90d4"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="66ba-e3e9-e0b5-e5b9" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="6dbb-745d-0b47-5d13" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="4c65-78d8-8c4d-729c" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Dodge (Active)" id="8ee7-75bb-712c-8fb9" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
@@ -155,6 +158,9 @@
             <entryLink import="true" name="Strength" hidden="false" id="9066-0308-36e4-1048" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="2d71-a2d4-7ac3-bdcc" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="5490-d049-6730-a1ed" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="abcc-cff3-aa7c-13c3" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Bone Head* (Passive)" id="fd5a-9d9f-54f5-0d28" hidden="false" type="rule" targetId="6e98-03d2-86a2-66e2"/>
@@ -203,6 +209,9 @@
             <entryLink import="true" name="Passing" hidden="false" id="9a34-96df-4b12-608f" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="bc81-8092-8541-f2d2" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="cf63-d017-0a2e-17ff" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="be3d-8346-3aca-e7cd" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Bone Head* (Passive)" id="ebdb-1b8b-3021-7ea7" hidden="false" type="rule" targetId="6e98-03d2-86a2-66e2"/>
