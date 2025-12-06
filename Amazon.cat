@@ -23,9 +23,6 @@
             <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
             <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Human**, **Lineman**</characteristic>
           </characteristics>
-          <attributes>
-            <attribute name="Testing" typeId="83ca-7248-402b-f12f"/>
-          </attributes>
         </profile>
       </profiles>
       <entryLinks>
