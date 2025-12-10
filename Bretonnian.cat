@@ -60,6 +60,9 @@
             <entryLink import="true" name="Strength" hidden="false" id="4fda-3456-8691-d4a4" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="ca76-512f-c606-e17f" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="4db5-b4cd-5381-4a1e" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="ea68-aba4-46bd-2e03" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.a648-03ec-727a-921a"/>
@@ -104,6 +107,9 @@
             <entryLink import="true" name="Strength" hidden="false" id="ea91-4372-2467-9e8f" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="2396-357e-22ac-9440" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="4259-6678-671a-0fd1" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="fe4c-dde4-7b6f-0811" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.3cbf-9190-877a-dd8d"/>
@@ -151,6 +157,9 @@
             <entryLink import="true" name="Strength" hidden="false" id="751e-3814-17ed-245a" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="3d2f-600f-f1da-6602" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="9ccf-3dff-7638-e381" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="ce61-9b6d-e48d-ff14" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.4d11-85d3-4e6b-2ca1"/>
@@ -192,6 +201,9 @@
             <entryLink import="true" name="Agility" hidden="false" id="5f71-3369-bb8e-2279" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="cd9f-1ad7-acf1-7c0e" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="a651-5975-a79a-bfe8" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="d409-9257-ae09-1458" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Block (Active)" id="6587-558f-8dc3-d590" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>

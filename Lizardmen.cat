@@ -89,6 +89,9 @@
             <entryLink import="true" name="Strength" hidden="false" id="7f11-14b5-74dc-4f14" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="517c-ec8d-2200-7a0e" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="c16e-47fe-06d9-a3b9" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="7e58-b973-54e9-8e00" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Kroxigor" hidden="false" id="4655-d31b-69bf-ce34">
@@ -137,6 +140,9 @@
             <entryLink import="true" name="Agility" hidden="false" id="5704-283b-3b6b-943a" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="34bf-ec7f-3ab8-8544" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="cf31-8603-67e7-834c" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="564f-6127-a2dd-1e8f" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Saurus Blocker" hidden="false" id="17de-3ec1-3c2c-a2ef">
@@ -180,6 +186,9 @@
             <entryLink import="true" name="Agility" hidden="false" id="f7d1-009d-98d0-e37d" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="a676-61dd-ec47-86f2" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="4110-5aa9-d814-7fd6" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="8e3f-b57d-4dd7-1eb6" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Skink Lineman" hidden="false" id="fb01-599f-739e-ec22">
@@ -225,6 +234,9 @@
             <entryLink import="true" name="Devious" hidden="false" id="43f0-c156-2760-0fa5" type="selectionEntryGroup" targetId="d38f-5d99-694f-98b4"/>
           </entryLinks>
         </entryLink>
+        <entryLink import="true" name="Advancements" hidden="false" id="7387-e5c3-d93a-1968" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
+        <entryLink import="true" name="Career" hidden="false" id="4515-5c3d-5dc0-39e7" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
+        <entryLink import="true" name="Characteristics Improvement" hidden="false" id="a083-25de-cfd8-0019" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
       </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>

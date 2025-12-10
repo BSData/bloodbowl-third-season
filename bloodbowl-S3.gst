@@ -5,6 +5,7 @@
     <categoryEntry name="Team Management" id="9e9f-1d0d-a83d-4cba" hidden="false"/>
     <categoryEntry name="Positional" id="0c44-468c-6a37-e6c8" hidden="false"/>
     <categoryEntry name="Inducements" id="82fd-d32b-a2e0-5e91" hidden="false"/>
+    <categoryEntry name="Elite Skill" id="d731-f15b-0940-46c6" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Standard" id="0430-7fcc-d8c8-f3d8" hidden="false">
@@ -22,6 +23,15 @@
   </forceEntries>
   <costTypes>
     <costType name="TV" id="c4da-96df-1abd-13be" defaultCostLimit="-1" hidden="false"/>
+    <costType name="SPP" id="bd26-2dc7-dad6-1ff7" defaultCostLimit="-1" hidden="true">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="instanceOf" field="selections" scope="self" childId="entry"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </costType>
   </costTypes>
   <profileTypes>
     <profileType name="Player" id="8471-fde9-4157-5b28" hidden="false">
@@ -100,6 +110,9 @@
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f29-e00a-607c-3f20"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink targetId="d731-f15b-0940-46c6" id="15cc-185d-e515-1956" primary="false" name="Elite Skill"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Sidestep" hidden="false" id="fd16-5b77-2cb1-ae29">
           <infoLinks>
@@ -361,6 +374,9 @@
           <infoLinks>
             <infoLink name="Block (Active)" id="e6f0-8f1e-fa53-761a" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="d731-f15b-0940-46c6" id="ae62-f83c-45ef-7baa" primary="false" name="Elite Skill"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Sure Hands" hidden="false" id="27b1-e9c4-d427-d2d8">
           <constraints>
@@ -769,6 +785,9 @@
           <infoLinks>
             <infoLink name="Guard (Active)" id="b4d2-eba8-895f-1f02" hidden="false" type="rule" targetId="6772-a834-2b47-9255"/>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="d731-f15b-0940-46c6" id="33ce-c13d-57c2-8be8" primary="false" name="Elite Skill"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Stand Firm" hidden="false" id="d009-274e-d212-e2df">
           <constraints>
@@ -791,6 +810,9 @@
           <modifiers>
             <modifier type="append" value="Mighty Blow" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
           </modifiers>
+          <categoryLinks>
+            <categoryLink targetId="d731-f15b-0940-46c6" id="ed79-3bd5-eec2-52ae" primary="false" name="Elite Skill"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Arm Bar" hidden="false" id="cbe1-6acd-9485-681c">
           <constraints>
@@ -893,8 +915,52 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Primary Skill" id="f398-0d58-6146-99f7" hidden="false"/>
-    <selectionEntryGroup name="Secondary Skill" id="290c-cda9-c02e-31a1" hidden="false"/>
+    <selectionEntryGroup name="Primary Skill" id="f398-0d58-6146-99f7" hidden="false">
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="eec1-e75a-1561-6c9a"/>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b316-4282-73ad-4fa5"/>
+      </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="eec1-e75a-1561-6c9a">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="9db9-87f1-4f71-503c" shared="true" roundUp="false" includeChildSelections="true"/>
+            <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="24b1-712d-1b55-0e5c" shared="true" roundUp="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" value="20000" field="c4da-96df-1abd-13be" affects="entry"/>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <comment>Elite Skill</comment>
+          <modifiers>
+            <modifier type="append" value="(Elite)" field="name" affects="d731-f15b-0940-46c6"/>
+            <modifier type="increment" value="10000" field="c4da-96df-1abd-13be" affects="d731-f15b-0940-46c6"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Secondary Skill" id="290c-cda9-c02e-31a1" hidden="false">
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="90cd-5b03-8c93-d8da"/>
+      </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="90cd-5b03-8c93-d8da">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="eeb0-8b2b-d19e-868d" shared="true" roundUp="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" value="40000" field="c4da-96df-1abd-13be" affects="entry"/>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <comment>Elite Skill</comment>
+          <modifiers>
+            <modifier type="append" value="(Elite)" field="name" affects="d731-f15b-0940-46c6"/>
+            <modifier type="increment" value="10000" field="c4da-96df-1abd-13be" affects="d731-f15b-0940-46c6"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </selectionEntryGroup>
     <selectionEntryGroup name="Chaos Alignment" id="486f-d6fb-4f44-1a32" hidden="false">
       <entryLinks>
         <entryLink import="true" name="Favoured of Hashut" hidden="false" id="149f-17f2-1a3f-139a" type="selectionEntry" targetId="29dc-51bf-a4d4-e460">
@@ -933,7 +999,419 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="387a-168b-d622-13d6-max" includeChildSelections="false"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="New Group" id="c6d8-1cc6-977d-945b" hidden="false"/>
+    <selectionEntryGroup name="Career" id="c6d8-1cc6-977d-945b" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Cas" hidden="false" id="35bc-6d2f-9b97-ae53" sortIndex="1">
+          <costs>
+            <cost name="TV" typeId="c4da-96df-1abd-13be" value="0"/>
+            <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="2"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="3" field="bd26-2dc7-dad6-1ff7">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="0d8a-9c12-8664-38e8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Interception" hidden="false" id="3da5-382d-b8c7-f9ff" sortIndex="4">
+          <costs>
+            <cost name="TV" typeId="c4da-96df-1abd-13be" value="0"/>
+            <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="1"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Completion" hidden="false" id="3562-da05-bb91-9a83" sortIndex="3">
+          <costs>
+            <cost name="TV" typeId="c4da-96df-1abd-13be" value="0"/>
+            <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="1"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="TD" hidden="false" id="ee66-ba2c-45ea-67bb" sortIndex="2">
+          <costs>
+            <cost name="TV" typeId="c4da-96df-1abd-13be" value="0"/>
+            <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="3"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="2" field="bd26-2dc7-dad6-1ff7">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="0d8a-9c12-8664-38e8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Landing" hidden="false" id="afde-0db0-a969-968d" sortIndex="7">
+          <costs>
+            <cost name="TV" typeId="c4da-96df-1abd-13be" value="0"/>
+            <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="1"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Superb Throw" hidden="false" id="0523-f09e-aa7e-bf66" sortIndex="6">
+          <costs>
+            <cost name="TV" typeId="c4da-96df-1abd-13be" value="0"/>
+            <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="1"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="MVP" hidden="false" id="d45b-f91f-538f-6dfa" sortIndex="5">
+          <costs>
+            <cost name="TV" typeId="c4da-96df-1abd-13be" value="0"/>
+            <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="4"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Prayers to Nuffle" id="c90a-99cd-da71-b017" hidden="false" sortIndex="8" collapsible="true">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Foul" hidden="false" id="ad5e-b459-5375-fdc6" sortIndex="4">
+              <costs>
+                <cost name="TV" typeId="c4da-96df-1abd-13be" value="0"/>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="2"/>
+              </costs>
+              <rules>
+                <rule name="Fouling Frenzy" id="e386-f03f-06b4-7a9d" hidden="false">
+                  <description>Any player on your team that causes a Casualty as a result of a Foul Action will earn 2 SPP.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Crowd Surf" hidden="false" id="caa3-ce02-a54f-4b45" sortIndex="3">
+              <costs>
+                <cost name="TV" typeId="c4da-96df-1abd-13be" value="0"/>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="2"/>
+              </costs>
+              <rules>
+                <rule name="Fan Interaction" id="4edb-4d9f-7ad9-94ed" hidden="false">
+                  <description>If an opposition player suffers a Casualty as a result of being Pushed into the Crowd, the player that pushed them into the crowd will earn 2 SPP.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Completion" hidden="false" id="b5e5-71bb-531d-a5ad" sortIndex="1">
+              <costs>
+                <cost name="TV" typeId="c4da-96df-1abd-13be" value="0"/>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="2"/>
+              </costs>
+              <rules>
+                <rule name="Perfect Passing" id="5738-108d-4d4d-983b" hidden="false">
+                  <description>Any player on the team that makes a Completion will earn 2 SPP rather than the usual 1.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Catch" hidden="false" id="035d-f447-1290-d0df" sortIndex="2">
+              <costs>
+                <cost name="TV" typeId="c4da-96df-1abd-13be" value="0"/>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="1"/>
+              </costs>
+              <rules>
+                <rule name="Dazzling Catches" id="ce2f-e098-a91e-5515" hidden="false">
+                  <description>Any player on your team that successfully Catches the ball as a result of a Pass Action will earn 1 SPP.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <modifiers>
+        <modifier type="increment" value="1" field="57d9-dc9e-5331-d2af" affects="model.profiles.Player" scope="root-entry">
+          <repeats>
+            <repeat value="1" repeats="1" field="bd26-2dc7-dad6-1ff7" scope="root-entry" childId="any" shared="true" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Advancements" id="fd63-8a05-4896-5738" hidden="false" collapsible="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="First Advancement" id="f10d-d64d-783b-851f" hidden="false" collapsible="true" sortIndex="1">
+          <entryLinks>
+            <entryLink import="true" name="Random Primary" hidden="false" id="283b-faff-f0d2-ba8f" type="selectionEntry" targetId="9db9-87f1-4f71-503c" sortIndex="1">
+              <costs>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-3"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Primary Skill" hidden="false" id="7249-65ed-2587-7fde" type="selectionEntry" targetId="24b1-712d-1b55-0e5c" sortIndex="2">
+              <costs>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-6"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Secondary Skill" hidden="false" id="42f5-241f-da3e-0530" type="selectionEntry" targetId="eeb0-8b2b-d19e-868d" sortIndex="3">
+              <costs>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Random Characteristics" hidden="false" id="70dc-d9ee-7581-e28a" type="selectionEntry" targetId="33c5-a36e-b2b3-39cb" sortIndex="4">
+              <costs>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-14"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a3eb-ed2d-4f09-6a09" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Fourth Advancement" id="283d-1301-3fe0-f6f9" hidden="true" collapsible="true" sortIndex="4">
+          <entryLinks>
+            <entryLink import="true" name="Random Primary" hidden="false" id="3d52-c95c-8c70-224a" type="selectionEntry" targetId="9db9-87f1-4f71-503c" sortIndex="1">
+              <costs>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-8"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Primary Skill" hidden="false" id="71db-b5e3-8d1e-7a0f" type="selectionEntry" targetId="24b1-712d-1b55-0e5c" sortIndex="2">
+              <costs>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-16"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Secondary Skill" hidden="false" id="01ab-bd3c-2391-63a1" type="selectionEntry" targetId="eeb0-8b2b-d19e-868d" sortIndex="3">
+              <costs>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-20"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Random Characteristics" hidden="false" id="7165-9aeb-f46b-30e8" type="selectionEntry" targetId="33c5-a36e-b2b3-39cb" sortIndex="4">
+              <costs>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-24"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c222-d8bd-8f3d-bcad" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="ba04-b288-f604-af14" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Fifth Advancement" id="dd3b-1427-2689-c7b1" hidden="true" collapsible="true" sortIndex="5">
+          <entryLinks>
+            <entryLink import="true" name="Random Primary" hidden="false" id="af33-7cc5-bbf0-5001" type="selectionEntry" targetId="9db9-87f1-4f71-503c" sortIndex="1">
+              <costs>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-10"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Primary Skill" hidden="false" id="380d-37cc-2dd2-6b8d" type="selectionEntry" targetId="24b1-712d-1b55-0e5c" sortIndex="2">
+              <costs>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-20"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Secondary Skill" hidden="false" id="ffe8-5caf-8850-50e3" type="selectionEntry" targetId="eeb0-8b2b-d19e-868d" sortIndex="3">
+              <costs>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-24"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Random Characteristics" hidden="false" id="9ea1-0cee-c0f7-12c0" type="selectionEntry" targetId="33c5-a36e-b2b3-39cb" sortIndex="4">
+              <costs>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-28"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ea4-e237-42ba-5d47" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="283d-1301-3fe0-f6f9" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Sixth Advancement" id="ecbf-7465-7b2e-07e9" hidden="true" collapsible="true" sortIndex="6">
+          <entryLinks>
+            <entryLink import="true" name="Random Primary" hidden="false" id="d060-e470-41df-027b" type="selectionEntry" targetId="9db9-87f1-4f71-503c" sortIndex="1">
+              <costs>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Primary Skill" hidden="false" id="9e38-0208-e9d8-e33f" type="selectionEntry" targetId="24b1-712d-1b55-0e5c" sortIndex="2">
+              <costs>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-30"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Secondary Skill" hidden="false" id="408b-ae0e-922b-9bc3" type="selectionEntry" targetId="eeb0-8b2b-d19e-868d" sortIndex="3">
+              <costs>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-34"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Random Characteristics" hidden="false" id="1e44-f588-2922-2eb9" type="selectionEntry" targetId="33c5-a36e-b2b3-39cb" sortIndex="4">
+              <costs>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-38"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="15ee-71f4-c142-fe52" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="dd3b-1427-2689-c7b1" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Third Advancement" id="ba04-b288-f604-af14" hidden="true" collapsible="true" sortIndex="3">
+          <entryLinks>
+            <entryLink import="true" name="Random Primary" hidden="false" id="8f07-e0bd-ce23-fe37" type="selectionEntry" targetId="9db9-87f1-4f71-503c" sortIndex="1">
+              <costs>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-6"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Primary Skill" hidden="false" id="3cbf-2a4d-f777-f7aa" type="selectionEntry" targetId="24b1-712d-1b55-0e5c" sortIndex="2">
+              <costs>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-12"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Secondary Skill" hidden="false" id="0718-9478-bca2-be3c" type="selectionEntry" targetId="eeb0-8b2b-d19e-868d" sortIndex="3">
+              <costs>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-16"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Random Characteristics" hidden="false" id="1edd-8821-02d2-3f15" type="selectionEntry" targetId="33c5-a36e-b2b3-39cb" sortIndex="4">
+              <costs>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-20"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="28f5-1702-99ff-4c0b" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="5854-6cdb-dade-0203" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Second Advancement" id="5854-6cdb-dade-0203" hidden="true" collapsible="true" sortIndex="2">
+          <entryLinks>
+            <entryLink import="true" name="Random Primary" hidden="false" id="3dbd-7949-b30d-44f2" type="selectionEntry" targetId="9db9-87f1-4f71-503c" sortIndex="1">
+              <costs>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-4"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Primary Skill" hidden="false" id="def2-7df7-35ba-f5d9" type="selectionEntry" targetId="24b1-712d-1b55-0e5c" sortIndex="2">
+              <costs>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-8"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Secondary Skill" hidden="false" id="4b03-7881-a8bf-ff7a" type="selectionEntry" targetId="eeb0-8b2b-d19e-868d" sortIndex="3">
+              <costs>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-12"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Random Characteristics" hidden="false" id="c01f-6b15-118a-62db" type="selectionEntry" targetId="33c5-a36e-b2b3-39cb" sortIndex="4">
+              <costs>
+                <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-16"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98c7-6b6b-67d6-2bb2" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="f10d-d64d-783b-851f" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Characteristics Improvement" id="7eb2-4d02-cfdf-c71d" hidden="false" collapsible="true">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="MA" hidden="false" id="1164-d3f0-6f1e-ffdc" sortIndex="2">
+          <costs>
+            <cost name="TV" typeId="c4da-96df-1abd-13be" value="20000"/>
+            <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8dec-f0b4-f7b5-e824"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="5b6f-6247-0c21-83d3" scope="root-entry" affects="profiles.Player">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="1164-d3f0-6f1e-ffdc" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="ST" hidden="false" id="0de8-39ac-6c2e-79ea" sortIndex="5">
+          <costs>
+            <cost name="TV" typeId="c4da-96df-1abd-13be" value="60000"/>
+            <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9035-ea96-caec-3ba9"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="6fbf-0646-8c8f-4851" scope="root-entry" affects="profiles.Player">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="0de8-39ac-6c2e-79ea" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="AV" hidden="false" id="845c-39e8-6915-4d09" sortIndex="1">
+          <costs>
+            <cost name="TV" typeId="c4da-96df-1abd-13be" value="10000"/>
+            <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="631a-13f7-dffe-2f9c"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="599c-91d6-b1ed-6aba" scope="root-entry" affects="profiles.Player">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="845c-39e8-6915-4d09" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="PA" hidden="false" id="4db7-d4a0-269c-50f5" sortIndex="3">
+          <costs>
+            <cost name="TV" typeId="c4da-96df-1abd-13be" value="20000"/>
+            <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="0997-3b9d-4c7a-bd0b"/>
+          </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="51bf-7f91-4729-9e2d" scope="root-entry" affects="profiles.Player">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="4db7-d4a0-269c-50f5" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="AG" hidden="false" id="0345-e9a0-e73b-f801" sortIndex="4">
+          <costs>
+            <cost name="TV" typeId="c4da-96df-1abd-13be" value="30000"/>
+            <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5691-3e6f-c566-b8ed"/>
+          </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="644d-fe29-947f-5eb7" scope="root-entry" affects="profiles.Player">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="0345-e9a0-e73b-f801" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="40fd-1c23-2ebc-8551"/>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="229e-13ab-7bb1-e9d0"/>
+      </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="229e-13ab-7bb1-e9d0">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="33c5-a36e-b2b3-39cb" shared="true" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule name="Catch (Active)" id="098e-6fa4-284c-49ca" hidden="false">
@@ -1786,84 +2264,88 @@ If a team has a choice of any alignment, they can choose from any of the followi
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Badlands Brawl" hidden="false" id="1eb9-891a-5a20-b694">
+    <selectionEntry type="upgrade" import="true" name="Badlands Brawl" hidden="false" id="1eb9-891a-5a20-b694" sortIndex="10">
       <comment>Team Leauge</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Chaos Clash" hidden="false" id="59e3-4dbf-4f7b-9276">
+    <selectionEntry type="upgrade" import="true" name="Chaos Clash" hidden="false" id="59e3-4dbf-4f7b-9276" sortIndex="10">
       <comment>Team Leauge</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Elven Kingdoms League" hidden="false" id="31ad-4a7b-7a5b-c6ea">
+    <selectionEntry type="upgrade" import="true" name="Elven Kingdoms League" hidden="false" id="31ad-4a7b-7a5b-c6ea" sortIndex="10">
       <comment>Team Leauge</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Halfling Thimble Cup" hidden="false" id="a414-eded-2c3f-26bb">
+    <selectionEntry type="upgrade" import="true" name="Halfling Thimble Cup" hidden="false" id="a414-eded-2c3f-26bb" sortIndex="10">
       <comment>Team Leauge</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Lustrian Superleague" hidden="false" id="9e52-21d6-b650-0f2e">
+    <selectionEntry type="upgrade" import="true" name="Lustrian Superleague" hidden="false" id="9e52-21d6-b650-0f2e" sortIndex="10">
       <comment>Team Leauge</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Old World Classic" hidden="false" id="3d18-00d7-c09b-d261">
+    <selectionEntry type="upgrade" import="true" name="Old World Classic" hidden="false" id="3d18-00d7-c09b-d261" sortIndex="10">
       <comment>Team Leauge</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Sylvanian Spotlight" hidden="false" id="9070-d888-956b-b3f0">
+    <selectionEntry type="upgrade" import="true" name="Sylvanian Spotlight" hidden="false" id="9070-d888-956b-b3f0" sortIndex="10">
       <comment>Team Leauge</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Underworld Challenge" hidden="false" id="fdab-28ae-ae4b-eac1">
+    <selectionEntry type="upgrade" import="true" name="Underworld Challenge" hidden="false" id="fdab-28ae-ae4b-eac1" sortIndex="10">
       <comment>Team Leauge</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Woodland League" hidden="false" id="6c75-8f97-472e-204c">
+    <selectionEntry type="upgrade" import="true" name="Woodland League" hidden="false" id="6c75-8f97-472e-204c" sortIndex="10">
       <comment>Team Leauge</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Worlds Edge Superleague" hidden="false" id="a8a2-1453-da6f-731c">
+    <selectionEntry type="upgrade" import="true" name="Worlds Edge Superleague" hidden="false" id="a8a2-1453-da6f-731c" sortIndex="10">
       <comment>Team Leauge</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Brawlin&apos; Brutes" hidden="false" id="0d8a-9c12-8664-38e8">
+    <selectionEntry type="upgrade" import="true" name="Brawlin&apos; Brutes" hidden="false" id="0d8a-9c12-8664-38e8" sortIndex="20">
       <infoLinks>
         <infoLink name="Brawlin&apos; Brutes" id="99e8-4580-d8ad-96de" hidden="false" type="rule" targetId="15e6-1d61-20ad-257a"/>
       </infoLinks>
       <comment>Team Special Rules</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Bribery &amp; Corruption" hidden="false" id="e4b5-6057-7d9c-2e20">
+    <selectionEntry type="upgrade" import="true" name="Bribery &amp; Corruption" hidden="false" id="e4b5-6057-7d9c-2e20" sortIndex="20">
       <infoLinks>
         <infoLink name="Bribery and Corruption" id="ddfc-1cbf-db09-5ce6" hidden="false" type="rule" targetId="6fc4-29e3-00cc-86de"/>
       </infoLinks>
       <comment>Team Special Rules</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Low Cost Linemen" hidden="false" id="c2c1-b518-69c8-5c91">
+    <selectionEntry type="upgrade" import="true" name="Low Cost Linemen" hidden="false" id="c2c1-b518-69c8-5c91" sortIndex="20">
       <infoLinks>
         <infoLink name="Low Cost Linemen" id="8a14-20c2-cfb3-29a4" hidden="false" type="rule" targetId="5144-7fbb-8adf-ff4f"/>
       </infoLinks>
       <comment>Team Special Rules</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Masters of Undeath" hidden="false" id="4ce9-c686-aec9-b623">
+    <selectionEntry type="upgrade" import="true" name="Masters of Undeath" hidden="false" id="4ce9-c686-aec9-b623" sortIndex="20">
       <infoLinks>
         <infoLink name="Masters of Undeath" id="c7a2-796b-3e5c-eab6" hidden="false" type="rule" targetId="7f71-cda8-2d0d-b094"/>
       </infoLinks>
       <comment>Team Special Rules</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Team Captain" hidden="false" id="b037-bf7f-5a39-c29b">
+    <selectionEntry type="upgrade" import="true" name="Team Captain" hidden="false" id="b037-bf7f-5a39-c29b" sortIndex="20">
       <infoLinks>
         <infoLink name="Team Captain" id="a6dc-a199-f2c4-e9e3" hidden="false" type="rule" targetId="6753-eb3f-0bf5-63ee"/>
       </infoLinks>
       <comment>Team Special Rules</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Favoured of Hashut" hidden="false" id="29dc-51bf-a4d4-e460"/>
-    <selectionEntry type="upgrade" import="true" name="Favoured of Khorne" hidden="false" id="fff5-8bb0-409e-4125"/>
-    <selectionEntry type="upgrade" import="true" name="Favoured of Undivided" hidden="false" id="1cd7-0234-b42d-8b5d"/>
-    <selectionEntry type="upgrade" import="true" name="Favoured of Tzeentch" hidden="false" id="12ee-8bbc-e957-279b"/>
-    <selectionEntry type="upgrade" import="true" name="Favoured of Slaanesh" hidden="false" id="a1f9-87ba-0db6-989a"/>
-    <selectionEntry type="upgrade" import="true" name="Favoured of Nurgle" hidden="false" id="d66c-3805-c337-bbb6"/>
-    <selectionEntry type="upgrade" import="true" name="Favored of ..." hidden="false" id="7614-610c-c42c-5a78">
+    <selectionEntry type="upgrade" import="true" name="Favoured of Hashut" hidden="false" id="29dc-51bf-a4d4-e460" sortIndex="21"/>
+    <selectionEntry type="upgrade" import="true" name="Favoured of Khorne" hidden="false" id="fff5-8bb0-409e-4125" sortIndex="21"/>
+    <selectionEntry type="upgrade" import="true" name="Favoured of Undivided" hidden="false" id="1cd7-0234-b42d-8b5d" sortIndex="21"/>
+    <selectionEntry type="upgrade" import="true" name="Favoured of Tzeentch" hidden="false" id="12ee-8bbc-e957-279b" sortIndex="21"/>
+    <selectionEntry type="upgrade" import="true" name="Favoured of Slaanesh" hidden="false" id="a1f9-87ba-0db6-989a" sortIndex="21"/>
+    <selectionEntry type="upgrade" import="true" name="Favoured of Nurgle" hidden="false" id="d66c-3805-c337-bbb6" sortIndex="21"/>
+    <selectionEntry type="upgrade" import="true" name="Favored of ..." hidden="false" id="7614-610c-c42c-5a78" sortIndex="21">
       <infoLinks>
         <infoLink name="Favoured of ..." id="f76e-423c-4f15-d2dd" hidden="false" type="rule" targetId="84ac-f521-708b-c779"/>
       </infoLinks>
       <comment>Team Special Rules</comment>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Swarming" hidden="false" id="b2f3-aacd-c386-8944">
+    <selectionEntry type="upgrade" import="true" name="Swarming" hidden="false" id="b2f3-aacd-c386-8944" sortIndex="20">
       <comment>Team Special Rules</comment>
       <infoLinks>
         <infoLink name="Swarming" id="6ad7-2642-cf13-56e0" hidden="false" type="rule" targetId="9b44-f5b3-b98e-1bd5"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Random Primary" hidden="false" id="9db9-87f1-4f71-503c" sortIndex="30"/>
+    <selectionEntry type="upgrade" import="true" name="Primary Skill" hidden="false" id="24b1-712d-1b55-0e5c" sortIndex="31"/>
+    <selectionEntry type="upgrade" import="true" name="Secondary Skill" hidden="false" id="eeb0-8b2b-d19e-868d" sortIndex="32"/>
+    <selectionEntry type="upgrade" import="true" name="Random Characteristics" hidden="false" id="33c5-a36e-b2b3-39cb" sortIndex="33"/>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Roster Status" hidden="false" id="91ec-e00f-e467-9302" type="selectionEntry" targetId="f9a9-1a07-bb0d-66f9"/>
