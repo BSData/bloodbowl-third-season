@@ -6,6 +6,7 @@
     <categoryEntry name="Positional" id="0c44-468c-6a37-e6c8" hidden="false"/>
     <categoryEntry name="Inducements" id="82fd-d32b-a2e0-5e91" hidden="false"/>
     <categoryEntry name="Elite Skill" id="d731-f15b-0940-46c6" hidden="false"/>
+    <categoryEntry name="Player Out" id="798c-71c2-813f-d980" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Standard" id="0430-7fcc-d8c8-f3d8" hidden="false">
@@ -930,7 +931,7 @@
         <modifier type="set" value="20000" field="c4da-96df-1abd-13be" affects="entry"/>
         <modifier type="set" value="0" field="c4da-96df-1abd-13be" affects="self.entries">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="5c09-d0f5-764f-c831" shared="true" includeChildSelections="false"/>
+            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="798c-71c2-813f-d980" shared="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -941,7 +942,7 @@
             <modifier type="append" value="(Elite)" field="name" affects="d731-f15b-0940-46c6"/>
             <modifier type="increment" value="10000" field="c4da-96df-1abd-13be" affects="d731-f15b-0940-46c6">
               <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="5c09-d0f5-764f-c831" shared="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="798c-71c2-813f-d980" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -961,7 +962,7 @@
         <modifier type="set" value="40000" field="c4da-96df-1abd-13be" affects="entry"/>
         <modifier type="set" value="0" field="c4da-96df-1abd-13be" affects="self.entries">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="5c09-d0f5-764f-c831" shared="true" includeChildSelections="false"/>
+            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="798c-71c2-813f-d980" shared="true" includeChildSelections="false"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -970,7 +971,11 @@
           <comment>Elite Skill</comment>
           <modifiers>
             <modifier type="append" value="(Elite)" field="name" affects="d731-f15b-0940-46c6"/>
-            <modifier type="increment" value="10000" field="c4da-96df-1abd-13be" affects="d731-f15b-0940-46c6"/>
+            <modifier type="increment" value="10000" field="c4da-96df-1abd-13be" affects="d731-f15b-0940-46c6">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="798c-71c2-813f-d980" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -1426,7 +1431,7 @@
         </modifier>
         <modifier type="set" value="0" field="c4da-96df-1abd-13be" affects="self.entries">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="5c09-d0f5-764f-c831" shared="true" includeChildSelections="false"/>
+            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="798c-71c2-813f-d980" shared="true" includeChildSelections="false"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1437,9 +1442,9 @@
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ed6-3142-9640-db76"/>
           </constraints>
-          <modifiers>
-            <modifier type="set" value="0" field="c4da-96df-1abd-13be" scope="root-entry" affects="model"/>
-          </modifiers>
+          <categoryLinks>
+            <categoryLink targetId="798c-71c2-813f-d980" id="0c8f-9570-a689-b8fd" primary="false" name="Player Out"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Niggling Injury" hidden="false" id="7b95-080d-ebef-f064" sortIndex="2">
           <infoLinks>
@@ -1491,7 +1496,22 @@
             </modifier>
           </modifiers>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Temporary Retire" hidden="false" id="1cd4-0be1-70d6-e00d" sortIndex="8">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c61-9310-c8f2-2c2e"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink targetId="798c-71c2-813f-d980" id="f744-4f52-10a1-dc30" primary="false" name="Player Out"/>
+          </categoryLinks>
+        </selectionEntry>
       </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="0" field="c4da-96df-1abd-13be" affects="model" scope="root-entry">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="parent" childId="798c-71c2-813f-d980" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
