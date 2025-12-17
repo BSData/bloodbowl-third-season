@@ -1512,6 +1512,239 @@
           </conditions>
         </modifier>
       </modifiers>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Hatred" id="29e5-0f33-1a48-66ac" hidden="false" sortIndex="9">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Human" hidden="false" id="5d4e-1f91-8dba-9e84">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c7b-8dcf-d965-f5f0" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Human**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Goblin" hidden="false" id="5678-ef72-7e83-17d5">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="63c5-93f0-09c7-19b0" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Goblin**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Orc" hidden="false" id="6c78-570a-9999-78a7">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3671-997e-1d64-6d2e" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Orc**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Troll" hidden="false" id="82d6-f9ee-d63a-ca4b" collapsible="true">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="60ed-efac-0d0b-0d84" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Troll**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Beastman" hidden="false" id="6f6d-c339-a4ca-9cd6">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a004-7bdc-675c-b423" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Beastman**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ogre" hidden="false" id="c11d-3a26-1267-bf24">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="47ae-feee-f0f8-42d0" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Ogre**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Minotaur" hidden="false" id="c366-f3e0-8feb-3339">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef8f-ea40-2927-1caa" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Minotaur**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Dwarf" hidden="false" id="f119-35ca-3229-f00b">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4590-afab-6bb9-13d3" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Dwarf**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Skaven" hidden="false" id="6a5d-2e6e-8ac8-c4e0">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c7d9-ee23-ed56-c35c" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Skaven**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Elf" hidden="false" id="0648-f05e-f0f9-fec6">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a37-e467-42dd-9ff7" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Elf**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Gnome" hidden="false" id="a83f-4184-2bf5-809e">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7351-4ff8-d0a1-e9ee" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Gnome**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Animal" hidden="false" id="b119-e409-c03a-ad65">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e86-3e6c-f258-2a7b" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Animal**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Treeman" hidden="false" id="8217-72d5-0b9f-e527">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e2c6-cd3a-0dca-ad1d" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Treeman**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Halfling" hidden="false" id="b582-8476-12f2-4fb6">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db0e-be71-70cc-8934" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Halfling**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Spawn" hidden="false" id="a4cf-f7a8-e32e-6436">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1da0-b183-4707-11bf" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Spawn**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lizardman" hidden="false" id="36d8-46af-4d47-31b9">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c81-a03c-376f-3047" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Lizardman**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Undead" hidden="false" id="5cb2-4767-d2b5-a6e5">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bcdf-e08c-b077-b83d" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Undead**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Zombie" hidden="false" id="9a3f-2b84-2136-8b71">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="af6e-acf2-bbfd-508b" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Zombie**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ghoul" hidden="false" id="948b-b2b4-94c1-687e">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a3b-90cd-9567-7b6f" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Ghoul**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Wraith" hidden="false" id="f63b-4faf-8e34-a23c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2259-921a-6460-ae4a" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Wraith**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Construct" hidden="false" id="c1cb-b3a2-c3e0-c277">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="975e-7c27-ff20-2cb1" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Construct**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Werewolf" hidden="false" id="7c9e-0a69-81d4-d068">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="54d3-4521-7756-d60b" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Werewolf**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Yhetee" hidden="false" id="2761-8b7e-bd6e-9c30">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e497-67ca-5b25-727b" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Yhetee**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Gnoblar" hidden="false" id="dd8d-1096-ef28-2c76">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d8b-1f9d-6ace-074c" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Gnoblar**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Skeleton" hidden="false" id="edd6-9b35-83e2-c261">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36fa-72e7-75d5-f182" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Skeleton**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Snotling" hidden="false" id="3898-d9a3-853a-e526">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aac0-946c-930a-b94e" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Snotling**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Thrall" hidden="false" id="ccec-380a-042d-6be9">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7165-5af8-686c-d071" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Thrall**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Vampire" hidden="false" id="c995-f09a-7778-522c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8568-97b9-fb70-38fb" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="append" value="Hatred (**Vampire**)" field="a256-4228-5691-a7d4" scope="root-entry" affects="69f8-eb37-db8c-47de.profiles.Player" join=", "/>
+              </modifiers>
+            </selectionEntry>
+          </selectionEntries>
+          <infoLinks>
+            <infoLink name="Hatred (X)* (Passive)" id="6236-56ea-b45e-484a" hidden="false" type="rule" targetId="5f05-debd-275e-b972"/>
+          </infoLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
@@ -2316,6 +2549,31 @@ On a 1-3, this player rages incoherently but nothing really happens. Their activ
       <alias>Hatred (**Big Guy**)</alias>
       <alias>Hatred (**Undead**)</alias>
       <alias>Hatred (**Dwarf**)</alias>
+      <alias>Hatred (**Animal**)</alias>
+      <alias>Hatred (**Beastman**)</alias>
+      <alias>Hatred (**Construct**)</alias>
+      <alias>Hatred (**Elf**)</alias>
+      <alias>Hatred (**Ghoul**)</alias>
+      <alias>Hatred (**Gnoblar**)</alias>
+      <alias>Hatred (**Gnome**)</alias>
+      <alias>Hatred (**Goblin**)</alias>
+      <alias>Hatred (**Halfling**)</alias>
+      <alias>Hatred (**Human**)</alias>
+      <alias>Hatred (**Lizardman**)</alias>
+      <alias>Hatred (**Minotaur**)</alias>
+      <alias>Hatred (**Ogre**)</alias>
+      <alias>Hatred (**Orc**)</alias>
+      <alias>Hatred (**Skaven**)</alias>
+      <alias>Hatred (**Skeleton**)</alias>
+      <alias>Hatred (**Snotling**)</alias>
+      <alias>Hatred (**Spawn**)</alias>
+      <alias>Hatred (**Thrall**)</alias>
+      <alias>Hatred (**Treeman**)</alias>
+      <alias>Hatred (**Vampire**)</alias>
+      <alias>Hatred (**Werewolf**)</alias>
+      <alias>Hatred (**Wraith**)</alias>
+      <alias>Hatred (**Yhetee**)</alias>
+      <alias>Hatred (**Zombie**)</alias>
       <description>Whenever this player performs a Block Action against a player with the same keyword as that shown in brackets, this player may re-roll a single Player Down result.</description>
     </rule>
     <rule name="Secret Weapon* (Passive)" id="2dfd-63dd-cf29-9818" hidden="false">
