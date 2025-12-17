@@ -928,13 +928,22 @@
           </repeats>
         </modifier>
         <modifier type="set" value="20000" field="c4da-96df-1abd-13be" affects="entry"/>
+        <modifier type="set" value="0" field="c4da-96df-1abd-13be" affects="self.entries">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="5c09-d0f5-764f-c831" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup type="and">
           <comment>Elite Skill</comment>
           <modifiers>
             <modifier type="append" value="(Elite)" field="name" affects="d731-f15b-0940-46c6"/>
-            <modifier type="increment" value="10000" field="c4da-96df-1abd-13be" affects="d731-f15b-0940-46c6"/>
+            <modifier type="increment" value="10000" field="c4da-96df-1abd-13be" affects="d731-f15b-0940-46c6">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="5c09-d0f5-764f-c831" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -950,6 +959,11 @@
           </repeats>
         </modifier>
         <modifier type="set" value="40000" field="c4da-96df-1abd-13be" affects="entry"/>
+        <modifier type="set" value="0" field="c4da-96df-1abd-13be" affects="self.entries">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="5c09-d0f5-764f-c831" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup type="and">
@@ -1410,7 +1424,74 @@
             <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="33c5-a36e-b2b3-39cb" shared="true" roundUp="false"/>
           </repeats>
         </modifier>
+        <modifier type="set" value="0" field="c4da-96df-1abd-13be" affects="self.entries">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="5c09-d0f5-764f-c831" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
       </modifiers>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Injuries" id="e410-2dee-babf-54b1" hidden="false" collapsible="true">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Miss Next Game" hidden="false" id="5c09-d0f5-764f-c831" sortIndex="1">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ed6-3142-9640-db76"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="0" field="c4da-96df-1abd-13be" scope="root-entry" affects="model"/>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Niggling Injury" hidden="false" id="7b95-080d-ebef-f064" sortIndex="2">
+          <infoLinks>
+            <infoLink name="Niggling Injury" id="8235-fa5e-a8c9-7423" hidden="false" type="rule" targetId="b729-75ce-7c04-6bf5"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Head Injury (AV)" hidden="false" id="6773-f6ff-9dd4-4e0c" sortIndex="3">
+          <modifiers>
+            <modifier type="decrement" value="1" field="599c-91d6-b1ed-6aba" scope="root-entry" affects="profiles.Player">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="6773-f6ff-9dd4-4e0c" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Smashed Knee (MA)" hidden="false" id="855b-043c-f94b-ba24" sortIndex="4">
+          <modifiers>
+            <modifier type="decrement" value="1" field="5b6f-6247-0c21-83d3" scope="root-entry" affects="profiles.Player">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="855b-043c-f94b-ba24" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Broken Arm (PA)" hidden="false" id="72d1-e42f-25f2-69c0" sortIndex="5">
+          <modifiers>
+            <modifier type="increment" value="1" field="51bf-7f91-4729-9e2d" scope="root-entry" affects="profiles.Player">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="72d1-e42f-25f2-69c0" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Dislocated Hip (AG)" hidden="false" id="26b6-1168-903e-6e5b" sortIndex="6">
+          <modifiers>
+            <modifier type="increment" value="1" field="644d-fe29-947f-5eb7" scope="root-entry" affects="profiles.Player">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="26b6-1168-903e-6e5b" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Broken Shoulder (ST)" hidden="false" id="30f9-cf23-934a-ce67" sortIndex="7">
+          <modifiers>
+            <modifier type="decrement" value="1" field="6fbf-0646-8c8f-4851" scope="root-entry" affects="profiles.Player">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="30f9-cf23-934a-ce67" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
@@ -2236,6 +2317,9 @@ If a team has a choice of any alignment, they can choose from any of the followi
     </rule>
     <rule name="A Sneaky Pair" id="04c2-46de-ff4d-9b2a" hidden="false">
       <description>Dribl &amp; Drull must be hired as a pair. Additionally, whenever Dribl or Drull perform either a Foul Action or a Stab Special Action against an opposition player Marked by both Dribl &amp; Drull, they may apply a +1 modifier to the roll.</description>
+    </rule>
+    <rule name="Niggling Injury" id="b729-75ce-7c04-6bf5" hidden="false">
+      <description>When making a Casualty Roll for a player with a Niggling Injury, apply a +1 modifier to the roll for each Niggling Injury the player has.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
