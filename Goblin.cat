@@ -87,6 +87,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="35a0-0dda-35c6-7f30" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="2e3d-9df6-c1ba-e731" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="04e8-118e-0a14-0dd6" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="9e8a-7949-a201-398b" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
@@ -136,6 +137,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="601c-112a-d366-d8ad" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="3afd-5d14-850c-e024" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="f808-3eae-5eee-eb8f" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="939f-e174-4498-caee" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Bomma" hidden="false" id="eade-b8c9-e48d-4a75">
@@ -186,6 +188,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="c771-12fd-baab-b305" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="d7ac-92bf-56ec-c833" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="da3f-9539-4637-3057" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="3d76-ec4a-cddb-bcdc" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Doom Diver" hidden="false" id="40fe-2002-4705-2ad2">
@@ -226,6 +229,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="36af-1be3-fe18-06ee" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="2965-3975-f282-c07f" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="8fcb-f765-1537-4121" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="bd85-e5c2-17f2-bd58" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Dodge (Active)" id="95ef-e3e6-f5e0-95c3" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
@@ -281,6 +285,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="198a-f2a4-0982-1af3" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="eef8-f18f-72a9-ccfd" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="ff67-ad90-478b-48fa" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="0861-96eb-c06d-36be" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Pogoer" hidden="false" id="3302-8a2c-7886-6d58">
@@ -329,6 +334,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="6722-7bbf-bc45-5a9a" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="7bc3-2ee9-5bd8-effb" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="e79c-2d1d-d5e5-78a3" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="5af0-4a96-fb3a-bf49" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Trained Troll" hidden="false" id="50e1-4df3-f11f-7fa0">
@@ -380,6 +386,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="5966-0496-265e-8892" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="5c9b-1484-3f28-08bd" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="ff88-813b-264a-7876" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="7055-fdf7-1ced-d606" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="&apos;Ooligan" hidden="false" id="ff03-8b7c-5695-df65">
@@ -434,6 +441,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="ff9d-ee28-7859-6297" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="13f8-b8ca-128b-0837" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="ea94-7990-dd9a-13f8" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="6a4f-a47e-717e-1d12" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>

@@ -107,6 +107,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="d3c0-8694-9292-d36a" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="9770-6e7b-e4f5-3712" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="aa73-1cbf-4305-d6ed" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="7a28-e92b-3082-3eb5" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Woodland Fox" hidden="false" id="2fc8-d9d3-d17b-6d65">
@@ -146,6 +147,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="a598-2c67-acbc-145b" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="1a78-330c-19d6-1a1e" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="27a1-af74-37de-9ede" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="225a-fde3-8f5a-b6da" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
@@ -196,6 +198,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="4b3c-d15a-f8b6-d64d" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="c4b7-ca29-a1bb-7e54" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="1a12-b930-ae13-1a19" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="cfdf-6249-b330-0752" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.b06f-8bce-bfe3-fd7b"/>
@@ -251,6 +254,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="b3e2-9ae4-ab27-ea71" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="abbc-6e93-3029-91ff" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="17fc-ed90-4f59-7a09" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="b395-bf24-8851-0e0d" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Altern Forest Treeman" hidden="false" id="e6a9-c78a-1f00-ce8e">
@@ -306,6 +310,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="e4b5-693e-e8be-13e9" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="913c-ba17-83cb-4c68" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="0fbb-2f3f-f279-a901" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="6a29-f148-edb8-b79f" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>

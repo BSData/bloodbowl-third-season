@@ -65,6 +65,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="6163-c8c7-d0bc-7da5" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="f60f-f8b3-e008-f192" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="cb49-8dd1-2039-39a5" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="597c-ebd3-3264-35e8" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Fend (Active)" id="9966-f3fc-b203-8e8f" hidden="false" type="rule" targetId="055f-a433-190e-79be"/>
@@ -111,6 +112,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="5d24-2b2e-157a-b44d" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="6a54-6780-a401-05aa" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="38bf-9770-d733-a393" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="2f61-7333-08f0-86ae" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Give and Go (Active)" id="fcdc-4a89-154c-504c" hidden="false" type="rule" targetId="16f1-99fa-6638-581d"/>
@@ -164,6 +166,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="e9d0-1cb8-6c0b-f5da" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="6477-545a-239d-93dc" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="87af-1c3a-5ab0-7d61" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="4065-135e-a318-38b4" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.d009-274e-d212-e2df"/>
@@ -208,6 +211,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="f457-6e59-d867-31b6" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="b9b1-9ba7-0f31-7a6c" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="e84c-2f72-d794-146a" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="f5aa-35d6-41b6-6a77" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Block (Active)" id="aed2-dc27-fde8-4700" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
@@ -257,6 +261,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="cade-0893-e760-cdcf" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="85b1-b90f-6226-8f47" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="5590-5b4e-41d6-a975" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="0057-3dbc-84d5-fb19" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Bone Head* (Passive)" id="45ff-58e4-d23e-28a1" hidden="false" type="rule" targetId="6e98-03d2-86a2-66e2"/>

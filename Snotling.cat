@@ -195,6 +195,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="5766-0e2d-8560-bcda" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="a4b4-0b00-0e8c-174b" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="13d0-eb3d-7cfd-7a54" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="c442-7d68-90a7-1213" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Snotling Lineman" id="480c-3034-9414-5de5" hidden="false" type="profile" targetId="9f48-c565-02d4-38ea"/>
@@ -233,6 +234,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="a070-44b7-7518-ef68" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="a310-55ba-4a01-a6d7" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="618a-c7a2-763f-f5b1" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="befd-9292-5581-f00b" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Fun-hoppa" id="f3fb-f7d0-6e32-2275" hidden="false" type="profile" targetId="2596-ca1b-c937-1978"/>
@@ -270,6 +272,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="6ad8-75b4-976c-b08b" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="71dc-5ca6-92c6-6854" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="d430-8589-806e-b0d4" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="f5b2-de07-5555-4211" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Stilty Runna" id="814d-c397-643a-503f" hidden="false" type="profile" targetId="263f-a406-84a6-7b82"/>
@@ -309,6 +312,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="7c86-1fd5-6004-298f" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="fb9e-9ad6-8d68-2564" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="6592-3a49-37a9-7400" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="48d6-1a5a-ad89-7d81" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Fungus Flinga" id="0876-412d-dd64-0f2e" hidden="false" type="profile" targetId="6a30-e30f-7321-1eed"/>
@@ -349,6 +353,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="5fe0-b7f4-2b91-201c" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="0029-eb01-2885-ad22" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="0efe-ce8d-3753-98b6" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="b30f-80d5-0cc1-233e" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Trained Troll" id="e671-25fc-f1bb-ed48" hidden="false" type="profile" targetId="ec68-7efc-82c9-dbd8"/>
@@ -387,6 +392,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="31c7-18e5-3da4-edaa" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="e35d-31e7-0d1e-9f4b" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="c289-baac-9829-bebe" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="9874-b70e-d0cd-54b6" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Pump Wagon" id="20c2-cde4-ca44-23f4" hidden="false" type="profile" targetId="541b-36be-0614-9d9d"/>
