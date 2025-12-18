@@ -6473,7 +6473,7 @@ If a Frog suffers a Casualty, do not make a Casualty Roll for them. Instead, the
         <selectionEntry type="upgrade" import="true" name="Gold Pieces" hidden="false" id="9042-5c53-a135-9cfe"/>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="DON&apos;T SUBMIT BUGS FOR NOT IMPLEMENTED FUNCTIONALITY." hidden="false" id="8a6c-6612-7d64-2b09" sortIndex="18" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="DON&apos;T SUBMIT BUGS FOR NOT IMPLEMENTED FUNCTIONALITY." hidden="false" id="8a6c-6612-7d64-2b09" sortIndex="18" defaultAmount="">
       <categoryLinks>
         <categoryLink targetId="55a5-0400-0e84-b85b" id="8274-9a7f-ef37-8dad" primary="true" name="Open Beta Release"/>
       </categoryLinks>
@@ -6489,6 +6489,9 @@ If a Frog suffers a Casualty, do not make a Casualty Roll for them. Instead, the
 Please don&apos;t submit bug reports for any of these things. Please only submit bug reports for errors/broken functionality.</description>
         </rule>
       </rules>
+      <modifiers>
+        <modifier type="set" value="1" field="defaultAmount"/>
+      </modifiers>
     </selectionEntry>
   </selectionEntries>
 </gameSystem>
