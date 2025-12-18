@@ -108,6 +108,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="5190-85c9-a8ae-512f" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="6bfe-5768-1039-46d7" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="1d83-410a-78f9-8df0" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="f912-e04d-2397-2c2d" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Skeleton Lineman" id="09f5-01c3-3b11-ed1e" hidden="false" type="profile" targetId="a5d4-490d-1daa-7130"/>
@@ -141,6 +142,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="b037-f427-856d-e0ea" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="eb35-143d-fcf5-172c" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="9f69-680e-aa44-20d3" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="9bf8-a875-9f55-f543" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Tomb Guardian" id="4774-7bf7-f0b8-6233" hidden="false" type="profile" targetId="a0b8-9daa-337b-e043"/>
@@ -176,6 +178,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="7857-d1ab-90c8-156c" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="e1ae-0c54-eca5-4299" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="08b2-62be-9665-2657" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="2764-9bd1-a9b3-9468" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Tomb Kings Blitzer" id="17e5-5077-1117-f447" hidden="false" type="profile" targetId="7e08-e0c7-d9ed-6766"/>
@@ -213,6 +216,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="4a3b-9aaa-272f-9185" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="78a7-8d6f-0540-5b45" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="08f0-7cf5-2fb6-9c6e" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="6bc5-ddfc-e8b0-9683" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Tomb Kings Thrower" id="90ca-ba77-5534-e507" hidden="false" type="profile" targetId="75bd-bf95-c572-3f3f"/>

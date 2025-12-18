@@ -150,6 +150,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="4272-482f-e16c-7a69" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="033d-40d9-c0de-13f9" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="5c2e-bb05-df9f-9fd8" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="0883-4a20-8d87-f17e" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Skaven Thrower" id="4cb2-8fb7-a528-1c06" hidden="false" type="profile" targetId="3d4b-415f-ea4d-aa47"/>
@@ -185,6 +186,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="43ba-eef6-92b9-99c4" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="4aa5-cbbb-7182-f62a" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="2e6c-cf4b-ee7c-9d6a" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="854d-6e47-c64e-62e6" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Skaven Clanrat" id="d305-1f26-ccfe-e05d" hidden="false" type="profile" targetId="77b3-4caf-8511-8273"/>
@@ -215,6 +217,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="c086-345e-d886-3fe8" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="7334-04ee-aea0-7f30" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="e0ec-c58b-ee7e-dc4d" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="8d99-b13d-e095-88b0" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Skaven Blitzer" id="5e56-5190-0d61-3f93" hidden="false" type="profile" targetId="fb9a-d004-bee6-b1ff"/>
@@ -251,6 +254,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="2e07-e3c7-eb6f-5a0e" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="dcb4-803a-2e0e-2c3d" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="4a78-bf62-da69-3f4b" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="72d1-581a-11c1-16dd" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Gutter Runner" id="5351-4418-1ee7-5a3a" hidden="false" type="profile" targetId="bb76-a6da-38e9-b200"/>
@@ -285,6 +289,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="43c4-04df-13ec-73c9" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="acb5-85f7-f61a-9c36" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="1b84-c13d-19de-f001" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="ea3d-a598-4150-5a0c" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Rat Ogre" id="b036-64bf-0b49-a85c" hidden="false" type="profile" targetId="90a2-2ab3-92e6-49c1"/>

@@ -57,6 +57,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="2b0e-848a-ffd1-cfa0" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="0247-b084-c2ed-5cc3" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="a497-a438-da39-5758" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="3ef3-dac1-aa36-31d7" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Dodge (Active)" id="fafa-24ec-8ea0-24a6" hidden="false" type="rule" targetId="76b8-dd78-3edc-4b16"/>
@@ -111,6 +112,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="7595-60fb-1be8-053f" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="f599-9a16-5636-f432" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="d1ed-70f4-0258-540b" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="fc79-fc22-e302-7b5e" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.9256-339d-7987-49c4"/>
@@ -155,6 +157,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="9216-80f6-b190-91ac" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="19a2-0edf-7cc3-c879" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="1f30-210a-5e96-61d8" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="061d-1d97-ae0d-f87b" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Always Hungry* (Active)" id="f8ab-4e0c-6fc1-5f06" hidden="false" type="rule" targetId="e071-25e9-5e97-ad86"/>

@@ -187,6 +187,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="5103-5f6e-ab76-b9f5" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="7549-bdf3-de8f-683b" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="1a90-c330-8bab-2592" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="f16e-075c-7150-91ba" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Orc Lineman" id="ff70-4f74-ee1e-9ead" hidden="false" type="profile" targetId="f928-1d48-d24a-1527"/>
@@ -217,6 +218,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="e4a8-f98d-ef03-1e4d" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="47a8-a224-7793-8af5" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="f585-3959-4ffa-3d91" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="bdf6-6c61-9e0e-1b77" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Orc Thrower" id="84e4-e4a6-c253-1bdb" hidden="false" type="profile" targetId="778f-b721-8068-56a2"/>
@@ -252,6 +254,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="eb85-4a20-19ba-b4a5" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="bd75-1c42-40eb-f58c" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="cc8e-aa3c-7ec4-3b2a" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="5996-57b6-e369-8185" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Orc Blitzer" id="e47e-0d9f-dc71-192e" hidden="false" type="profile" targetId="79b6-5073-f70e-4acf"/>
@@ -287,6 +290,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="4c76-da1d-98d5-ca02" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="01f9-5bb1-ad87-e15a" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="dd50-f95d-11f6-7c49" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="d459-7351-d15d-228a" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Big Un Blocker" id="53fc-e2a3-c4b1-39ed" hidden="false" type="profile" targetId="a856-4e24-aeee-abba"/>
@@ -325,6 +329,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="c264-68a9-d7bd-beaa" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="e420-208c-578e-8dc9" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="5b65-2f32-3763-5e4b" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="221f-4555-97d3-de3b" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Troll" id="1487-c940-6d6d-13f2" hidden="false" type="profile" targetId="ddfe-4420-5cc9-e133"/>
@@ -364,6 +369,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="ba4e-1b4c-d8e8-609b" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="aa9f-d3f6-bafe-7024" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="d1dd-5bef-78a3-130c" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="eb32-176a-45d0-34b0" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
         <infoLink name="Goblin Lineman" id="710d-a871-176f-4783" hidden="false" type="profile" targetId="e6a6-7bb2-7b1f-1c4d"/>

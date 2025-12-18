@@ -74,6 +74,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="218d-50d4-d45e-a237" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="7a02-fbf0-486e-6ae3" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="be8c-34c2-592d-c04f" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="daf0-a612-a0c8-d8bc" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Ghoul Runner" hidden="false" id="b111-4766-0970-1f47">
@@ -122,6 +123,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="2371-f049-92ef-5882" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="b88f-acea-303f-e08f" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="0da6-10fd-9189-7500" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="5619-825b-6728-941a" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Wraith" hidden="false" id="11b1-28e7-6b55-24d6">
@@ -174,6 +176,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="f6bd-1115-aa9d-494b" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="aec4-3f9c-f5d2-16fb" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="3c7c-e973-c325-1804" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="290f-d2f2-0520-1f9f" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Flesh Golem" hidden="false" id="4f5e-507d-4704-cb20">
@@ -224,6 +227,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="d371-faaf-3deb-5f10" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="2938-647d-d5f6-0227" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="5f7e-3652-095f-b868" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="045f-34d1-61a3-8536" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Werewolf" hidden="false" id="86db-14ce-a48c-be24">
@@ -274,6 +278,7 @@
         <entryLink import="true" name="Advancements" hidden="false" id="8638-f4e1-18b3-7b5d" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
         <entryLink import="true" name="Career" hidden="false" id="e8dd-13d6-4a60-9d8b" type="selectionEntryGroup" targetId="c6d8-1cc6-977d-945b"/>
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="d5c5-1945-0c7d-ee5d" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
+        <entryLink import="true" name="Injuries" hidden="false" id="1c3a-65b3-8d14-3488" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
