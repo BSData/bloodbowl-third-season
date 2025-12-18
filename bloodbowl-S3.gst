@@ -7,6 +7,7 @@
     <categoryEntry name="Inducements" id="82fd-d32b-a2e0-5e91" hidden="false"/>
     <categoryEntry name="Elite Skill" id="d731-f15b-0940-46c6" hidden="false"/>
     <categoryEntry name="Player Out" id="798c-71c2-813f-d980" hidden="false"/>
+    <categoryEntry name="Open Beta Release" id="55a5-0400-0e84-b85b" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Standard" id="0430-7fcc-d8c8-f3d8" hidden="false">
@@ -19,6 +20,7 @@
         </categoryLink>
         <categoryLink name="Team Management" hidden="false" id="3f93-03a0-6099-5646" targetId="9e9f-1d0d-a83d-4cba"/>
         <categoryLink name="Inducements" hidden="false" id="c946-7439-9b60-0259" targetId="82fd-d32b-a2e0-5e91"/>
+        <categoryLink name="Open Beta Release" hidden="false" id="f362-e4b2-7fdc-85f2" targetId="55a5-0400-0e84-b85b"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -6470,6 +6472,26 @@ If a Frog suffers a Casualty, do not make a Casualty Roll for them. Instead, the
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Gold Pieces" hidden="false" id="9042-5c53-a135-9cfe"/>
       </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="DON&apos;T SUBMIT BUGS FOR NOT IMPLEMENTED FUNCTIONALITY." hidden="false" id="8a6c-6612-7d64-2b09" sortIndex="18" defaultAmount="">
+      <categoryLinks>
+        <categoryLink targetId="55a5-0400-0e84-b85b" id="8274-9a7f-ef37-8dad" primary="true" name="Open Beta Release"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f96-955b-d153-e3a7" includeChildSelections="false"/>
+      </constraints>
+      <rules>
+        <rule name="Things that aren&apos;t implemented" id="6f58-8a9b-61fc-f4f2" hidden="false">
+          <description>- Low Cost Linemen
+- Separation between exhibition &amp; league play
+
+
+Please don&apos;t submit bug reports for any of these things. Please only submit bug reports for errors/broken functionality.</description>
+        </rule>
+      </rules>
+      <modifiers>
+        <modifier type="set" value="1" field="defaultAmount"/>
+      </modifiers>
     </selectionEntry>
   </selectionEntries>
 </gameSystem>
