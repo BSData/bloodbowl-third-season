@@ -7,6 +7,7 @@
     <categoryEntry name="Inducements" id="82fd-d32b-a2e0-5e91" hidden="false"/>
     <categoryEntry name="Elite Skill" id="d731-f15b-0940-46c6" hidden="false"/>
     <categoryEntry name="Player Out" id="798c-71c2-813f-d980" hidden="false"/>
+    <categoryEntry name="Open Beta Release" id="55a5-0400-0e84-b85b" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Standard" id="0430-7fcc-d8c8-f3d8" hidden="false">
@@ -6470,6 +6471,23 @@ If a Frog suffers a Casualty, do not make a Casualty Roll for them. Instead, the
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Gold Pieces" hidden="false" id="9042-5c53-a135-9cfe"/>
       </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="DON&apos;T SUBMIT BUGS FOR NOT IMPLEMENTED FUNCTIONALITY." hidden="false" id="8a6c-6612-7d64-2b09" sortIndex="100" defaultAmount="1">
+      <categoryLinks>
+        <categoryLink targetId="55a5-0400-0e84-b85b" id="b5a6-bbf0-3a88-5b68" primary="true" name="Open Beta Release"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bae7-62f8-9adc-f700" includeChildSelections="false"/>
+      </constraints>
+      <rules>
+        <rule name="Things that aren&apos;t implemented" id="6f58-8a9b-61fc-f4f2" hidden="false">
+          <description>- Low Cost Linemen
+- Separation between exhibition &amp; league play
+
+
+Please don&apos;t submit bug reports for any of these things. Please only submit bug reports for errors/broken functionality.</description>
+        </rule>
+      </rules>
     </selectionEntry>
   </selectionEntries>
 </gameSystem>
