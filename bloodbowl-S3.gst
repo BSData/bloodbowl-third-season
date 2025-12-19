@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-783d-8aac-9dfc-917b" name="Blood Bowl" battleScribeVersion="2.03" revision="1" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" library="true">
+<gameSystem id="sys-783d-8aac-9dfc-917b" name="Blood Bowl Season 3" battleScribeVersion="2.03" revision="1" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" library="true">
   <categoryEntries>
     <categoryEntry name="Player" id="69f8-eb37-db8c-47de" hidden="false"/>
     <categoryEntry name="Team Management" id="9e9f-1d0d-a83d-4cba" hidden="false"/>
@@ -6473,7 +6473,7 @@ If a Frog suffers a Casualty, do not make a Casualty Roll for them. Instead, the
         <selectionEntry type="upgrade" import="true" name="Gold Pieces" hidden="false" id="9042-5c53-a135-9cfe"/>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="DON&apos;T SUBMIT BUGS FOR NOT IMPLEMENTED FUNCTIONALITY." hidden="false" id="8a6c-6612-7d64-2b09" sortIndex="18" defaultAmount="">
+    <selectionEntry type="upgrade" import="true" name="DON&apos;T SUBMIT BUGS FOR NOT IMPLEMENTED FUNCTIONALITY." hidden="false" id="8a6c-6612-7d64-2b09" sortIndex="18">
       <categoryLinks>
         <categoryLink targetId="55a5-0400-0e84-b85b" id="8274-9a7f-ef37-8dad" primary="true" name="Open Beta Release"/>
       </categoryLinks>
