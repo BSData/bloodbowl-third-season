@@ -8,6 +8,7 @@
     <categoryEntry name="Elite Skill" id="d731-f15b-0940-46c6" hidden="false"/>
     <categoryEntry name="Player Out" id="798c-71c2-813f-d980" hidden="false"/>
     <categoryEntry name="Open Beta Release" id="55a5-0400-0e84-b85b" hidden="false"/>
+    <categoryEntry name="Other" id="da89-7679-1972-9f90" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Standard" id="0430-7fcc-d8c8-f3d8" hidden="false">
@@ -21,6 +22,7 @@
         <categoryLink name="Team Management" hidden="false" id="3f93-03a0-6099-5646" targetId="9e9f-1d0d-a83d-4cba"/>
         <categoryLink name="Inducements" hidden="false" id="c946-7439-9b60-0259" targetId="82fd-d32b-a2e0-5e91"/>
         <categoryLink name="Open Beta Release" hidden="false" id="f362-e4b2-7fdc-85f2" targetId="55a5-0400-0e84-b85b"/>
+        <categoryLink name="Other" hidden="false" id="8da6-e9f0-cf1c-e4cd" targetId="da89-7679-1972-9f90"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -932,9 +934,14 @@
         </modifier>
         <modifier type="set" value="20000" field="c4da-96df-1abd-13be" affects="entry"/>
         <modifier type="set" value="0" field="c4da-96df-1abd-13be" affects="self.entries">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="798c-71c2-813f-d980" shared="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="798c-71c2-813f-d980" shared="true" includeChildSelections="false"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="0abe-b763-698b-5a8e" shared="true" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <modifierGroups>
@@ -943,9 +950,14 @@
           <modifiers>
             <modifier type="append" value="(Elite)" field="name" affects="d731-f15b-0940-46c6"/>
             <modifier type="increment" value="10000" field="c4da-96df-1abd-13be" affects="d731-f15b-0940-46c6">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="798c-71c2-813f-d980" shared="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="798c-71c2-813f-d980" shared="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="force" childId="0abe-b763-698b-5a8e" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </modifierGroup>
@@ -963,9 +975,14 @@
         </modifier>
         <modifier type="set" value="40000" field="c4da-96df-1abd-13be" affects="entry"/>
         <modifier type="set" value="0" field="c4da-96df-1abd-13be" affects="self.entries">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="798c-71c2-813f-d980" shared="true" includeChildSelections="false"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="798c-71c2-813f-d980" shared="true" includeChildSelections="false"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="0abe-b763-698b-5a8e" shared="true" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <modifierGroups>
@@ -974,9 +991,14 @@
           <modifiers>
             <modifier type="append" value="(Elite)" field="name" affects="d731-f15b-0940-46c6"/>
             <modifier type="increment" value="10000" field="c4da-96df-1abd-13be" affects="d731-f15b-0940-46c6">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="798c-71c2-813f-d980" shared="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="798c-71c2-813f-d980" shared="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="force" childId="0abe-b763-698b-5a8e" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </modifierGroup>
@@ -1432,9 +1454,14 @@
           </repeats>
         </modifier>
         <modifier type="set" value="0" field="c4da-96df-1abd-13be" affects="self.entries">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="798c-71c2-813f-d980" shared="true" includeChildSelections="false"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="798c-71c2-813f-d980" shared="true" includeChildSelections="false"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="0abe-b763-698b-5a8e" shared="true" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntryGroup>
@@ -2710,9 +2737,46 @@ If a team has a choice of any alignment, they can choose from any of the followi
     <selectionEntry type="upgrade" import="true" name="Primary Skill" hidden="false" id="24b1-712d-1b55-0e5c" sortIndex="31"/>
     <selectionEntry type="upgrade" import="true" name="Secondary Skill" hidden="false" id="eeb0-8b2b-d19e-868d" sortIndex="32"/>
     <selectionEntry type="upgrade" import="true" name="Random Characteristics" hidden="false" id="33c5-a36e-b2b3-39cb" sortIndex="33"/>
+    <selectionEntry type="upgrade" import="true" name="Game Type" hidden="false" id="2fe1-cd76-dd4a-3a40">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="0258-4016-ef56-d52d" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="0460-c067-5756-0d58" includeChildSelections="false"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Game Type" id="46d8-f06b-808b-1cb1" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="League" hidden="false" id="a8c4-9490-855a-ca76">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2856-b2be-9c26-2646"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="1" field="defaultAmount"/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Matched" hidden="false" id="0abe-b763-698b-5a8e">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b128-47b9-64e5-bcfc"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="ab6b-f3c9-fe16-839d"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Roster Status" hidden="false" id="91ec-e00f-e467-9302" type="selectionEntry" targetId="f9a9-1a07-bb0d-66f9"/>
+    <entryLink import="true" name="Roster Status" hidden="false" id="91ec-e00f-e467-9302" type="selectionEntry" targetId="f9a9-1a07-bb0d-66f9">
+      <categoryLinks>
+        <categoryLink targetId="da89-7679-1972-9f90" id="9bcc-db9a-1cf1-0a61" primary="true" name="Other"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Game Type" hidden="false" id="843e-ce79-b775-2f40" type="selectionEntry" targetId="2fe1-cd76-dd4a-3a40">
+      <categoryLinks>
+        <categoryLink targetId="da89-7679-1972-9f90" id="6307-59e8-4429-6c1b" primary="true" name="Other"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <selectionEntries>
     <selectionEntry type="upgrade" import="true" name="Prayers to Nuffle" hidden="false" id="ef91-7218-a045-5402" sortIndex="1">
@@ -6473,7 +6537,7 @@ If a Frog suffers a Casualty, do not make a Casualty Roll for them. Instead, the
         <selectionEntry type="upgrade" import="true" name="Gold Pieces" hidden="false" id="9042-5c53-a135-9cfe"/>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="DON&apos;T SUBMIT BUGS FOR NOT IMPLEMENTED FUNCTIONALITY." hidden="false" id="8a6c-6612-7d64-2b09" sortIndex="18" defaultAmount="">
+    <selectionEntry type="upgrade" import="true" name="DON&apos;T SUBMIT BUGS FOR NOT IMPLEMENTED FUNCTIONALITY." hidden="false" id="8a6c-6612-7d64-2b09" sortIndex="18">
       <categoryLinks>
         <categoryLink targetId="55a5-0400-0e84-b85b" id="8274-9a7f-ef37-8dad" primary="true" name="Open Beta Release"/>
       </categoryLinks>
