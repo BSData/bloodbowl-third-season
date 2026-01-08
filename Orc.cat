@@ -142,7 +142,7 @@
     </categoryEntry>
     <categoryEntry name="Goblin Lineman" id="3403-c01b-9a31-a7f5" hidden="false">
       <constraints>
-        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="afbc-4021-203b-b048" includeChildSelections="true" includeChildForces="false"/>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="afbc-4021-203b-b048" includeChildSelections="true" includeChildForces="false"/>
       </constraints>
     </categoryEntry>
     <categoryEntry name="Orc Blitzer" id="cf3a-035f-dd50-6ea7" hidden="false">
