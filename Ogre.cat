@@ -76,6 +76,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="ed42-0169-8d26-6860" primary="true" name="Player"/>
         <categoryLink targetId="3a1e-2c90-7460-6265" id="c197-7c6b-c2eb-fdbf" primary="false" name="Gnoblar Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="d757-f1f5-c51c-1e20" primary="false" name="Lineman"/>
       </categoryLinks>
       <profiles>
         <profile name="Gnoblar Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="9d19-2a4a-7cd1-75d4">
