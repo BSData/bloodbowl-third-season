@@ -9,6 +9,7 @@
     <categoryEntry name="Player Out" id="798c-71c2-813f-d980" hidden="false"/>
     <categoryEntry name="Open Beta Release" id="55a5-0400-0e84-b85b" hidden="false"/>
     <categoryEntry name="Other" id="da89-7679-1972-9f90" hidden="false"/>
+    <categoryEntry name="Lineman" id="febf-78f5-fbf5-a88f" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Standard" id="0430-7fcc-d8c8-f3d8" hidden="false">
@@ -2702,6 +2703,18 @@ If a team has a choice of any alignment, they can choose from any of the followi
         <infoLink name="Low Cost Linemen" id="8a14-20c2-cfb3-29a4" hidden="false" type="rule" targetId="5144-7fbb-8adf-ff4f"/>
       </infoLinks>
       <comment>Team Special Rules</comment>
+      <modifiers>
+        <modifier type="set" value="0" field="c4da-96df-1abd-13be" scope="force" affects="self.entries.febf-78f5-fbf5-a88f">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="a8c4-9490-855a-ca76" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="7aa1-6377-3726-b943" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Masters of Undeath" hidden="false" id="4ce9-c686-aec9-b623" sortIndex="20">
       <infoLinks>

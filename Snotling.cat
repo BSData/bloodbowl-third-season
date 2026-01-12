@@ -179,6 +179,7 @@
       </costs>
       <categoryLinks>
         <categoryLink targetId="e3dc-268c-5e35-916a" id="fdae-8547-33e3-f78b" primary="false" name="Snotling Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="d3c3-6a75-01b1-be7e" primary="false" name="Lineman"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Primary Skill" hidden="false" id="524d-4c91-58e1-f92f" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
