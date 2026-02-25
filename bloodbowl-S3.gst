@@ -6507,9 +6507,38 @@ If a Frog suffers a Casualty, do not make a Casualty Roll for them. Instead, the
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ccd8-aac8-5475-6254" includeChildSelections="false"/>
             <constraint type="max" value="7" field="selections" scope="parent" shared="true" id="86f8-bd70-0ab6-6000" includeChildSelections="false"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="0" field="ccd8-aac8-5475-6254">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="0abe-b763-698b-5a8e" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="c4da-96df-1abd-13be">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="a8c4-9490-855a-ca76" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="7aa1-6377-3726-b943" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="TV" typeId="c4da-96df-1abd-13be" value="5000"/>
+            <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <comment>Team Management</comment>
+      <modifiers>
+        <modifier type="decrement" value="5000" field="c4da-96df-1abd-13be">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="a8c4-9490-855a-ca76" shared="true" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="5eff-d5f5-15d0-07dc" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Apothecary" hidden="false" id="e853-f26b-c0c9-4316" sortIndex="-1">
       <categoryLinks>
