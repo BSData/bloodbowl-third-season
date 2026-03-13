@@ -6,26 +6,25 @@
         <constraint type="max" value="16" field="selections" scope="roster" shared="true" id="3d4f-2f0c-f797-5101" includeChildSelections="true"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry name="High Elf Thrower" id="1976-5d9c-2a24-a692" hidden="false">
+    <categoryEntry name="Phoenix Warrior" id="1976-5d9c-2a24-a692" hidden="false">
       <constraints>
         <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="7139-184c-cfaf-cb28" includeChildSelections="true"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry name="High Elf Catcher" id="24cc-eff6-694d-bda8" hidden="false">
+    <categoryEntry name="Dragon Prince" id="24cc-eff6-694d-bda8" hidden="false">
       <constraints>
-        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="6a40-c660-6ce2-08a1" includeChildSelections="true"/>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="6a40-c660-6ce2-08a1" includeChildSelections="true"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry name="High Elf Blitzer" id="392e-2665-f148-2f3c" hidden="false">
+    <categoryEntry name="White Lion" id="392e-2665-f148-2f3c" hidden="false">
       <constraints>
         <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="d68d-a421-fbd0-0bfd" includeChildSelections="true"/>
       </constraints>
     </categoryEntry>
   </categoryEntries>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="High Elf Lineman" hidden="false" id="d815-c010-af2b-6447">
+    <selectionEntry type="model" import="true" name="High Elf Lineman" hidden="false" id="d815-c010-af2b-6447">
       <categoryLinks>
-        <categoryLink targetId="69f8-eb37-db8c-47de" id="0980-4998-7283-e6cf" primary="true" name="Player"/>
         <categoryLink targetId="1394-d1be-93b9-a721" id="8c86-48a7-5d91-e657" primary="false" name="High Elf Lineman"/>
       </categoryLinks>
       <profiles>
@@ -38,7 +37,7 @@
             <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
             <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4"/>
             <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AG</characteristic>
-            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">PS</characteristic>
+            <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">S</characteristic>
             <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">65,000</characteristic>
             <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
             <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Elf**, **Lineman**</characteristic>
@@ -54,7 +53,6 @@
         </entryLink>
         <entryLink import="true" name="Secondary Skill" hidden="false" id="8d7f-e97d-d450-c575" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
           <entryLinks>
-            <entryLink import="true" name="Passing" hidden="false" id="05ef-09d0-9d7d-33ce" type="selectionEntryGroup" targetId="20e9-6c45-24be-0559"/>
             <entryLink import="true" name="Strength" hidden="false" id="a6a9-7c4d-5f5f-0db7" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
           </entryLinks>
         </entryLink>
@@ -63,14 +61,18 @@
         <entryLink import="true" name="Characteristics Improvement" hidden="false" id="9728-d919-1eda-0fd6" type="selectionEntryGroup" targetId="7eb2-4d02-cfdf-c71d"/>
         <entryLink import="true" name="Injuries" hidden="false" id="8b10-c78d-3913-bf94" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="65000"/>
+        <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="High Elf Thrower" hidden="false" id="d55f-e6b7-6987-01ad">
+    <selectionEntry type="model" import="true" name="Phoenix Warrior" hidden="false" id="d55f-e6b7-6987-01ad">
       <categoryLinks>
-        <categoryLink targetId="69f8-eb37-db8c-47de" id="86ca-41f0-56cb-0754" primary="true" name="Player"/>
         <categoryLink targetId="1976-5d9c-2a24-a692" id="9fcd-b906-e132-2361" primary="false" name="High Elf Thrower"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="b505-daec-f39f-0eae" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
-        <profile name="High Elf Thrower" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="ece9-6e1a-561a-27e3">
+        <profile name="Phoenix Warrior" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="ece9-6e1a-561a-27e3">
           <characteristics>
             <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">6</characteristic>
             <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
@@ -80,7 +82,7 @@
             <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Cloud Burster, Pass, Safe Pass</characteristic>
             <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AGP</characteristic>
             <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">S</characteristic>
-            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">100,000</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">90,000</characteristic>
             <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
             <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Elf**, **Thrower**</characteristic>
           </characteristics>
@@ -114,26 +116,30 @@
         <infoLink name="Pass (Active)" id="7ff1-874d-9977-f9c1" hidden="false" type="rule" targetId="5149-08e1-df59-78bd"/>
         <infoLink name="Safe Pass (Active)" id="7f73-74c0-10d2-80fe" hidden="false" type="rule" targetId="58c3-5b5a-6799-3086"/>
       </infoLinks>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="90000"/>
+        <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="High Elf Catcher" hidden="false" id="ce6d-73b1-07b1-5dc1">
+    <selectionEntry type="model" import="true" name="Dragon Prince" hidden="false" id="ce6d-73b1-07b1-5dc1">
       <categoryLinks>
-        <categoryLink targetId="69f8-eb37-db8c-47de" id="0640-2674-9a36-55b8" primary="true" name="Player"/>
         <categoryLink targetId="24cc-eff6-694d-bda8" id="9850-1c10-f6d5-386b" primary="false" name="High Elf Catcher"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="1af9-dc90-8454-6ca8" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
-        <profile name="High Elf Catcher" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="7985-3d7f-51de-03cd">
+        <profile name="Dragon Prince" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="7985-3d7f-51de-03cd">
           <characteristics>
             <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">8</characteristic>
             <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
             <characteristic name="AG" typeId="644d-fe29-947f-5eb7">2+</characteristic>
-            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3+</characteristic>
-            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">8+</characteristic>
-            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Catch</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Block, My Ball, Steady Footing</characteristic>
             <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AG</characteristic>
             <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">S</characteristic>
-            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">90,000</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">110,000</characteristic>
             <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
-            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Elf**, **Catcher**</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blitzer**, **Elf**, **Runner**</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -155,31 +161,38 @@
         <entryLink import="true" name="Injuries" hidden="false" id="1c44-1b44-68e7-2f18" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Catch (Active)" id="375e-5475-b7b7-2363" hidden="false" type="rule" targetId="098e-6fa4-284c-49ca"/>
+        <infoLink name="Block (Active)" id="1b9e-eaa7-6b7e-6364" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
+        <infoLink name="Steady Footing (Active)" id="b242-f098-2cac-ab48" hidden="false" type="rule" targetId="6a53-7189-b23e-1778"/>
+        <infoLink name="My Ball* (Passive)" id="becf-7fdf-8ce8-06d8" hidden="false" type="rule" targetId="2ae2-059d-39ab-0d1d"/>
       </infoLinks>
       <modifiers>
-        <modifier type="set" value="true" field="hidden" affects="self.entries.3cbf-9190-877a-dd8d"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.0e89-4745-7902-b155"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.09ba-cd46-c151-4e45"/>
       </modifiers>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="110000"/>
+        <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="High Elf Blitzer" hidden="false" id="f7bf-a686-4375-4bf5">
+    <selectionEntry type="model" import="true" name="White Lion" hidden="false" id="f7bf-a686-4375-4bf5">
       <categoryLinks>
-        <categoryLink targetId="69f8-eb37-db8c-47de" id="52f2-fe6d-a2df-9000" primary="true" name="Player"/>
         <categoryLink targetId="392e-2665-f148-2f3c" id="2db3-07c3-206a-c50f" primary="false" name="High Elf Blitzer"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="b0f1-1ced-758a-7b5c" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
-        <profile name="High Elf Blitzer" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="5b23-3973-660a-f6c8">
+        <profile name="White Lion" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="5b23-3973-660a-f6c8">
           <characteristics>
             <characteristic name="MA" typeId="5b6f-6247-0c21-83d3">7</characteristic>
             <characteristic name="ST" typeId="6fbf-0646-8c8f-4851">3</characteristic>
             <characteristic name="AG" typeId="644d-fe29-947f-5eb7">2+</characteristic>
-            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">4+</characteristic>
+            <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">3+</characteristic>
             <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">9+</characteristic>
-            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Block</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Claws, Wrestle</characteristic>
             <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">AG</characteristic>
             <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">PS</characteristic>
-            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">100,000</characteristic>
+            <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">110,000</characteristic>
             <characteristic name="SPP" typeId="57d9-dc9e-5331-d2af">0</characteristic>
-            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Elf**, **Blitzer**</characteristic>
+            <characteristic name="Keywords" typeId="ac0d-44e2-a884-6d6a">**Blitzer**, **Elf**</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -202,33 +215,39 @@
         <entryLink import="true" name="Injuries" hidden="false" id="b94e-a93a-d721-16bf" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
       <modifiers>
-        <modifier type="set" value="true" field="hidden" affects="self.entries.0e89-4745-7902-b155"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.a648-03ec-727a-921a"/>
+        <modifier type="set" value="true" field="hidden" affects="self.entries.e82b-325f-56c3-ff73"/>
       </modifiers>
       <infoLinks>
-        <infoLink name="Block (Active)" id="d50b-174a-ae63-a379" hidden="false" type="rule" targetId="85b4-cdee-1e19-3038"/>
+        <infoLink name="Wrestle (Active)" id="cfac-2883-915b-8ba1" hidden="false" type="rule" targetId="402c-5594-a4de-8404"/>
+        <infoLink name="Claws (Passive)" id="1ac4-93a8-18f6-2d02" hidden="false" type="rule" targetId="6f08-6919-3fb4-77b1"/>
       </infoLinks>
+      <costs>
+        <cost name="TV" typeId="c4da-96df-1abd-13be" value="110000"/>
+        <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
-    <entryLink import="true" name="High Elf Blitzer" hidden="false" id="a7d0-8b18-c31e-67f8" type="selectionEntry" targetId="f7bf-a686-4375-4bf5" sortIndex="4">
-      <costs>
-        <cost name="TV" typeId="c4da-96df-1abd-13be" value="100000"/>
-      </costs>
+    <entryLink import="true" name="High Elf Blitzer" hidden="false" id="a7d0-8b18-c31e-67f8" type="selectionEntry" targetId="f7bf-a686-4375-4bf5" sortIndex="2">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="a668-80ff-8dae-3eb3" primary="true" name="Player"/>
+      </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="High Elf Catcher" hidden="false" id="5cd9-8f0f-7d0d-5c53" type="selectionEntry" targetId="ce6d-73b1-07b1-5dc1" sortIndex="3">
-      <costs>
-        <cost name="TV" typeId="c4da-96df-1abd-13be" value="90000"/>
-      </costs>
+    <entryLink import="true" name="High Elf Catcher" hidden="false" id="5cd9-8f0f-7d0d-5c53" type="selectionEntry" targetId="ce6d-73b1-07b1-5dc1" sortIndex="4">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="db11-557e-15b1-218c" primary="true" name="Player"/>
+      </categoryLinks>
     </entryLink>
     <entryLink import="true" name="High Elf Lineman" hidden="false" id="91d6-f534-fad7-1039" type="selectionEntry" targetId="d815-c010-af2b-6447" sortIndex="1">
-      <costs>
-        <cost name="TV" typeId="c4da-96df-1abd-13be" value="65000"/>
-      </costs>
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="985d-681a-3c04-687c" primary="true" name="Player"/>
+      </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="High Elf Thrower" hidden="false" id="3c25-eb87-1876-2cab" type="selectionEntry" targetId="d55f-e6b7-6987-01ad" sortIndex="2">
-      <costs>
-        <cost name="TV" typeId="c4da-96df-1abd-13be" value="100000"/>
-      </costs>
+    <entryLink import="true" name="High Elf Thrower" hidden="false" id="3c25-eb87-1876-2cab" type="selectionEntry" targetId="d55f-e6b7-6987-01ad" sortIndex="3">
+      <categoryLinks>
+        <categoryLink targetId="69f8-eb37-db8c-47de" id="984f-4a92-f983-5fc2" primary="true" name="Player"/>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <selectionEntries>
