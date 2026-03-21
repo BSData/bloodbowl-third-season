@@ -6588,8 +6588,9 @@ If a Frog suffers a Casualty, do not make a Casualty Roll for them. Instead, the
       </constraints>
       <rules>
         <rule name="Things that aren&apos;t implemented" id="6f58-8a9b-61fc-f4f2" hidden="false">
-          <description>- Low Cost Linemen
-- Separation between exhibition &amp; league play
+          <description>- Sevens, Dungeon Ball, and other alternate modes of play
+- Mercenaries
+- Characteristics caps
 
 
 Please don&apos;t submit bug reports for any of these things. Please only submit bug reports for errors/broken functionality.</description>
