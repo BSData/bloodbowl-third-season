@@ -258,7 +258,6 @@
         <infoLink name="Regeneration (Passive)" id="3f5d-9a79-fde5-6ae2" hidden="false" type="rule" targetId="0a40-9de5-524f-aaea"/>
       </infoLinks>
       <modifiers>
-        <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
         <modifier type="set" value="true" field="hidden" affects="self.entries.174f-5c4a-d02f-096e"/>
       </modifiers>
       <entryLinks>
