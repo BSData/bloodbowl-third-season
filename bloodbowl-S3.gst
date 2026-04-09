@@ -1061,7 +1061,7 @@
         <selectionEntry type="upgrade" import="true" name="Interception" hidden="false" id="3da5-382d-b8c7-f9ff" sortIndex="4">
           <costs>
             <cost name="TV" typeId="c4da-96df-1abd-13be" value="0"/>
-            <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="1"/>
+            <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="2"/>
           </costs>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Completion" hidden="false" id="3562-da05-bb91-9a83" sortIndex="3">
