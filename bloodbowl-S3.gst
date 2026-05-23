@@ -1882,7 +1882,7 @@ If a player tries to leave the Tackle Zone of multiple players with this Skill a
       <description>When drafting a Team Draft Roster for a team with this special rule, you may nominate any player on your starting roster (with the exception of a **Big Guy**) to be your Team Captain. A Team Captain immediately gains the Pro Skill without increasing their cost. Additionally, while your Team Captain is on the pitch, whenever you use a Team Re-roll you may roll a D6; on the roll of a natural 6 the Team Re-roll is free.
 
 
-When setting up at the start of a Drive, you must choose to field your Team Captain if able. A Team Captain can only ever be fired from your roster if they have suffered an injury that has reduced one of their characteristics. However, should a Team Captain ever be killed during a game then you may appoint a new Team Captain at the end of the game.</description>
+When setting up at the start of a Drive, you must choose to field your Team Captain if able. A Team Captain can only ever be fired from your roster if they have suffered an injury that has reduced one of their characteristics. However, should a Team Captain ever be removed from your roster then you may appoint a new Team Captain during the Pre-game Sequence of your next League Fixture.</description>
     </rule>
     <rule name="Masters of Undeath" id="7f71-cda8-2d0d-b094" hidden="false">
       <comment>Special Rule</comment>
@@ -2327,7 +2327,7 @@ Some players may have the Animosity (all) Trait, in which case they will apply t
 When a player performs a Ball &amp; Chain Special Action, position the Throw-in Template over this player so it faces one of the two End Zones or either Sideline. Then roll a D6 and move this player into the square as indicated by the Throw-in Template.
 
 
-A player that moves in this manner does not have to make an Agility Test to Dodge away from another player&apos;s Tackle Zone; they will automatically pass. Opposition players cannot use the Shadowing or Tentacles Skills against a player performing a Ball &amp; Chain Action.
+A player that moves in this manner does not have to make an Agility Test to Dodge away from another player&apos;s Tackle Zone; they will automatically pass. Opposition players cannot use the Shadowing or Tentacles Skills against a player performing a Ball &amp; Chain Action. A player performing a Ball &amp; Chain Action cannot be prevented from moving by the Chomped condition.
 
 
 • If this move takes this player off the pitch, they will risk injury by the Crowd.

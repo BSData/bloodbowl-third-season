@@ -157,6 +157,7 @@
         <entryLink import="true" name="Secondary Skill" hidden="false" id="b0d2-3f0f-c32a-d5e7" type="selectionEntryGroup" targetId="290c-cda9-c02e-31a1">
           <entryLinks>
             <entryLink import="true" name="Strength" hidden="false" id="1316-5355-e32d-3c43" type="selectionEntryGroup" targetId="31a8-34bd-4d79-5269"/>
+            <entryLink import="true" name="Agility" hidden="false" id="ffc1-9ead-5465-722e" type="selectionEntryGroup" targetId="fcc9-3efe-db4e-206d"/>
           </entryLinks>
         </entryLink>
         <entryLink import="true" name="Advancements" hidden="false" id="58bf-6c1c-f390-24fb" type="selectionEntryGroup" targetId="fd63-8a05-4896-5738"/>
