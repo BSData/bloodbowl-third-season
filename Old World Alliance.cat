@@ -576,7 +576,7 @@
             <characteristic name="AG" typeId="644d-fe29-947f-5eb7">5+</characteristic>
             <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5+</characteristic>
             <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">11+</characteristic>
-            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Mighty Blow, Stand Firm, Strong Arm, Take Root, Thick Skull, Throw Team-mate, Timmm-ber!</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Loner(4+), Mighty Blow, Stand Firm, Strong Arm, Take Root, Thick Skull, Throw Team-mate, Timmm-ber!</characteristic>
             <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
             <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGP</characteristic>
             <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">120,000</characteristic>
@@ -611,6 +611,7 @@
         <infoLink name="Thick Skull (Passive)" id="16cd-9150-c875-eee2" hidden="false" type="rule" targetId="d547-b26d-592c-30e1"/>
         <infoLink name="Throw Team-mate (Active)" id="4f7b-34ce-4989-ad4e" hidden="false" type="rule" targetId="25e0-225c-008f-bda3"/>
         <infoLink name="Timmm-ber! (Passive)" id="ebc5-91c3-d3e1-e901" hidden="false" type="rule" targetId="926b-0f53-110d-d32d"/>
+        <infoLink name="Loner (X+)* (Passive)" id="48f1-54dc-4a41-15b4" hidden="false" type="rule" targetId="5ca2-1ec1-85bb-e3b5"/>
       </infoLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden" affects="self.entries.b7af-e07f-efc9-8aa4"/>

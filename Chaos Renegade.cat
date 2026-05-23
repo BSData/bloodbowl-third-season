@@ -353,7 +353,7 @@
             <characteristic name="AG" typeId="644d-fe29-947f-5eb7">4+</characteristic>
             <characteristic name="PA" typeId="51bf-7f91-4729-9e2d">5+</characteristic>
             <characteristic name="AV" typeId="599c-91d6-b1ed-6aba">10+</characteristic>
-            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Bone Head, Loner (4+), Mighty Blow, Thick Skull, Throw Team-mate</characteristic>
+            <characteristic name="Skills &amp; Traits" typeId="a256-4228-5691-a7d4">Bone Head, Loner (3+), Mighty Blow, Thick Skull, Throw Team-mate</characteristic>
             <characteristic name="Primary" typeId="45d5-7c88-6f4f-75fb">S</characteristic>
             <characteristic name="Secondary" typeId="fb9c-ee87-c6b3-9f1d">AGM</characteristic>
             <characteristic name="Cost" typeId="7b1e-4ff6-3a59-6f21">140,000</characteristic>
