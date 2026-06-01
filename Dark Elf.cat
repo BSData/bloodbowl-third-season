@@ -28,7 +28,7 @@
     </categoryEntry>
   </categoryEntries>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Dark Elf Lineman" hidden="false" id="88ea-80e3-40d4-da1d">
+    <selectionEntry type="model" import="true" name="Dark Elf Lineman" hidden="false" id="88ea-80e3-40d4-da1d">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="e0c5-8c5e-dba7-4fc8" primary="true" name="Player"/>
         <categoryLink targetId="df5b-9ac4-3d1b-8f5d" id="24dd-b2fd-f6fe-3aa5" primary="false" name="Dark Elf Lineman"/>
@@ -69,7 +69,7 @@
         <entryLink import="true" name="Injuries" hidden="false" id="9ebe-3a4d-5bd3-572c" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Dark Elf Runner" hidden="false" id="f370-cf76-f7b7-1e2a">
+    <selectionEntry type="model" import="true" name="Dark Elf Runner" hidden="false" id="f370-cf76-f7b7-1e2a">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="1da7-6219-c745-573c" primary="true" name="Player"/>
         <categoryLink targetId="e54c-02df-12a2-f4b4" id="4e08-b5f6-d102-3287" primary="false" name="Dark Elf Runner"/>
@@ -119,7 +119,7 @@
         <entryLink import="true" name="Injuries" hidden="false" id="34c2-ab3a-e3fc-bf45" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Dark Elf Assassin" hidden="false" id="672a-deb2-5096-7cd9">
+    <selectionEntry type="model" import="true" name="Dark Elf Assassin" hidden="false" id="672a-deb2-5096-7cd9">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="3b9b-e3a8-1f2a-a2f5" primary="true" name="Player"/>
         <categoryLink targetId="75ae-0892-eba2-834b" id="5fff-a430-ad2c-3612" primary="false" name="Dark Elf Assassin"/>
@@ -169,7 +169,7 @@
         <entryLink import="true" name="Injuries" hidden="false" id="9aed-c341-d54a-fafc" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Dark Elf Blitzer" hidden="false" id="6c73-4d20-8f6a-e569">
+    <selectionEntry type="model" import="true" name="Dark Elf Blitzer" hidden="false" id="6c73-4d20-8f6a-e569">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="ac28-a359-1788-ab00" primary="true" name="Player"/>
         <categoryLink targetId="a69d-bba9-bb67-ad40" id="78b2-b394-d921-b338" primary="false" name="Dark Elf Blitzer"/>
@@ -217,7 +217,7 @@
         <entryLink import="true" name="Injuries" hidden="false" id="545b-54aa-ac09-685f" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Witch Elf" hidden="false" id="82bf-de65-c8f1-2514">
+    <selectionEntry type="model" import="true" name="Witch Elf" hidden="false" id="82bf-de65-c8f1-2514">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="799b-274f-8c45-1081" primary="true" name="Player"/>
         <categoryLink targetId="af3c-9452-dcc5-eacc" id="da0c-3d43-6f0b-97bb" primary="false" name="Witch Elf"/>

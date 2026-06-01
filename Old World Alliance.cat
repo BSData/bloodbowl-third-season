@@ -72,7 +72,7 @@
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Human Lineman" hidden="false" id="4085-e2e0-981f-d7f7">
+    <selectionEntry type="model" import="true" name="Human Lineman" hidden="false" id="4085-e2e0-981f-d7f7">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="56ea-629f-8f84-8eea" primary="true" name="Player"/>
         <categoryLink targetId="a129-00ba-4498-9668" id="657a-9068-ba32-7263" primary="false" name="Human Lineman"/>
@@ -112,7 +112,7 @@
         <entryLink import="true" name="Injuries" hidden="false" id="7750-4782-334b-87db" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Halfling Hopeful" hidden="false" id="b4b6-8990-576b-5d6e">
+    <selectionEntry type="model" import="true" name="Halfling Hopeful" hidden="false" id="b4b6-8990-576b-5d6e">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="ed69-68cf-8480-861b" primary="true" name="Player"/>
         <categoryLink targetId="c367-a817-1e7d-6813" id="4c58-4b22-2641-b106" primary="false" name="Halfling Hopeful"/>
@@ -160,7 +160,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Human Catcher" hidden="false" id="0431-6a94-6e52-3a3a">
+    <selectionEntry type="model" import="true" name="Human Catcher" hidden="false" id="0431-6a94-6e52-3a3a">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="86ad-faae-ad4d-4c37" primary="true" name="Player"/>
         <categoryLink targetId="fd70-ff3b-d558-9cfa" id="a6ea-0d6a-45d0-cb87" primary="false" name="Human Catcher"/>
@@ -209,7 +209,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.fd3f-cc07-9cc8-98ea"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Dwarf Lineman" hidden="false" id="71a9-f1a4-e30c-5ccd">
+    <selectionEntry type="model" import="true" name="Dwarf Lineman" hidden="false" id="71a9-f1a4-e30c-5ccd">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="6b58-5289-87bd-6b6b" primary="true" name="Player"/>
         <categoryLink targetId="3467-a6ee-9d05-cd42" id="5ff0-4ac5-ad51-a99f" primary="false" name="Dwarf Lineman"/>
@@ -259,7 +259,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Human Thrower" hidden="false" id="3e66-ca34-d7d0-0012">
+    <selectionEntry type="model" import="true" name="Human Thrower" hidden="false" id="3e66-ca34-d7d0-0012">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="dac5-c423-1192-5ed6" primary="true" name="Player"/>
         <categoryLink targetId="c01d-a147-16c0-d7df" id="6020-e2a0-3712-b972" primary="false" name="Human Thrower"/>
@@ -308,7 +308,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.27b1-e9c4-d427-d2d8"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Dwarf Runner" hidden="false" id="91e4-b1cb-f2ca-bd1f">
+    <selectionEntry type="model" import="true" name="Dwarf Runner" hidden="false" id="91e4-b1cb-f2ca-bd1f">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="517a-6f55-d691-0a0c" primary="true" name="Player"/>
         <categoryLink targetId="bc70-dd41-5696-4130" id="4180-b135-50ff-1cdc" primary="false" name="Dwarf Runner"/>
@@ -359,7 +359,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Human Blitzer" hidden="false" id="3a80-cba8-07b4-610c">
+    <selectionEntry type="model" import="true" name="Human Blitzer" hidden="false" id="3a80-cba8-07b4-610c">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="dc4d-4dbd-4442-c2ce" primary="true" name="Player"/>
         <categoryLink targetId="9e59-ed3a-c36c-8e75" id="6b41-d5ea-118e-002a" primary="false" name="Human Blitzer"/>
@@ -407,7 +407,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.730f-16ec-313f-88ce"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Dwarf Blitzer" hidden="false" id="7c98-07fc-ea39-e07a">
+    <selectionEntry type="model" import="true" name="Dwarf Blitzer" hidden="false" id="7c98-07fc-ea39-e07a">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="73d3-d640-93c8-ce2f" primary="true" name="Player"/>
         <categoryLink targetId="2716-94d2-039b-1265" id="11b2-6e6e-a5aa-229b" primary="false" name="Dwarf Blitzer"/>
@@ -459,7 +459,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Troll Slayer" hidden="false" id="4626-9b15-2271-e732">
+    <selectionEntry type="model" import="true" name="Troll Slayer" hidden="false" id="4626-9b15-2271-e732">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="7381-b4fe-a397-9ace" primary="true" name="Player"/>
         <categoryLink targetId="8a8d-07dd-43d5-bf89" id="fa21-076c-ccec-c137" primary="false" name="Troll Slayer"/>
@@ -512,7 +512,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Ogre" hidden="false" id="f791-5e53-4e7c-bfad">
+    <selectionEntry type="model" import="true" name="Ogre" hidden="false" id="f791-5e53-4e7c-bfad">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="2041-d791-e13e-44f6" primary="true" name="Player"/>
         <categoryLink targetId="fbf7-5e16-85d2-1908" id="dbd0-129b-6c03-c549" primary="false" name="Big Guy"/>
@@ -563,7 +563,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Altern Forest Treeman" hidden="false" id="df71-11fa-f234-2a56">
+    <selectionEntry type="model" import="true" name="Altern Forest Treeman" hidden="false" id="df71-11fa-f234-2a56">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="3697-3f77-1e30-f565" primary="true" name="Player"/>
         <categoryLink targetId="fbf7-5e16-85d2-1908" id="b030-a2f8-3735-f6ba" primary="false" name="Big Guy"/>

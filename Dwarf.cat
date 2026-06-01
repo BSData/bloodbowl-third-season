@@ -70,7 +70,7 @@
     </categoryEntry>
   </categoryEntries>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Dwarf Lineman" hidden="false" id="b2dd-51e5-6183-0724">
+    <selectionEntry type="model" import="true" name="Dwarf Lineman" hidden="false" id="b2dd-51e5-6183-0724">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="f466-54ca-504a-d545" primary="true" name="Player"/>
         <categoryLink targetId="c65e-b7b8-4dc9-7423" id="778d-104d-aac1-afac" primary="false" name="Dawrf Lineman"/>
@@ -120,7 +120,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Dwarf Runner" hidden="false" id="92b7-e877-e21d-074f">
+    <selectionEntry type="model" import="true" name="Dwarf Runner" hidden="false" id="92b7-e877-e21d-074f">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="8ea3-7b1f-8782-4995" primary="true" name="Player"/>
         <categoryLink targetId="16ab-a251-137c-534b" id="a6a4-5076-41ae-be92" primary="false" name="Dwarf Runner"/>
@@ -171,7 +171,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Dwarf Blitzer" hidden="false" id="77f9-5b50-eeb3-0fc7">
+    <selectionEntry type="model" import="true" name="Dwarf Blitzer" hidden="false" id="77f9-5b50-eeb3-0fc7">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="3606-028d-8873-7ac2" primary="true" name="Player"/>
         <categoryLink targetId="bddf-dab2-2a4e-fead" id="aea1-5ba0-bd9f-2054" primary="false" name="Dwarf Blitzer"/>
@@ -223,7 +223,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Troll Slayer" hidden="false" id="c3ea-16c0-ff68-f4f6">
+    <selectionEntry type="model" import="true" name="Troll Slayer" hidden="false" id="c3ea-16c0-ff68-f4f6">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="5941-995c-38dc-6e7c" primary="true" name="Player"/>
         <categoryLink targetId="6aaf-5ab0-ece6-ffe0" id="1480-34c5-8776-ffee" primary="false" name="Troll Slayer"/>
@@ -276,7 +276,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Death Roller" hidden="false" id="1041-75eb-159d-2832">
+    <selectionEntry type="model" import="true" name="Death Roller" hidden="false" id="1041-75eb-159d-2832">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="53f8-a9a8-1945-55a3" primary="true" name="Player"/>
         <categoryLink targetId="042c-9ecd-9f36-f9db" id="844b-55d3-07c8-bb52" primary="false" name="Deathroller"/>

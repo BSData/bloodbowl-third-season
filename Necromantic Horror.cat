@@ -28,7 +28,7 @@
     </categoryEntry>
   </categoryEntries>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Zombie Lineman" hidden="false" id="8cbe-5198-372f-ece5">
+    <selectionEntry type="model" import="true" name="Zombie Lineman" hidden="false" id="8cbe-5198-372f-ece5">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="ec89-ad13-15e0-5834" primary="true" name="Player"/>
         <categoryLink targetId="c106-9e14-0f65-173d" id="c5f0-ffe8-5fea-b2d1" primary="false" name="Zombie Lineman"/>
@@ -77,7 +77,7 @@
         <entryLink import="true" name="Injuries" hidden="false" id="daf0-a612-a0c8-d8bc" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Ghoul Runner" hidden="false" id="b111-4766-0970-1f47">
+    <selectionEntry type="model" import="true" name="Ghoul Runner" hidden="false" id="b111-4766-0970-1f47">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="fa27-b4f7-5341-c6db" primary="true" name="Player"/>
         <categoryLink targetId="a2aa-2c48-23cd-89c6" id="9ef8-e211-ea62-a950" primary="false" name="Ghoul Runner"/>
@@ -126,7 +126,7 @@
         <entryLink import="true" name="Injuries" hidden="false" id="5619-825b-6728-941a" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Wraith" hidden="false" id="11b1-28e7-6b55-24d6">
+    <selectionEntry type="model" import="true" name="Wraith" hidden="false" id="11b1-28e7-6b55-24d6">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="7a41-3b24-4c2a-1237" primary="true" name="Player"/>
         <categoryLink targetId="cce2-017f-a1d5-58d2" id="3d23-5183-20a5-fb42" primary="false" name="Wraith"/>
@@ -179,7 +179,7 @@
         <entryLink import="true" name="Injuries" hidden="false" id="290f-d2f2-0520-1f9f" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Flesh Golem" hidden="false" id="4f5e-507d-4704-cb20">
+    <selectionEntry type="model" import="true" name="Flesh Golem" hidden="false" id="4f5e-507d-4704-cb20">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="78a6-2132-7e4e-26c0" primary="true" name="Player"/>
         <categoryLink targetId="6a5b-d66a-9561-8908" id="a03d-4889-3c36-dceb" primary="false" name="Flesh Golem"/>
@@ -230,7 +230,7 @@
         <entryLink import="true" name="Injuries" hidden="false" id="045f-34d1-61a3-8536" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Werewolf" hidden="false" id="86db-14ce-a48c-be24">
+    <selectionEntry type="model" import="true" name="Werewolf" hidden="false" id="86db-14ce-a48c-be24">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="2bfb-1a2d-20ca-40c7" primary="true" name="Player"/>
         <categoryLink targetId="3b50-c3ca-f2d6-4891" id="6eb0-dafd-743d-2bf5" primary="false" name="Werewolf"/>

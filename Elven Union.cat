@@ -42,7 +42,7 @@
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Elf Lineman" hidden="false" id="d8c1-829e-d0b8-0618">
+    <selectionEntry type="model" import="true" name="Elf Lineman" hidden="false" id="d8c1-829e-d0b8-0618">
       <profiles>
         <profile name="Elf Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="b027-abc0-ba17-8302">
           <characteristics>
@@ -88,7 +88,7 @@
         <categoryLink targetId="ef5c-95f5-a69e-bbf6" id="b934-b867-fd32-11e0" primary="false" name="Elf Lineman"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Elf Thrower" hidden="false" id="f1d5-7ea7-5b30-168e">
+    <selectionEntry type="model" import="true" name="Elf Thrower" hidden="false" id="f1d5-7ea7-5b30-168e">
       <profiles>
         <profile name="Elf Thrower" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="83af-f712-f920-c780">
           <characteristics>
@@ -137,7 +137,7 @@
         <categoryLink targetId="2d58-5a33-df77-011e" id="bea1-dea5-1aef-c543" primary="false" name="Elf Thrower"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Elf Catcher" hidden="false" id="6a4b-13ba-a868-3416">
+    <selectionEntry type="model" import="true" name="Elf Catcher" hidden="false" id="6a4b-13ba-a868-3416">
       <profiles>
         <profile name="Elf Catcher" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="ced6-502b-4438-d20a">
           <characteristics>
@@ -187,7 +187,7 @@
         <categoryLink targetId="a85a-6d18-702c-787d" id="ccda-91fb-4303-988d" primary="false" name="Elf Catcher"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Elf Blitzer" hidden="false" id="beb8-a957-9b94-4800">
+    <selectionEntry type="model" import="true" name="Elf Blitzer" hidden="false" id="beb8-a957-9b94-4800">
       <profiles>
         <profile name="Elf Blitzer" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="4f73-d340-571f-31bf">
           <characteristics>
