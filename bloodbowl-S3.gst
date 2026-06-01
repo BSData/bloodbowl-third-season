@@ -4740,6 +4740,13 @@ Additionally, a team with a Team Mascot can re-roll any rolls of a natural 1 whe
               <categoryLinks>
                 <categoryLink targetId="69f8-eb37-db8c-47de" id="0d5d-4393-59c1-9bfe" primary="false" name="Player"/>
               </categoryLinks>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="31ad-4a7b-7a5b-c6ea" shared="true" childName="Elven Kingdoms League" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Kreek Rustgouger" hidden="true" id="c796-c9b5-c7c4-2c71">
               <costs>
