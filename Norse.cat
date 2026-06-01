@@ -33,7 +33,7 @@
     </categoryEntry>
   </categoryEntries>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Norse Raider" hidden="false" id="c961-3fe4-3c8f-030e">
+    <selectionEntry type="model" import="true" name="Norse Raider" hidden="false" id="c961-3fe4-3c8f-030e">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="1c90-0b58-686b-0f8b" primary="true" name="Player"/>
         <categoryLink targetId="30cf-e747-af57-e4c1" id="aaeb-d129-b357-5967" primary="false" name="Norse Raider"/>
@@ -84,7 +84,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.3d15-f50c-c6e3-17e9"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Yhetee" hidden="false" id="2b45-1205-08cd-8aa1">
+    <selectionEntry type="model" import="true" name="Yhetee" hidden="false" id="2b45-1205-08cd-8aa1">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="d8c5-fe75-576b-4565" primary="true" name="Player"/>
         <categoryLink targetId="e02d-b71e-4564-2725" id="9cce-7066-b8c3-5b95" primary="false" name="Yhetee"/>
@@ -136,7 +136,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.174f-5c4a-d02f-096e"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Ulfwerener" hidden="false" id="8a10-8cef-a0a8-3690">
+    <selectionEntry type="model" import="true" name="Ulfwerener" hidden="false" id="8a10-8cef-a0a8-3690">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="2fdb-fc9c-3b8f-0b95" primary="true" name="Player"/>
         <categoryLink targetId="a9ae-b997-9556-ffcb" id="6dde-64b1-9f24-ecb9" primary="false" name="Ulfwerener"/>
@@ -183,7 +183,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.174f-5c4a-d02f-096e"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Valkyrie" hidden="false" id="97d7-fb03-78e1-5784">
+    <selectionEntry type="model" import="true" name="Valkyrie" hidden="false" id="97d7-fb03-78e1-5784">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="5719-9807-164b-4ae7" primary="true" name="Player"/>
         <categoryLink targetId="d848-4696-8079-39a5" id="782d-9b3b-bfb4-eb0e" primary="false" name="Valkyrie"/>
@@ -236,7 +236,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.8af2-7a8b-ed7d-8a54"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Norse Berserker" hidden="false" id="645b-9c38-4547-96d2">
+    <selectionEntry type="model" import="true" name="Norse Berserker" hidden="false" id="645b-9c38-4547-96d2">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="8886-7b18-f2a3-878d" primary="true" name="Player"/>
         <categoryLink targetId="4b97-5583-83a6-1610" id="5e23-cc1d-5f95-f7fa" primary="false" name="Norse Berserker"/>
@@ -287,7 +287,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.b06f-8bce-bfe3-fd7b"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Beer Boar" hidden="false" id="0c29-8616-37bb-41a4">
+    <selectionEntry type="model" import="true" name="Beer Boar" hidden="false" id="0c29-8616-37bb-41a4">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="9b4e-2c23-eaca-1eed" primary="true" name="Player"/>
         <categoryLink targetId="4d17-7e85-3951-a0be" id="7f97-527e-344d-9d5f" primary="false" name="Beer Boar"/>

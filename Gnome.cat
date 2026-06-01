@@ -59,7 +59,7 @@
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Gnome Lineman" hidden="false" id="2a32-43ed-4f72-4c28">
+    <selectionEntry type="model" import="true" name="Gnome Lineman" hidden="false" id="2a32-43ed-4f72-4c28">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="20fc-e1b6-ac6f-4dab" primary="true" name="Player"/>
         <categoryLink targetId="0b90-2fc6-9d30-60c8" id="0f88-6bcb-1e31-361c" primary="false" name="Gnome Lineman"/>
@@ -110,7 +110,7 @@
         <entryLink import="true" name="Injuries" hidden="false" id="7a28-e92b-3082-3eb5" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Woodland Fox" hidden="false" id="2fc8-d9d3-d17b-6d65">
+    <selectionEntry type="model" import="true" name="Woodland Fox" hidden="false" id="2fc8-d9d3-d17b-6d65">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="d38c-ef5e-0a58-b6d7" primary="true" name="Player"/>
         <categoryLink targetId="87ab-620b-77de-5e18" id="d775-a3cc-9ebd-cc49" primary="false" name="Woodland Fox"/>
@@ -154,7 +154,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.fd16-5b77-2cb1-ae29"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Gnome Illusionist" hidden="false" id="38db-ed63-614b-5b28">
+    <selectionEntry type="model" import="true" name="Gnome Illusionist" hidden="false" id="38db-ed63-614b-5b28">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="f780-a037-7f01-4606" primary="true" name="Player"/>
         <categoryLink targetId="389b-be4b-458d-36c9" id="04a1-64e1-0ecd-1160" primary="false" name="Gnome Illusionist"/>
@@ -205,7 +205,7 @@
         <modifier type="set" value="true" field="hidden" affects="self.entries.a648-03ec-727a-921a"/>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Gnome Beastmaster" hidden="false" id="1ecd-600e-6f58-5f04">
+    <selectionEntry type="model" import="true" name="Gnome Beastmaster" hidden="false" id="1ecd-600e-6f58-5f04">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="ecda-0a0c-78ed-c521" primary="true" name="Player"/>
         <categoryLink targetId="9638-cce9-0f89-6a5d" id="6fd2-a00d-d94b-3fca" primary="false" name="Gnome Beastmaster"/>
@@ -257,7 +257,7 @@
         <entryLink import="true" name="Injuries" hidden="false" id="b395-bf24-8851-0e0d" type="selectionEntryGroup" targetId="e410-2dee-babf-54b1"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Altern Forest Treeman" hidden="false" id="e6a9-c78a-1f00-ce8e">
+    <selectionEntry type="model" import="true" name="Altern Forest Treeman" hidden="false" id="e6a9-c78a-1f00-ce8e">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="fa94-2473-0d2d-85ad" primary="true" name="Player"/>
         <categoryLink targetId="119d-2903-984f-b88c" id="fafd-2bce-bdec-134a" primary="false" name="Altern Forest Treeman"/>
