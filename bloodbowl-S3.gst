@@ -12,7 +12,7 @@
     <categoryEntry name="Lineman" id="febf-78f5-fbf5-a88f" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry name="Standard" id="0430-7fcc-d8c8-f3d8" hidden="false">
+    <forceEntry name="Standard" id="0430-7fcc-d8c8-f3d8" hidden="false" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Player" hidden="false" id="e5dc-4ea5-8de3-133a" targetId="69f8-eb37-db8c-47de">
           <constraints>
@@ -24,6 +24,25 @@
         <categoryLink name="Inducements" hidden="false" id="c946-7439-9b60-0259" targetId="82fd-d32b-a2e0-5e91"/>
         <categoryLink name="Open Beta Release" hidden="false" id="f362-e4b2-7fdc-85f2" targetId="55a5-0400-0e84-b85b"/>
         <categoryLink name="Other" hidden="false" id="8da6-e9f0-cf1c-e4cd" targetId="da89-7679-1972-9f90"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry name="Sevens" id="4f7a-a584-7466-8c9d" hidden="false" sortIndex="7">
+      <categoryLinks>
+        <categoryLink name="Player" hidden="false" id="3d3e-afe5-de28-b554" targetId="69f8-eb37-db8c-47de">
+          <constraints>
+            <constraint type="min" value="7" field="selections" scope="roster" shared="false" id="471f-95bb-7e6d-c062" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="11" field="selections" scope="roster" shared="false" id="9adc-556f-bb70-7b74" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Team Management" hidden="false" id="42e2-2f60-52f7-0618" targetId="9e9f-1d0d-a83d-4cba"/>
+        <categoryLink name="Inducements" hidden="false" id="0d63-d346-825d-afd5" targetId="82fd-d32b-a2e0-5e91"/>
+        <categoryLink name="Open Beta Release" hidden="false" id="cb6f-f95e-f30d-28ca" targetId="55a5-0400-0e84-b85b"/>
+        <categoryLink name="Other" hidden="false" id="e75e-aeca-1b17-7b1a" targetId="da89-7679-1972-9f90"/>
+        <categoryLink name="Positional" hidden="false" id="12d9-ab0d-533f-5986" targetId="0c44-468c-6a37-e6c8">
+          <constraints>
+            <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="b579-6e07-412e-3baa" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -6472,6 +6491,16 @@ If a Frog suffers a Casualty, do not make a Casualty Roll for them. Instead, the
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
+            </modifier>
+            <modifier type="set" value="100000" field="c4da-96df-1abd-13be">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="4f7a-a584-7466-8c9d" shared="true" includeChildSelections="true" childName="Sevens"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="6" field="1a32-48df-81bf-397c">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="4f7a-a584-7466-8c9d" shared="true" includeChildSelections="true" childName="Sevens"/>
+              </conditions>
             </modifier>
           </modifiers>
         </selectionEntry>
