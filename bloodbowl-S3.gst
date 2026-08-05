@@ -38,11 +38,7 @@
         <categoryLink name="Inducements" hidden="false" id="0d63-d346-825d-afd5" targetId="82fd-d32b-a2e0-5e91"/>
         <categoryLink name="Open Beta Release" hidden="false" id="cb6f-f95e-f30d-28ca" targetId="55a5-0400-0e84-b85b"/>
         <categoryLink name="Other" hidden="false" id="e75e-aeca-1b17-7b1a" targetId="da89-7679-1972-9f90"/>
-        <categoryLink name="Positional" hidden="false" id="12d9-ab0d-533f-5986" targetId="0c44-468c-6a37-e6c8">
-          <constraints>
-            <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="b579-6e07-412e-3baa" includeChildSelections="true" includeChildForces="true"/>
-          </constraints>
-        </categoryLink>
+        <categoryLink name="Positional" hidden="false" id="12d9-ab0d-533f-5986" targetId="0c44-468c-6a37-e6c8"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -2677,33 +2673,84 @@ If a team has a choice of any alignment, they can choose from any of the followi
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Badlands Brawl" hidden="false" id="1eb9-891a-5a20-b694" sortIndex="10">
       <comment>Team Leauge</comment>
+      <rules>
+        <rule name="Badlands Brawl" id="bcda-5046-4d15-c72c" hidden="false">
+          <description/>
+          <comment>This is just for informational purposes</comment>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Chaos Clash" hidden="false" id="59e3-4dbf-4f7b-9276" sortIndex="10">
       <comment>Team Leauge</comment>
+      <rules>
+        <rule name="Chaos Clash" id="80e0-0833-03c4-d66f" hidden="false">
+          <comment>This is just for informational purposes</comment>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Elven Kingdoms League" hidden="false" id="31ad-4a7b-7a5b-c6ea" sortIndex="10">
       <comment>Team Leauge</comment>
+      <rules>
+        <rule name="Elven Kingdoms League" id="0ec3-0dab-9c6b-048d" hidden="false">
+          <comment>This is just for informational purposes</comment>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Halfling Thimble Cup" hidden="false" id="a414-eded-2c3f-26bb" sortIndex="10">
       <comment>Team Leauge</comment>
+      <rules>
+        <rule name="Halfling Thimble Cup" id="cf0b-e0cc-4d98-80ef" hidden="false">
+          <comment>This is just for informational purposes</comment>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Lustrian Superleague" hidden="false" id="9e52-21d6-b650-0f2e" sortIndex="10">
       <comment>Team Leauge</comment>
+      <rules>
+        <rule name="Lustrian Superleague" id="7185-9a95-7bb7-c6d1" hidden="false">
+          <comment>This is just for informational purposes</comment>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Old World Classic" hidden="false" id="3d18-00d7-c09b-d261" sortIndex="10">
       <comment>Team Leauge</comment>
+      <rules>
+        <rule name="Old World Classic" id="4c28-3588-8c36-ed06" hidden="false">
+          <comment>This is just for informational purposes</comment>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Sylvanian Spotlight" hidden="false" id="9070-d888-956b-b3f0" sortIndex="10">
       <comment>Team Leauge</comment>
+      <rules>
+        <rule name="Sylvanian Spotlight" id="6080-b74a-8f22-f3db" hidden="false">
+          <comment>This is just for informational purposes</comment>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Underworld Challenge" hidden="false" id="fdab-28ae-ae4b-eac1" sortIndex="10">
       <comment>Team Leauge</comment>
+      <rules>
+        <rule name="Underworld Challenge" id="1744-c7d2-a5ff-fd68" hidden="false">
+          <comment>This is just for informational purposes</comment>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Woodland League" hidden="false" id="6c75-8f97-472e-204c" sortIndex="10">
       <comment>Team Leauge</comment>
+      <rules>
+        <rule name="Woodland League" id="90b8-bcb3-06bd-e8f2" hidden="false">
+          <comment>This is just for informational purposes</comment>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Worlds Edge Superleague" hidden="false" id="a8a2-1453-da6f-731c" sortIndex="10">
       <comment>Team Leauge</comment>
+      <rules>
+        <rule name="Worlds Edge Superleague" id="823a-b654-2741-e652" hidden="false">
+          <comment>This is just for informational purposes</comment>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Brawlin&apos; Brutes" hidden="false" id="0d8a-9c12-8664-38e8" sortIndex="20">
       <infoLinks>
@@ -2797,16 +2844,39 @@ If a team has a choice of any alignment, they can choose from any of the followi
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Errors and Warnings" hidden="false" id="3a47-fdfb-6386-63aa">
+      <modifiers>
+        <modifier type="add" value="maximum 4 positionals in roster in Sevens" field="error" scope="force" affects="self.entries.0c44-468c-6a37-e6c8">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="greaterThan" value="4" field="selections" scope="roster" childId="0c44-468c-6a37-e6c8" shared="true" includeChildSelections="true" childName="Positional" includeChildForces="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="4f7a-a584-7466-8c9d" shared="true" includeChildSelections="true" childName="Sevens"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="9b80-058f-0bff-6c04" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="24c2-d941-776f-e084" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Roster Status" hidden="false" id="91ec-e00f-e467-9302" type="selectionEntry" targetId="f9a9-1a07-bb0d-66f9">
+    <entryLink import="true" name="Roster Status" hidden="false" id="91ec-e00f-e467-9302" type="selectionEntry" targetId="f9a9-1a07-bb0d-66f9" sortIndex="21">
       <categoryLinks>
         <categoryLink targetId="da89-7679-1972-9f90" id="9bcc-db9a-1cf1-0a61" primary="true" name="Other"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Game Type" hidden="false" id="843e-ce79-b775-2f40" type="selectionEntry" targetId="2fe1-cd76-dd4a-3a40">
+    <entryLink import="true" name="Game Type" hidden="false" id="843e-ce79-b775-2f40" type="selectionEntry" targetId="2fe1-cd76-dd4a-3a40" sortIndex="20">
       <categoryLinks>
         <categoryLink targetId="da89-7679-1972-9f90" id="6307-59e8-4429-6c1b" primary="true" name="Other"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Errors and Warnings" hidden="false" id="5a3f-9b61-792a-75ba" type="selectionEntry" targetId="3a47-fdfb-6386-63aa" sortIndex="22">
+      <categoryLinks>
+        <categoryLink targetId="da89-7679-1972-9f90" id="8c2c-f198-da00-4ec0" primary="true" name="Other"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -6615,7 +6685,7 @@ If a Frog suffers a Casualty, do not make a Casualty Roll for them. Instead, the
         <selectionEntry type="upgrade" import="true" name="Gold Pieces" hidden="false" id="9042-5c53-a135-9cfe"/>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="DON&apos;T SUBMIT BUGS FOR NOT IMPLEMENTED FUNCTIONALITY." hidden="false" id="8a6c-6612-7d64-2b09" sortIndex="18">
+    <selectionEntry type="upgrade" import="true" name="DON&apos;T SUBMIT BUGS FOR NOT IMPLEMENTED FUNCTIONALITY." hidden="false" id="8a6c-6612-7d64-2b09" sortIndex="50">
       <categoryLinks>
         <categoryLink targetId="55a5-0400-0e84-b85b" id="8274-9a7f-ef37-8dad" primary="true" name="Open Beta Release"/>
       </categoryLinks>
