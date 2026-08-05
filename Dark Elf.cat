@@ -32,6 +32,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="e0c5-8c5e-dba7-4fc8" primary="true" name="Player"/>
         <categoryLink targetId="df5b-9ac4-3d1b-8f5d" id="24dd-b2fd-f6fe-3aa5" primary="false" name="Dark Elf Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="6b8b-489c-ac89-e8d9" primary="false" name="Lineman"/>
       </categoryLinks>
       <profiles>
         <profile name="Dark Elf Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="5eec-945e-986d-b641">
@@ -73,6 +74,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="1da7-6219-c745-573c" primary="true" name="Player"/>
         <categoryLink targetId="e54c-02df-12a2-f4b4" id="4e08-b5f6-d102-3287" primary="false" name="Dark Elf Runner"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="da5b-04a8-1745-10fc" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Dark Elf Runner" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="f76b-607d-fda8-fae8">
@@ -123,6 +125,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="3b9b-e3a8-1f2a-a2f5" primary="true" name="Player"/>
         <categoryLink targetId="75ae-0892-eba2-834b" id="5fff-a430-ad2c-3612" primary="false" name="Dark Elf Assassin"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="0357-fb9f-f8b7-d0c1" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Dark Elf Assassin" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="36d3-a983-4186-01cf">
@@ -173,6 +176,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="ac28-a359-1788-ab00" primary="true" name="Player"/>
         <categoryLink targetId="a69d-bba9-bb67-ad40" id="78b2-b394-d921-b338" primary="false" name="Dark Elf Blitzer"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="d740-73e6-c6a9-df59" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Dark Elf Blitzer" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="a4e7-131a-b073-a1dd">
@@ -221,6 +225,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="799b-274f-8c45-1081" primary="true" name="Player"/>
         <categoryLink targetId="af3c-9452-dcc5-eacc" id="da0c-3d43-6f0b-97bb" primary="false" name="Witch Elf"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="5d27-1d72-25a5-9c60" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Witch Elf" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="6dae-b498-7e6f-ce95">

@@ -202,6 +202,7 @@
       </costs>
       <categoryLinks>
         <categoryLink name="Halfling Hopeful" hidden="false" id="8aaf-fc1f-70f6-cfc9" targetId="0738-c4bc-c035-cc6d" primary="false"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="46fc-e62f-6a9a-25cd" primary="false" name="Lineman"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Halfling Hopeful" id="20b5-d47a-4655-114b" hidden="false" type="profile" targetId="b3f4-dca5-2b85-c329"/>
@@ -272,6 +273,7 @@
       </costs>
       <categoryLinks>
         <categoryLink targetId="eee0-ed41-29b0-d7a6" id="3d70-8498-d259-060b" primary="false" name="Human Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="a05f-f6c5-2319-cd07" primary="false" name="Lineman"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Human Lineman" id="38a4-55dc-ca16-80ab" hidden="false" type="profile" targetId="897d-4d8a-bc02-15a0"/>

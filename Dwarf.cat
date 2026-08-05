@@ -43,7 +43,7 @@
     </selectionEntry>
   </selectionEntries>
   <categoryEntries>
-    <categoryEntry name="Dawrf Lineman" id="c65e-b7b8-4dc9-7423" hidden="false">
+    <categoryEntry name="Dwarf Lineman" id="c65e-b7b8-4dc9-7423" hidden="false">
       <constraints>
         <constraint type="max" value="16" field="selections" scope="roster" shared="true" id="2882-0115-51fb-6cf8" includeChildSelections="true"/>
       </constraints>
@@ -74,6 +74,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="f466-54ca-504a-d545" primary="true" name="Player"/>
         <categoryLink targetId="c65e-b7b8-4dc9-7423" id="778d-104d-aac1-afac" primary="false" name="Dawrf Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="b2c7-bb4c-3759-a885" primary="false" name="Lineman"/>
       </categoryLinks>
       <profiles>
         <profile name="Dwarf Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="f376-b819-6703-a9ea">
@@ -124,6 +125,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="8ea3-7b1f-8782-4995" primary="true" name="Player"/>
         <categoryLink targetId="16ab-a251-137c-534b" id="a6a4-5076-41ae-be92" primary="false" name="Dwarf Runner"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="f5be-9522-5d26-375d" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Dwarf Runner" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="e710-120c-9333-9284">
@@ -175,6 +177,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="3606-028d-8873-7ac2" primary="true" name="Player"/>
         <categoryLink targetId="bddf-dab2-2a4e-fead" id="aea1-5ba0-bd9f-2054" primary="false" name="Dwarf Blitzer"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="57ed-42fd-2e0b-e2be" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Dwarf Blitzer" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="9d26-e88f-c324-ef4c">
@@ -227,6 +230,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="5941-995c-38dc-6e7c" primary="true" name="Player"/>
         <categoryLink targetId="6aaf-5ab0-ece6-ffe0" id="1480-34c5-8776-ffee" primary="false" name="Troll Slayer"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="efb7-6bc4-367e-47d6" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Troll Slayer" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="c42b-9910-e7c5-2129">
@@ -280,6 +284,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="53f8-a9a8-1945-55a3" primary="true" name="Player"/>
         <categoryLink targetId="042c-9ecd-9f36-f9db" id="844b-55d3-07c8-bb52" primary="false" name="Deathroller"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="68b7-dd4c-356f-5af8" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Death Roller" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="3108-d1b2-4a44-eb79">

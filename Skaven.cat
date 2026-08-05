@@ -168,6 +168,7 @@
       </costs>
       <categoryLinks>
         <categoryLink targetId="73bc-0c33-c55d-e723" id="0f56-e16b-0467-ce5d" primary="false" name="Skaven Clanrat"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="33cd-bd4f-f580-e7c5" primary="false" name="Lineman"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Primary Skill" hidden="false" id="cb7e-b173-44de-f9e3" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">

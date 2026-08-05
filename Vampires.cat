@@ -108,6 +108,7 @@
     <selectionEntry type="model" import="true" name="Thrall Lineman" hidden="false" id="0ffa-5f83-8cad-abfe">
       <categoryLinks>
         <categoryLink targetId="f4d4-00ec-e871-9632" id="aeb3-b266-f059-3f87" primary="false" name="Thrall Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="adc4-8bd1-1ece-089b" primary="false" name="Lineman"/>
       </categoryLinks>
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="40000"/>

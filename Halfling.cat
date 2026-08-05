@@ -58,6 +58,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="9fc1-85c1-d3a6-82fb" primary="true" name="Player"/>
         <categoryLink targetId="e6af-c0fc-30b3-1f6d" id="8806-d3ae-dcb8-4603" primary="false" name="Halfling Hopeful"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="d232-baa7-6ba5-3c14" primary="false" name="Lineman"/>
       </categoryLinks>
       <profiles>
         <profile name="Halfling Hopeful" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="ddb3-073b-40a7-f81e">
@@ -107,6 +108,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="9b35-c2c9-4ca8-8e57" primary="true" name="Player"/>
         <categoryLink targetId="b0a6-dc93-0f99-b1aa" id="7ee2-fb12-ba99-c847" primary="false" name="Halfling Hefty"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="63cc-f8a9-c20f-a9ef" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Halfling Hefty" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="6f79-ce3f-4ade-8c3c">
@@ -158,6 +160,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="13a8-875d-de22-42f0" primary="true" name="Player"/>
         <categoryLink targetId="f74d-57d1-e29e-70f7" id="e674-d303-51fa-674e" primary="false" name="Halfling Catcher"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="c171-bd41-2468-9788" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Halfling Catcher" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="5d4a-3dff-3434-b06a">
@@ -211,6 +214,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="0c28-47af-4483-cca0" primary="true" name="Player"/>
         <categoryLink targetId="719f-b093-f57f-7f66" id="1036-568c-49af-c45b" primary="false" name="Altern Forest Treeman"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="0e2b-494c-617b-ce12" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Altern Forest Treeman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="353e-b095-7f22-6c3c">

@@ -22,6 +22,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="62ee-1e46-22e3-f260" primary="true" name="Player"/>
         <categoryLink targetId="8f41-548f-a896-c024" id="da7e-fa57-d162-da14" primary="false" name="Goblin Bruiser"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="2d8e-e47e-08de-106c" primary="false" name="Lineman"/>
       </categoryLinks>
       <profiles>
         <profile name="Goblin Bruiser" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="78cb-46e7-7511-b8af">
@@ -74,6 +75,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="cb95-e88e-4eeb-3a40" primary="true" name="Player"/>
         <categoryLink targetId="9099-e37b-2076-fede" id="68d5-1b55-a278-d7e8" primary="false" name="Black Orc"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="25ad-2ab0-20b3-9f51" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Black Orc" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="5fdd-9c8e-f908-87a8">
@@ -123,6 +125,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="e2fc-05a7-926f-df0f" primary="true" name="Player"/>
         <categoryLink targetId="bacb-4d83-6b12-7d67" id="6e03-70ed-7182-b239" primary="false" name="Trained Troll"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="1a00-4ea9-bc0a-201e" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Trained Troll" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="ff54-b06e-f56c-d903">

@@ -32,6 +32,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="7e34-6ab1-c19e-1c31" primary="true" name="Player"/>
         <categoryLink targetId="8b29-0741-d3d2-6023" id="fd79-0225-fbd9-acdb" primary="false" name="Imperial Retainer"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="4a16-9494-64d2-6288" primary="false" name="Lineman"/>
       </categoryLinks>
       <profiles>
         <profile name="Imperial Retainer" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="b4a3-9587-a50e-6723">
@@ -78,6 +79,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="cc98-db9a-9a65-8474" primary="true" name="Player"/>
         <categoryLink targetId="7c9e-3af8-1012-f761" id="3251-bc3e-79c3-ee9c" primary="false" name="Imperial Thrower"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="b2a4-2460-bd4d-1883" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Imperial Thrower" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="7b2c-2ea2-e02c-5493">
@@ -129,6 +131,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="7b1f-eea0-689a-ffe0" primary="true" name="Player"/>
         <categoryLink targetId="247b-7add-3b04-34a9" id="dbfd-7f06-d8fe-cdce" primary="false" name="Bodyguard"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="e479-6190-27c3-043c" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Bodyguard" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="8fbe-817a-77d9-54d1">
@@ -177,6 +180,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="69a8-4671-e9bd-7573" primary="true" name="Player"/>
         <categoryLink targetId="3e90-9891-3d3f-9672" id="9cc9-7af9-2767-9913" primary="false" name="Noble Blitzer"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="ac62-0755-8196-4eff" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Noble Blitzer" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="9a50-3f44-e895-4da9">
@@ -228,6 +232,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="89b8-3e46-7bf2-a380" primary="true" name="Player"/>
         <categoryLink targetId="c3c3-b993-bf48-defa" id="5ce1-abdf-ed76-0404" primary="false" name="Ogre"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="ec92-4c6c-df6c-f88b" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Ogre" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="5bbe-254c-86d9-d28b">

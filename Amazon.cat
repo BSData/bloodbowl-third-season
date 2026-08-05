@@ -48,6 +48,7 @@
       <categoryLinks>
         <categoryLink targetId="71fc-809f-d7a6-a371" id="593c-3b3f-6a74-8591" primary="false" name="Eagle Warrior"/>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="ba95-9200-401d-fd45" primary="true" name="Player"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="03ac-e752-d278-e537" primary="false" name="Lineman"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Jaguar Warrior" hidden="false" id="d542-666c-fbd9-a321">
@@ -99,6 +100,7 @@
       <categoryLinks>
         <categoryLink targetId="c294-bd3b-98f3-51e5" id="212b-9a77-2eea-4095" primary="false" name="Jaguar Warrior"/>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="1c79-8152-ed95-4a6e" primary="true" name="Player"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="c347-f27c-9fb7-8496" primary="false" name="Positional"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Python Warrior" hidden="false" id="33bc-fce4-fca6-5738">
@@ -155,6 +157,7 @@
       <categoryLinks>
         <categoryLink targetId="3f9e-fcc8-1600-79df" id="d63d-7c9e-bf53-5e85" primary="false" name="Python Warrior"/>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="d8ea-5f5c-a56a-a7b3" primary="true" name="Player"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="b2a3-92a7-edeb-f713" primary="false" name="Positional"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Piranha Warrior" hidden="false" id="bd65-f508-b2c8-198d">
@@ -208,6 +211,7 @@
       <categoryLinks>
         <categoryLink targetId="93e0-3685-2eca-d17a" id="78d7-ac70-fe92-3946" primary="false" name="Piranha Warrior"/>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="0d09-7fa1-f03b-342c" primary="true" name="Player"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="9e99-ee82-24a9-cb9d" primary="false" name="Positional"/>
       </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>

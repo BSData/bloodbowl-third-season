@@ -63,6 +63,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="20fc-e1b6-ac6f-4dab" primary="true" name="Player"/>
         <categoryLink targetId="0b90-2fc6-9d30-60c8" id="0f88-6bcb-1e31-361c" primary="false" name="Gnome Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="f836-e5d5-3abe-cba9" primary="false" name="Lineman"/>
       </categoryLinks>
       <profiles>
         <profile name="Gnome Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="d5af-81c0-ed8f-4d65">
@@ -114,6 +115,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="d38c-ef5e-0a58-b6d7" primary="true" name="Player"/>
         <categoryLink targetId="87ab-620b-77de-5e18" id="d775-a3cc-9ebd-cc49" primary="false" name="Woodland Fox"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="e006-85cd-40bd-3089" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Woodland Fox" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="6260-621a-5f5f-addc">
@@ -158,6 +160,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="f780-a037-7f01-4606" primary="true" name="Player"/>
         <categoryLink targetId="389b-be4b-458d-36c9" id="04a1-64e1-0ecd-1160" primary="false" name="Gnome Illusionist"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="cf48-de56-ee92-e391" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Gnome Illusionist" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="4480-f4cf-cc9a-9296">
@@ -209,6 +212,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="ecda-0a0c-78ed-c521" primary="true" name="Player"/>
         <categoryLink targetId="9638-cce9-0f89-6a5d" id="6fd2-a00d-d94b-3fca" primary="false" name="Gnome Beastmaster"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="94b9-459f-67ec-3195" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Gnome Beastmaster" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="b156-f832-4416-0c08">
@@ -261,6 +265,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="fa94-2473-0d2d-85ad" primary="true" name="Player"/>
         <categoryLink targetId="119d-2903-984f-b88c" id="fafd-2bce-bdec-134a" primary="false" name="Altern Forest Treeman"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="6577-78f0-2b56-d234" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Altern Forest Treeman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="966e-2b62-0fa0-986c">
