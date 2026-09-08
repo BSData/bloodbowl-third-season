@@ -16,9 +16,14 @@
     <costType name="SPP" id="bd26-2dc7-dad6-1ff7" defaultCostLimit="-1" hidden="true">
       <modifiers>
         <modifier field="hidden" type="set" value="false">
-          <conditions>
-            <condition childId="entry" field="selections" scope="self" type="instanceOf"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="ce3d-3ed3-cb13-dd55" childName="Random Skills" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
+                <condition childId="entry" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </costType>
@@ -34,9 +39,14 @@
         <categoryLink name="Other" id="6307-59e8-4429-6c1b" primary="true" targetId="da89-7679-1972-9f90"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Errors and Warnings" id="5a3f-9b61-792a-75ba" hidden="false" import="true" sortIndex="22" targetId="3a47-fdfb-6386-63aa" type="selectionEntry">
+    <entryLink name="Errors and Warnings" id="5a3f-9b61-792a-75ba" hidden="false" import="true" sortIndex="23" targetId="3a47-fdfb-6386-63aa" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Other" id="8c2c-f198-da00-4ec0" primary="true" targetId="da89-7679-1972-9f90"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Player Advancement" id="9815-8956-de5d-4791" hidden="false" import="true" sortIndex="22" targetId="3aee-455f-f0a3-52b2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Other" id="cdb2-c17d-dca3-7d8a" hidden="false" primary="true" targetId="da89-7679-1972-9f90"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -147,6 +157,18 @@
           <costs>
             <cost name="TV" typeId="c4da-96df-1abd-13be" value="10000"/>
           </costs>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <comment>Sevens modification</comment>
+              <conditions>
+                <condition childId="4f7a-a584-7466-8c9d" childName="Sevens" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+              <modifiers>
+                <modifier field="8fc8-a0b2-70f1-9afd" type="set" value="2"/>
+                <modifier field="c4da-96df-1abd-13be" type="set" value="5000"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -172,6 +194,18 @@
           <costs>
             <cost name="TV" typeId="c4da-96df-1abd-13be" value="20000"/>
           </costs>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <comment>Sevens modification</comment>
+              <conditions>
+                <condition childId="4f7a-a584-7466-8c9d" childName="Sevens" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+              <modifiers>
+                <modifier field="bb3d-fca4-2957-6d3f" type="set" value="2"/>
+                <modifier field="c4da-96df-1abd-13be" type="set" value="15000"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -197,6 +231,18 @@
           <costs>
             <cost name="TV" typeId="c4da-96df-1abd-13be" value="5000"/>
           </costs>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <comment>Sevens modification</comment>
+              <conditions>
+                <condition childId="4f7a-a584-7466-8c9d" childName="Sevens" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+              <modifiers>
+                <modifier field="dfc6-a0d8-a585-c5f4" type="set" value="2"/>
+                <modifier field="c4da-96df-1abd-13be" type="set" value="15000"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -211,6 +257,14 @@
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="25000"/>
       </costs>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <comment>Sevens modification</comment>
+          <conditions>
+            <condition childId="4f7a-a584-7466-8c9d" childName="Sevens" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <rules>
         <rule name="Team Mascot" id="bae7-ca4e-3ed9-8944" hidden="false">
           <description>A team with a Team Mascot gains an additional Team Re-roll for each half. However, whenever the team wishes to use this Team Re-roll, they must first roll a D6. On a 4+, the Team Re-roll may be used as normal. On a 1-3, the Team Mascot proved themselves to be ineffective and the Team Re-roll is lost for this half. Another Team Re-roll may be used instead.
@@ -231,6 +285,14 @@ Additionally, a team with a Team Mascot can re-roll any rolls of a natural 1 whe
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="25000"/>
       </costs>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <comment>Sevens modification</comment>
+          <conditions>
+            <condition childId="4f7a-a584-7466-8c9d" childName="Sevens" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <rules>
         <rule name="Weather Mage" id="61b4-4d98-227a-5d09" hidden="false">
           <description>Once per game, at the start of any of your Turns, you may immediately make a roll on the Weather Table, applying a modifier of up to +2 or -2 to the roll. The resulting weather conditions are applied immediately and will last until the next time a Changing Weather result is rolled on the Kick-off Event Table.</description>
@@ -288,11 +350,18 @@ Additionally, a team with a Team Mascot can re-roll any rolls of a natural 1 whe
             <modifier field="009f-b5fc-7faf-e4f9" type="set" value="6">
               <conditions>
                 <condition childId="e4b5-6057-7d9c-2e20" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                <condition childId="4f7a-a584-7466-8c9d" childName="Sevens" field="selections" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
               </conditions>
             </modifier>
             <modifier field="c4da-96df-1abd-13be" type="set" value="50000">
               <conditions>
                 <condition childId="e4b5-6057-7d9c-2e20" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </modifier>
+            <modifier field="009f-b5fc-7faf-e4f9" type="set" value="2">
+              <comment>Sevens modification</comment>
+              <conditions>
+                <condition childId="4f7a-a584-7466-8c9d" childName="Sevens" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -321,6 +390,18 @@ Additionally, a team with a Team Mascot can re-roll any rolls of a natural 1 whe
           <costs>
             <cost name="TV" typeId="c4da-96df-1abd-13be" value="100000"/>
           </costs>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <comment>Sevens modification</comment>
+              <conditions>
+                <condition childId="4f7a-a584-7466-8c9d" childName="Sevens" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+              <modifiers>
+                <modifier field="9881-5522-1d0e-dd63" type="set" value="6"/>
+                <modifier field="c4da-96df-1abd-13be" type="set" value="125000"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -385,9 +466,14 @@ Additionally, a team with a Team Mascot can re-roll any rolls of a natural 1 whe
       </costs>
       <modifiers>
         <modifier field="hidden" type="set" value="false">
-          <conditions>
-            <condition childId="c2c1-b518-69c8-5c91" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="4f7a-a584-7466-8c9d" childName="Sevens" field="selections" includeChildSelections="true" scope="force" shared="true" type="notInstanceOf" value="1"/>
+                <condition childId="c2c1-b518-69c8-5c91" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules>
@@ -433,6 +519,14 @@ Additionally, a team with a Team Mascot can re-roll any rolls of a natural 1 whe
           <costs>
             <cost name="TV" typeId="c4da-96df-1abd-13be" value="100000"/>
           </costs>
+          <modifiers>
+            <modifier field="e490-2379-618a-2cc7" type="set" value="1">
+              <comment>Sevens modification</comment>
+              <conditions>
+                <condition childId="4f7a-a584-7466-8c9d" childName="Sevens" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -468,6 +562,14 @@ Additionally, a team with a Team Mascot can re-roll any rolls of a natural 1 whe
       <constraints>
         <constraint id="424d-afde-8c2e-a811" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <comment>Sevens modification</comment>
+          <conditions>
+            <condition childId="4f7a-a584-7466-8c9d" childName="Sevens" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <selectionEntryGroups>
         <selectionEntryGroup name="Biased Referees" id="65be-59e7-2dc2-9f84" exportable="false" hidden="false">
           <constraints>
@@ -510,6 +612,14 @@ Additionally, a team with a Team Mascot can re-roll any rolls of a natural 1 whe
       <constraints>
         <constraint id="48ca-a5e0-e3e9-3f87" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <comment>Sevens modification</comment>
+          <conditions>
+            <condition childId="4f7a-a584-7466-8c9d" childName="Sevens" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <selectionEntryGroups>
         <selectionEntryGroup name="Infamous Coaching Staff" id="1f7a-6d54-c1ca-4246" hidden="false">
           <constraints>
@@ -542,6 +652,14 @@ Additionally, a team with a Team Mascot can re-roll any rolls of a natural 1 whe
       <constraints>
         <constraint id="edff-b5ba-65fd-1d0c" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <comment>Sevens modification</comment>
+          <conditions>
+            <condition childId="4f7a-a584-7466-8c9d" childName="Sevens" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <selectionEntryGroups>
         <selectionEntryGroup name="Star Player" id="3c94-96b2-ec0e-b0da" hidden="false">
           <constraints>
@@ -3694,6 +3812,14 @@ Additionally, a team with a Team Mascot can re-roll any rolls of a natural 1 whe
       <constraints>
         <constraint id="6644-b77b-77f5-0b40" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <comment>Sevens modification</comment>
+          <conditions>
+            <condition childId="4f7a-a584-7466-8c9d" childName="Sevens" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wizards" id="8317-08a0-b27e-9765" hidden="false">
           <constraints>
@@ -3795,14 +3921,8 @@ If a Frog suffers a Casualty, do not make a Casualty Roll for them. Instead, the
                 <condition childId="4f7a-a584-7466-8c9d" childName="Sevens" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
               </conditions>
               <modifiers>
-                <modifier field="1a32-48df-81bf-397c" type="set" value="6">
-                  <comment>
-</comment>
-                </modifier>
-                <modifier field="c4da-96df-1abd-13be" type="set" value="100000">
-                  <comment>
-</comment>
-                </modifier>
+                <modifier field="1a32-48df-81bf-397c" type="set" value="6"/>
+                <modifier field="c4da-96df-1abd-13be" type="set" value="100000"/>
               </modifiers>
             </modifierGroup>
           </modifierGroups>
@@ -4014,7 +4134,7 @@ If a Frog suffers a Casualty, do not make a Casualty Roll for them. Instead, the
       </modifiers>
       <rules>
         <rule name="Things that aren&apos;t implemented" id="6f58-8a9b-61fc-f4f2" hidden="false">
-          <description>- Sevens, Dungeon Ball, and other alternate modes of play
+          <description>- Dungeon Ball and other alternate modes of play
 - Mercenaries
 - Characteristics caps
 
@@ -4022,6 +4142,39 @@ If a Frog suffers a Casualty, do not make a Casualty Roll for them. Instead, the
 Please don&apos;t submit bug reports for any of these things. Please only submit bug reports for errors/broken functionality.</description>
         </rule>
       </rules>
+    </selectionEntry>
+    <selectionEntry name="Desperate Measures" id="2ed7-eed3-2662-4235" hidden="true" import="true" sortIndex="18" type="upgrade">
+      <comment>Inducement - Sevens</comment>
+      <categoryLinks>
+        <categoryLink name="Inducements" id="e655-7054-61c4-41cb" hidden="false" primary="true" targetId="82fd-d32b-a2e0-5e91"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="0ec8-ccfd-4790-23c3" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <modifiers>
+        <modifier field="hidden" type="set" value="false">
+          <conditions>
+            <condition childId="4f7a-a584-7466-8c9d" childName="Sevens" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule name="Desperate Measures" id="fa4d-9d02-b31f-cdd5" hidden="false">
+          <description>Desperate Measures represent not only the dirty tricks amateur teams are capable of, but the lengths they will go to gain an advantage! For every Desperate Measure purchased, roll a D8 on the table (re-rolling any duplicate results), and make a note of each result. Each Desperate Measure your team rolls can be used once per game.</description>
+        </rule>
+      </rules>
+      <selectionEntries>
+        <selectionEntry name="Desperate Measures" id="aa53-a6be-03f7-8c3f" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="60ed-986c-ab51-e84c" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="88ce-6b11-a9a2-6eca" field="selections" scope="parent" shared="true" type="max" value="5"/>
+          </constraints>
+          <costs>
+            <cost name="TV" typeId="c4da-96df-1abd-13be" value="50000"/>
+            <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </selectionEntries>
   <sharedRules>
@@ -5046,10 +5199,46 @@ If a team has a choice of any alignment, they can choose from any of the followi
         <infoLink name="Swarming" id="6ad7-2642-cf13-56e0" hidden="false" targetId="9b44-f5b3-b98e-1bd5" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry name="Random Primary" id="9db9-87f1-4f71-503c" hidden="false" import="true" sortIndex="30" type="upgrade"/>
-    <selectionEntry name="Primary Skill" id="24b1-712d-1b55-0e5c" hidden="false" import="true" sortIndex="31" type="upgrade"/>
-    <selectionEntry name="Secondary Skill" id="eeb0-8b2b-d19e-868d" hidden="false" import="true" sortIndex="32" type="upgrade"/>
-    <selectionEntry name="Random Characteristics" id="33c5-a36e-b2b3-39cb" hidden="false" import="true" sortIndex="33" type="upgrade"/>
+    <selectionEntry name="Random Primary Skill" id="9db9-87f1-4f71-503c" hidden="false" import="true" sortIndex="30" type="upgrade">
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <comment>Sevens modification</comment>
+          <conditions>
+            <condition childId="ce3d-3ed3-cb13-dd55" childName="Random Skills" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry name="Primary Skill" id="24b1-712d-1b55-0e5c" hidden="false" import="true" sortIndex="31" type="upgrade">
+      <modifiers>
+        <modifier field="name" join=" " type="prepend" value="Random">
+          <comment>Sevens modification</comment>
+          <conditions>
+            <condition childId="ce3d-3ed3-cb13-dd55" childName="Random Skills" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry name="Secondary Skill" id="eeb0-8b2b-d19e-868d" hidden="false" import="true" sortIndex="32" type="upgrade">
+      <modifiers>
+        <modifier field="name" join=" " type="prepend" value="Random">
+          <comment>Sevens modification</comment>
+          <conditions>
+            <condition childId="ce3d-3ed3-cb13-dd55" childName="Random Skills" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry name="Random Characteristics" id="33c5-a36e-b2b3-39cb" hidden="false" import="true" sortIndex="33" type="upgrade">
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <comment>Sevens modification</comment>
+          <conditions>
+            <condition childId="ce3d-3ed3-cb13-dd55" childName="Random Skills" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
     <selectionEntry name="Game Type" id="2fe1-cd76-dd4a-3a40" hidden="false" import="true" type="upgrade">
       <constraints>
         <constraint id="0258-4016-ef56-d52d" field="selections" includeChildSelections="false" scope="force" shared="true" type="min" value="1"/>
@@ -5105,6 +5294,41 @@ If a team has a choice of any alignment, they can choose from any of the followi
           </conditionGroups>
         </modifier>
       </modifiers>
+    </selectionEntry>
+    <selectionEntry name="Player Advancement" id="3aee-455f-f0a3-52b2" hidden="true" import="true" type="upgrade">
+      <constraints>
+        <constraint id="8cf7-f1dc-93bc-af45" field="selections" includeChildSelections="false" scope="force" shared="true" type="min" value="1"/>
+        <constraint id="a45e-4141-c68c-a0b1" field="selections" includeChildSelections="false" scope="force" shared="true" type="max" value="1"/>
+      </constraints>
+      <modifiers>
+        <modifier field="hidden" type="set" value="false">
+          <conditions>
+            <condition childId="4f7a-a584-7466-8c9d" childName="Sevens" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Player Advancement" id="ed98-84e5-9574-9bea" hidden="false">
+          <constraints>
+            <constraint id="f4e2-2fe4-499c-9741" field="selections" scope="self" shared="true" type="max" value="1"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="SPP" id="e9d3-240f-bfc3-4f91" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="f7f1-2daa-48ea-161e" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry name="Random Skills" id="ce3d-3ed3-cb13-dd55" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="ca2f-ef67-b2f1-1818" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <modifiers>
+                <modifier field="defaultAmount" type="set" value="1"/>
+              </modifiers>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -5463,6 +5687,11 @@ If a team has a choice of any alignment, they can choose from any of the followi
           </infoLinks>
           <modifiers>
             <modifier affects="69f8-eb37-db8c-47de.profiles.Player" field="a256-4228-5691-a7d4" join=", " scope="root-entry" type="append" value="Pro"/>
+            <modifier field="hidden" type="set" value="true">
+              <conditions>
+                <condition childId="4f7a-a584-7466-8c9d" childName="Sevens" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </selectionEntry>
         <selectionEntry name="Steady Footing" id="09ba-cd46-c151-4e45" hidden="false" import="true" type="upgrade">
@@ -5757,6 +5986,11 @@ If a team has a choice of any alignment, they can choose from any of the followi
           </infoLinks>
           <modifiers>
             <modifier affects="69f8-eb37-db8c-47de.profiles.Player" field="a256-4228-5691-a7d4" join=", " scope="root-entry" type="append" value="Leader"/>
+            <modifier field="hidden" type="set" value="true">
+              <conditions>
+                <condition childId="4f7a-a584-7466-8c9d" childName="Sevens" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </selectionEntry>
         <selectionEntry name="On the Ball" id="a279-db7f-7aab-d126" hidden="false" import="true" type="upgrade">
@@ -6007,7 +6241,11 @@ If a team has a choice of any alignment, they can choose from any of the followi
             <repeat childId="eeb0-8b2b-d19e-868d" field="selections" includeChildSelections="true" repeats="1" roundUp="false" scope="root-entry" shared="true" value="1"/>
           </repeats>
         </modifier>
-        <modifier affects="entry" field="c4da-96df-1abd-13be" type="set" value="40000"/>
+        <modifier affects="entry" field="c4da-96df-1abd-13be" type="set" value="40000">
+          <conditions>
+            <condition childId="ce3d-3ed3-cb13-dd55" childName="Random Skills" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="lessThan" value="1"/>
+          </conditions>
+        </modifier>
         <modifier affects="self.entries" field="c4da-96df-1abd-13be" type="set" value="0">
           <conditionGroups>
             <conditionGroup type="or">
@@ -6017,6 +6255,12 @@ If a team has a choice of any alignment, they can choose from any of the followi
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier affects="entry" field="c4da-96df-1abd-13be" type="set" value="30000">
+          <comment>Sevens modification</comment>
+          <conditions>
+            <condition childId="ce3d-3ed3-cb13-dd55" childName="Random Skills" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+          </conditions>
         </modifier>
       </modifiers>
     </selectionEntryGroup>
@@ -6142,6 +6386,33 @@ If a team has a choice of any alignment, they can choose from any of the followi
             <modifier affects="69f8-eb37-db8c-47de.profiles.Player" field="5b6f-6247-0c21-83d3" scope="root-entry" type="decrement" value="1"/>
           </modifiers>
         </selectionEntry>
+        <selectionEntry name="Staying Fee" id="edd3-9b24-bb4d-9b4c" hidden="true" import="true" type="upgrade">
+          <costs>
+            <cost name="TV" typeId="c4da-96df-1abd-13be" value="15000"/>
+            <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier field="hidden" type="set" value="false">
+              <conditions>
+                <condition childId="f10d-d64d-783b-851f" childName="First Advancement" field="selections" scope="parent" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule name="Staying Fee" id="e0ec-678a-4e91-a0de" hidden="false">
+              <description>After the Player Advancement step of the Post-game Sequence, Coaches roll a D6 for each player on their roster who has gained one or more additional Skills at some point.
+
+
+If the result is equal to or lower than the player&apos;s number of additional Skills, then the player has received an offer from a professional team and is eager to take it!
+
+
+When a player receives an offer, there&apos;s every chance they will leave the team. To retain the player, you must spend gold pieces from your team&apos;s Treasury equal to the player&apos;s Current Value. If you can&apos;t, the player is removed from your Team Draft List.
+
+
+If the money is paid, the player remains on the team. However, to reflect the increased wage, as well as the player&apos;s expanding ego and self-worth, increase the player&apos;s Current Value by 15,000 gold pieces - good luck keeping them around forever!</description>
+            </rule>
+          </rules>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup name="Prayers to Nuffle" id="c90a-99cd-da71-b017" collapsible="true" hidden="false" sortIndex="8">
@@ -6201,7 +6472,7 @@ If a team has a choice of any alignment, they can choose from any of the followi
             <constraint id="a3eb-ed2d-4f09-6a09" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Random Primary" id="283b-faff-f0d2-ba8f" hidden="false" import="true" sortIndex="1" targetId="9db9-87f1-4f71-503c" type="selectionEntry">
+            <entryLink name="Random Primary Skill" id="283b-faff-f0d2-ba8f" hidden="false" import="true" sortIndex="1" targetId="9db9-87f1-4f71-503c" type="selectionEntry">
               <costs>
                 <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-3"/>
               </costs>
@@ -6210,11 +6481,27 @@ If a team has a choice of any alignment, they can choose from any of the followi
               <costs>
                 <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-6"/>
               </costs>
+              <modifiers>
+                <modifier field="c4da-96df-1abd-13be" type="set" value="-10000">
+                  <comment>Sevens modification</comment>
+                  <conditions>
+                    <condition childId="ce3d-3ed3-cb13-dd55" childName="Random Skills" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </entryLink>
             <entryLink name="Secondary Skill" id="42f5-241f-da3e-0530" hidden="false" import="true" sortIndex="3" targetId="eeb0-8b2b-d19e-868d" type="selectionEntry">
               <costs>
                 <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-10"/>
               </costs>
+              <modifiers>
+                <modifier field="c4da-96df-1abd-13be" type="set" value="-10000">
+                  <comment>Sevens modification</comment>
+                  <conditions>
+                    <condition childId="ce3d-3ed3-cb13-dd55" childName="Random Skills" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </entryLink>
             <entryLink name="Random Characteristics" id="70dc-d9ee-7581-e28a" hidden="false" import="true" sortIndex="4" targetId="33c5-a36e-b2b3-39cb" type="selectionEntry">
               <costs>
@@ -6222,13 +6509,16 @@ If a team has a choice of any alignment, they can choose from any of the followi
               </costs>
             </entryLink>
           </entryLinks>
+          <modifiers>
+            <modifier field="info" type="add" value="{this} for each player in Sevens is discounted"/>
+          </modifiers>
         </selectionEntryGroup>
         <selectionEntryGroup name="Fourth Advancement" id="283d-1301-3fe0-f6f9" collapsible="true" hidden="true" sortIndex="4">
           <constraints>
             <constraint id="c222-d8bd-8f3d-bcad" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Random Primary" id="3d52-c95c-8c70-224a" hidden="false" import="true" sortIndex="1" targetId="9db9-87f1-4f71-503c" type="selectionEntry">
+            <entryLink name="Random Primary Skill" id="3d52-c95c-8c70-224a" hidden="false" import="true" sortIndex="1" targetId="9db9-87f1-4f71-503c" type="selectionEntry">
               <costs>
                 <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-8"/>
               </costs>
@@ -6262,7 +6552,7 @@ If a team has a choice of any alignment, they can choose from any of the followi
             <constraint id="8ea4-e237-42ba-5d47" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Random Primary" id="af33-7cc5-bbf0-5001" hidden="false" import="true" sortIndex="1" targetId="9db9-87f1-4f71-503c" type="selectionEntry">
+            <entryLink name="Random Primary Skill" id="af33-7cc5-bbf0-5001" hidden="false" import="true" sortIndex="1" targetId="9db9-87f1-4f71-503c" type="selectionEntry">
               <costs>
                 <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-10"/>
               </costs>
@@ -6296,7 +6586,7 @@ If a team has a choice of any alignment, they can choose from any of the followi
             <constraint id="15ee-71f4-c142-fe52" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Random Primary" id="d060-e470-41df-027b" hidden="false" import="true" sortIndex="1" targetId="9db9-87f1-4f71-503c" type="selectionEntry">
+            <entryLink name="Random Primary Skill" id="d060-e470-41df-027b" hidden="false" import="true" sortIndex="1" targetId="9db9-87f1-4f71-503c" type="selectionEntry">
               <costs>
                 <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-15"/>
               </costs>
@@ -6330,7 +6620,7 @@ If a team has a choice of any alignment, they can choose from any of the followi
             <constraint id="28f5-1702-99ff-4c0b" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Random Primary" id="8f07-e0bd-ce23-fe37" hidden="false" import="true" sortIndex="1" targetId="9db9-87f1-4f71-503c" type="selectionEntry">
+            <entryLink name="Random Primary Skill" id="8f07-e0bd-ce23-fe37" hidden="false" import="true" sortIndex="1" targetId="9db9-87f1-4f71-503c" type="selectionEntry">
               <costs>
                 <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-6"/>
               </costs>
@@ -6364,7 +6654,7 @@ If a team has a choice of any alignment, they can choose from any of the followi
             <constraint id="98c7-6b6b-67d6-2bb2" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Random Primary" id="3dbd-7949-b30d-44f2" hidden="false" import="true" sortIndex="1" targetId="9db9-87f1-4f71-503c" type="selectionEntry">
+            <entryLink name="Random Primary Skill" id="3dbd-7949-b30d-44f2" hidden="false" import="true" sortIndex="1" targetId="9db9-87f1-4f71-503c" type="selectionEntry">
               <costs>
                 <cost name="SPP" typeId="bd26-2dc7-dad6-1ff7" value="-4"/>
               </costs>
@@ -6574,6 +6864,13 @@ If a team has a choice of any alignment, they can choose from any of the followi
           <constraints>
             <constraint id="3c61-9310-c8f2-2c2e" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
+          <modifiers>
+            <modifier field="hidden" type="set" value="true">
+              <conditions>
+                <condition childId="4f7a-a584-7466-8c9d" childName="Sevens" field="selections" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
