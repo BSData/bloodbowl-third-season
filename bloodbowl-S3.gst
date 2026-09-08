@@ -6716,6 +6716,12 @@ If the money is paid, the player remains on the team. However, to reflect the in
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier field="hidden" type="set" value="true">
+          <comment>Sevens modification</comment>
+          <conditions>
+            <condition childId="ce3d-3ed3-cb13-dd55" childName="Random Skills" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <selectionEntries>
         <selectionEntry name="MA" id="1164-d3f0-6f1e-ffdc" hidden="false" import="true" sortIndex="2" type="upgrade">
