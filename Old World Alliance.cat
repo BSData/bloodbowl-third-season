@@ -76,6 +76,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="56ea-629f-8f84-8eea" primary="true" name="Player"/>
         <categoryLink targetId="a129-00ba-4498-9668" id="657a-9068-ba32-7263" primary="false" name="Human Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="0f16-eb44-a4ee-c912" primary="false" name="Lineman"/>
       </categoryLinks>
       <profiles>
         <profile name="Human Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="7bed-d066-9903-cf3a">
@@ -116,6 +117,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="ed69-68cf-8480-861b" primary="true" name="Player"/>
         <categoryLink targetId="c367-a817-1e7d-6813" id="4c58-4b22-2641-b106" primary="false" name="Halfling Hopeful"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="0272-7f42-2436-7419" primary="false" name="Lineman"/>
       </categoryLinks>
       <profiles>
         <profile name="Halfling Hopeful" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="ddb1-827f-53a5-fb97">
@@ -164,6 +166,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="86ad-faae-ad4d-4c37" primary="true" name="Player"/>
         <categoryLink targetId="fd70-ff3b-d558-9cfa" id="a6ea-0d6a-45d0-cb87" primary="false" name="Human Catcher"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="4fae-5671-bce8-57af" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Human Catcher" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="0a6d-c10b-138a-5dfa">
@@ -213,6 +216,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="6b58-5289-87bd-6b6b" primary="true" name="Player"/>
         <categoryLink targetId="3467-a6ee-9d05-cd42" id="5ff0-4ac5-ad51-a99f" primary="false" name="Dwarf Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="18e7-22d5-3ac1-7f5a" primary="false" name="Lineman"/>
       </categoryLinks>
       <profiles>
         <profile name="Dwarf Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="9748-7cfb-83d1-da6e">
@@ -263,6 +267,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="dac5-c423-1192-5ed6" primary="true" name="Player"/>
         <categoryLink targetId="c01d-a147-16c0-d7df" id="6020-e2a0-3712-b972" primary="false" name="Human Thrower"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="8d34-efa2-0aac-459c" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Human Thrower" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="0b3f-22da-dd2d-b333">
@@ -312,6 +317,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="517a-6f55-d691-0a0c" primary="true" name="Player"/>
         <categoryLink targetId="bc70-dd41-5696-4130" id="4180-b135-50ff-1cdc" primary="false" name="Dwarf Runner"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="68ac-e57b-a7b1-b320" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Dwarf Runner" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="471c-1656-9847-e260">
@@ -363,6 +369,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="dc4d-4dbd-4442-c2ce" primary="true" name="Player"/>
         <categoryLink targetId="9e59-ed3a-c36c-8e75" id="6b41-d5ea-118e-002a" primary="false" name="Human Blitzer"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="df5c-47a9-3191-5463" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Human Blitzer" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="352c-67eb-d61d-e15f">
@@ -411,6 +418,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="73d3-d640-93c8-ce2f" primary="true" name="Player"/>
         <categoryLink targetId="2716-94d2-039b-1265" id="11b2-6e6e-a5aa-229b" primary="false" name="Dwarf Blitzer"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="f642-1718-9fba-8f44" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Dwarf Blitzer" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="5726-879f-22d0-072d">
@@ -463,6 +471,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="7381-b4fe-a397-9ace" primary="true" name="Player"/>
         <categoryLink targetId="8a8d-07dd-43d5-bf89" id="fa21-076c-ccec-c137" primary="false" name="Troll Slayer"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="ac18-632e-10be-66e6" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Troll Slayer" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="ae99-1f40-7db2-21b6">
@@ -516,6 +525,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="2041-d791-e13e-44f6" primary="true" name="Player"/>
         <categoryLink targetId="fbf7-5e16-85d2-1908" id="dbd0-129b-6c03-c549" primary="false" name="Big Guy"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="64ef-931f-de3a-dbaf" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Ogre" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="8d76-a413-df17-66e6">
@@ -567,6 +577,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="3697-3f77-1e30-f565" primary="true" name="Player"/>
         <categoryLink targetId="fbf7-5e16-85d2-1908" id="b030-a2f8-3735-f6ba" primary="false" name="Big Guy"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="bff9-cd30-24a7-92de" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Altern Forest Treeman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="c520-542d-116f-add5">

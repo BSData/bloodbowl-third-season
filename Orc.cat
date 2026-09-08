@@ -170,6 +170,7 @@
     <selectionEntry type="model" import="true" name="Orc Lineman" hidden="false" id="a3e5-4a37-ddc5-8959">
       <categoryLinks>
         <categoryLink targetId="0700-e6e2-7e86-8494" id="c0f6-18d7-d79e-a1dd" primary="false" name="Orc Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="c618-5f3b-8c11-d503" primary="false" name="Lineman"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Primary Skill" hidden="false" id="d8c9-3536-d910-1a04" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
@@ -351,6 +352,7 @@
     <selectionEntry type="model" import="true" name="Goblin Lineman" hidden="false" id="c7a3-20c5-ba39-a68b">
       <categoryLinks>
         <categoryLink targetId="3403-c01b-9a31-a7f5" id="04d1-ff0a-9715-9e0d" primary="false" name="Goblin Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="7687-82d3-21ac-67e0" primary="false" name="Lineman"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Primary Skill" hidden="false" id="0b4e-424d-940a-f6cb" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">

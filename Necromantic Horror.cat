@@ -32,6 +32,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="ec89-ad13-15e0-5834" primary="true" name="Player"/>
         <categoryLink targetId="c106-9e14-0f65-173d" id="c5f0-ffe8-5fea-b2d1" primary="false" name="Zombie Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="453f-8129-38c1-5fd7" primary="false" name="Lineman"/>
       </categoryLinks>
       <profiles>
         <profile name="Zombie Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="139e-f1d0-e57f-51f3">
@@ -81,6 +82,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="fa27-b4f7-5341-c6db" primary="true" name="Player"/>
         <categoryLink targetId="a2aa-2c48-23cd-89c6" id="9ef8-e211-ea62-a950" primary="false" name="Ghoul Runner"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="987c-7e1a-9027-7f6d" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Ghoul Runner" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="d3bf-e2bb-0eac-21c0">
@@ -130,6 +132,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="7a41-3b24-4c2a-1237" primary="true" name="Player"/>
         <categoryLink targetId="cce2-017f-a1d5-58d2" id="3d23-5183-20a5-fb42" primary="false" name="Wraith"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="abcd-148a-9910-d77f" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Wraith" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="0ff8-868b-5b81-e614">
@@ -183,6 +186,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="78a6-2132-7e4e-26c0" primary="true" name="Player"/>
         <categoryLink targetId="6a5b-d66a-9561-8908" id="a03d-4889-3c36-dceb" primary="false" name="Flesh Golem"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="be8b-0f84-2a5e-6d04" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Flesh Golem" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="e664-ea02-ca37-13bc">
@@ -234,6 +238,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="2bfb-1a2d-20ca-40c7" primary="true" name="Player"/>
         <categoryLink targetId="3b50-c3ca-f2d6-4891" id="6eb0-dafd-743d-2bf5" primary="false" name="Werewolf"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="c2c6-5cbf-6a71-52eb" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Werewolf" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="d231-2277-3229-36c7">

@@ -91,6 +91,7 @@
       </costs>
       <categoryLinks>
         <categoryLink targetId="022d-955a-a4a9-77e6" id="0698-97b9-5f65-b914" primary="false" name="Skeleton Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="5ee5-eb58-b66b-072c" primary="false" name="Lineman"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Primary Skill" hidden="false" id="1ee6-6d62-2d96-f365" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">

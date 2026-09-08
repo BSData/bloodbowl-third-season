@@ -27,6 +27,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="5ed6-66c1-fa17-dfaa" primary="true" name="Player"/>
         <categoryLink targetId="1884-76ca-62d1-1201" id="6c71-20cf-e58a-e00a" primary="false" name="Bretonnian Squire"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="973c-343e-b747-66b0" primary="false" name="Lineman"/>
       </categoryLinks>
       <profiles>
         <profile name="Bretonnian Squire" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="3d91-bd68-a787-93cb">
@@ -73,6 +74,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="8cac-36f4-d042-95d9" primary="true" name="Player"/>
         <categoryLink targetId="4c77-9f9e-f854-4f5f" id="72cc-44b9-d38f-a46b" primary="false" name="Bretonnian Knight Catcher"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="cf3e-8470-e25e-b94e" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Bretonnian Knight Catcher" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="d7b7-a629-6d99-292a">
@@ -123,6 +125,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="9365-4983-91dd-8e85" primary="true" name="Player"/>
         <categoryLink targetId="5de4-52a1-1f92-a805" id="cf3b-a634-34ea-b61c" primary="false" name="Bretonnian Knight Thrower"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="47ee-17f4-eee1-fdce" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Bretonnian Knight Thrower" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="84b1-6556-9b27-c473">
@@ -174,6 +177,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="4d2d-e9ff-4d3d-55e9" primary="true" name="Player"/>
         <categoryLink targetId="b0b6-af92-4867-5166" id="d64f-6a98-48c4-a7d3" primary="false" name="Grail Knight"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="a4da-96f1-94ec-277a" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Grail Knight" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="762b-9e20-34c9-4eb1">

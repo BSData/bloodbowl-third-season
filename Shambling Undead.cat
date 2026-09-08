@@ -171,6 +171,7 @@
       </modifiers>
       <categoryLinks>
         <categoryLink targetId="fa4a-aa25-396f-5f32" id="732b-d645-cc02-f301" primary="false" name="Zombie Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="0e40-b49a-308a-18dc" primary="false" name="Lineman"/>
       </categoryLinks>
       <costs>
         <cost name="TV" typeId="c4da-96df-1abd-13be" value="40000"/>
@@ -317,6 +318,7 @@
       </costs>
       <categoryLinks>
         <categoryLink targetId="ab10-e643-8464-734b" id="f9aa-5d83-98e8-da49" primary="false" name="Skeleton Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="1233-ba2f-45e0-da27" primary="false" name="Lineman"/>
       </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>

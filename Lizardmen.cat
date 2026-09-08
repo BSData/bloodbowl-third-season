@@ -46,6 +46,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="90f5-9d10-af6c-92f1" primary="true" name="Player"/>
         <categoryLink targetId="7316-a362-4157-faca" id="5ba1-13f7-f885-0046" primary="false" name="Chameleon Skink"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="8c99-936e-57a4-9c54" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Chameleon Skink" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="e8b9-876b-8778-88c4">
@@ -99,6 +100,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="5e26-2829-4e29-d24d" primary="true" name="Player"/>
         <categoryLink targetId="27b8-0660-c307-9aff" id="80ae-1afe-c667-74dd" primary="false" name="Kroxigor"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="a6da-f544-84cf-af3f" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Kroxigor" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="95e3-5cc2-d80e-b9bc">
@@ -151,6 +153,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="6445-c672-4e73-e9ea" primary="true" name="Player"/>
         <categoryLink targetId="a66b-2c13-934d-b11f" id="d08b-7082-8836-1fbd" primary="false" name="Saurus Blocker"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="166d-6420-3295-ae12" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Saurus Blocker" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="a26b-415f-7a4d-f364">
@@ -198,6 +201,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="d10e-2152-67d1-5f47" primary="true" name="Player"/>
         <categoryLink targetId="93a8-5dce-eb25-c537" id="1cd5-11ce-de6f-66ed" primary="false" name="Skink Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="7deb-f418-744e-62c0" primary="false" name="Lineman"/>
       </categoryLinks>
       <profiles>
         <profile name="Skink Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="d8c8-7f2e-1a7f-f29a">

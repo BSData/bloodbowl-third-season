@@ -37,6 +37,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="1c90-0b58-686b-0f8b" primary="true" name="Player"/>
         <categoryLink targetId="30cf-e747-af57-e4c1" id="aaeb-d129-b357-5967" primary="false" name="Norse Raider"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="dbc5-2a18-7b3e-b0a3" primary="false" name="Lineman"/>
       </categoryLinks>
       <profiles>
         <profile name="Norse Raider" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="4070-8075-5b84-a6b3">
@@ -88,6 +89,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="d8c5-fe75-576b-4565" primary="true" name="Player"/>
         <categoryLink targetId="e02d-b71e-4564-2725" id="9cce-7066-b8c3-5b95" primary="false" name="Yhetee"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="c37b-1fd8-5488-0ce9" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Yhetee" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="d282-cb7a-a45d-cf96">
@@ -140,6 +142,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="2fdb-fc9c-3b8f-0b95" primary="true" name="Player"/>
         <categoryLink targetId="a9ae-b997-9556-ffcb" id="6dde-64b1-9f24-ecb9" primary="false" name="Ulfwerener"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="57ce-d63b-8d6c-f84e" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Ulfwerener" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="cc96-9f33-3408-8eb4">
@@ -187,6 +190,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="5719-9807-164b-4ae7" primary="true" name="Player"/>
         <categoryLink targetId="d848-4696-8079-39a5" id="782d-9b3b-bfb4-eb0e" primary="false" name="Valkyrie"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="5eac-fb51-3249-b796" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Valkyrie" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="a0cb-2013-5bc3-b8b7">
@@ -240,6 +244,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="8886-7b18-f2a3-878d" primary="true" name="Player"/>
         <categoryLink targetId="4b97-5583-83a6-1610" id="5e23-cc1d-5f95-f7fa" primary="false" name="Norse Berserker"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="c10b-7890-1dbe-3228" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Norse Berserker" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="d76b-7839-cbc5-beba">
@@ -291,6 +296,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="9b4e-2c23-eaca-1eed" primary="true" name="Player"/>
         <categoryLink targetId="4d17-7e85-3951-a0be" id="7f97-527e-344d-9d5f" primary="false" name="Beer Boar"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="469f-8039-7a07-c014" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Beer Boar" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="5492-a67e-5aa4-4548">

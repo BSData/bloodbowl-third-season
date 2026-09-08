@@ -128,6 +128,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="d31a-8ffa-95c7-09b2" primary="true" name="Player"/>
         <categoryLink targetId="d7d7-a162-7912-ca6f" id="e1c8-ffb9-f340-b2ca" primary="false" name="Ogre Blocker"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="1baf-8f31-79ba-6014" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Ogre Blocker" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="08c1-729f-42fb-ae9d">
@@ -180,6 +181,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="46f3-ebd6-2669-e855" primary="true" name="Player"/>
         <categoryLink targetId="7bcf-7594-b902-7a18" id="a7c7-87d1-6ff1-a005" primary="false" name="Ogre Runt Punter"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="37f3-fdd6-74d9-290f" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Ogre Runt Punter" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="64c1-9ae8-3195-00c3">

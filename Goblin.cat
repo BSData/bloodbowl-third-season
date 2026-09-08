@@ -47,6 +47,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="d153-c2d7-80e8-bb02" primary="true" name="Player"/>
         <categoryLink targetId="fefa-9f77-8229-38e6" id="1351-cb34-39fa-0bee" primary="false" name="Goblin Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="939a-d082-7007-429a" primary="false" name="Lineman"/>
       </categoryLinks>
       <profiles>
         <profile name="Goblin Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="7fec-e08d-fa99-d8dd">
@@ -97,6 +98,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="6a0b-badd-fe76-7697" primary="true" name="Player"/>
         <categoryLink targetId="0b1e-7905-69bd-a9bd" id="aa88-377c-e28b-0e45" primary="false" name="Loony"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="9dfe-85af-7c71-1fd3" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Loony" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="688a-61db-a6ba-9233">
@@ -144,6 +146,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="7e06-7b03-cb9f-ee02" primary="true" name="Player"/>
         <categoryLink targetId="398a-0ec6-a8c6-7f89" id="4368-e527-1e9b-2b3d" primary="false" name="Bomma"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="1190-ac65-aaf6-eb22" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Bomma" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="fd86-44d1-f4d0-a3b7">
@@ -195,6 +198,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="b4d4-3858-6e64-4f6e" primary="true" name="Player"/>
         <categoryLink targetId="c6cb-51b7-b1f2-bb38" id="1ef6-2b63-664b-3cf8" primary="false" name="Doom Diver"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="0e1c-10bb-b577-9f35" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Doom Diver" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="1806-a0dc-87e2-9225">
@@ -245,6 +249,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="ded0-8290-e70a-cb10" primary="true" name="Player"/>
         <categoryLink targetId="27d0-b007-b145-c036" id="bd64-4a0e-37b5-2cd7" primary="false" name="Fanatic"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="0acf-b840-81f5-296c" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Fanatic" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="805f-81e8-567d-09f2">
@@ -292,6 +297,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="094b-123f-39ca-ca3d" primary="true" name="Player"/>
         <categoryLink targetId="5736-e7b3-fa00-699a" id="b43a-7dcd-dba2-21e0" primary="false" name="Pogoer"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="9b21-6179-ca04-941b" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Pogoer" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="6f75-4b43-2934-af0c">
@@ -341,6 +347,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="9023-cd99-07e7-3bc8" primary="true" name="Player"/>
         <categoryLink targetId="0647-41d7-f0ef-ff89" id="56b3-694a-792a-4262" primary="false" name="Trained Troll"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="1b86-f441-f451-aff7" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Trained Troll" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="b89a-97ed-72b1-e25f">
@@ -393,6 +400,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="8abf-f3fe-9188-6f1e" primary="true" name="Player"/>
         <categoryLink targetId="a40a-9d74-f7f0-8b98" id="c22b-0393-330a-61b8" primary="false" name="&apos;Ooligan"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="d51a-e787-9518-06e2" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="&apos;Ooligan" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="a561-a6fb-e64d-ff79">

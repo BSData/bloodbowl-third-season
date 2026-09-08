@@ -166,6 +166,7 @@
       </costs>
       <categoryLinks>
         <categoryLink targetId="4c52-a260-108e-995d" id="3f62-8985-a8ec-89b8" primary="false" name="Goblin Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="8cc3-f770-3fb4-657e" primary="false" name="Lineman"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Primary Skill" hidden="false" id="fbf3-eb5b-8e49-135e" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
@@ -203,6 +204,7 @@
       </costs>
       <categoryLinks>
         <categoryLink targetId="b807-a695-c618-429d" id="2b7d-b60b-1ced-4bb3" primary="false" name="Snotling Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="06d2-6de7-3361-cbc6" primary="false" name="Lineman"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Primary Skill" hidden="false" id="e1d3-e48d-34dc-fdb2" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
@@ -242,6 +244,7 @@
       </costs>
       <categoryLinks>
         <categoryLink targetId="dcec-4719-2873-0668" id="d219-87ff-f245-662f" primary="false" name="Skaven Clanrat"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="aa59-2099-4aba-2189" primary="false" name="Lineman"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Primary Skill" hidden="false" id="2c4b-fa81-032a-53ba" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">

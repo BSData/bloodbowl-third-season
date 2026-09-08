@@ -72,6 +72,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="4af4-ed9a-b737-41a7" primary="true" name="Player"/>
         <categoryLink targetId="46fd-c16d-575a-d9c4" id="5b05-7c6f-f59b-c585" primary="false" name="Bloodborn Marauder"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="69b2-36f9-642c-bf39" primary="false" name="Lineman"/>
       </categoryLinks>
       <profiles>
         <profile name="Bloodborn Marauder" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="4550-b989-18bb-c63a">
@@ -120,6 +121,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="1d13-586f-1848-8de5" primary="true" name="Player"/>
         <categoryLink targetId="ad8b-59e5-df84-df76" id="6a18-258f-d660-0fb3" primary="false" name="Khorngor"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="307b-cb34-b750-5d63" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Khorngor" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="6721-7d00-872d-b990">
@@ -175,6 +177,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="7efd-2f14-7b74-5ee8" primary="true" name="Player"/>
         <categoryLink targetId="f25c-0f43-bfca-f26f" id="3bec-651f-20d3-5596" primary="false" name="Bloodseeker"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="a6e7-60c5-31f6-ef00" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Bloodseeker" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="b58b-e787-7469-c998">
@@ -223,6 +226,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="9318-cb18-fc30-b523" primary="true" name="Player"/>
         <categoryLink targetId="d45f-ce8d-754a-53ae" id="68c7-2ec8-c2e0-8f98" primary="false" name="Bloodspawn"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="ca3c-f6c9-c230-2410" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Bloodspawn" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="f1e1-1e48-7498-eefb">

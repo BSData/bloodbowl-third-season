@@ -86,6 +86,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="39ef-fc29-f65b-b5bc" primary="true" name="Player"/>
         <categoryLink targetId="ef5c-95f5-a69e-bbf6" id="b934-b867-fd32-11e0" primary="false" name="Elf Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="0dc7-f6f7-3aa6-8ef5" primary="false" name="Lineman"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Elf Thrower" hidden="false" id="f1d5-7ea7-5b30-168e">
@@ -135,6 +136,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="f4a3-e79f-8180-423a" primary="true" name="Player"/>
         <categoryLink targetId="2d58-5a33-df77-011e" id="bea1-dea5-1aef-c543" primary="false" name="Elf Thrower"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="8318-b2ab-925b-1992" primary="false" name="Positional"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Elf Catcher" hidden="false" id="6a4b-13ba-a868-3416">
@@ -185,6 +187,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="e572-9cfe-da95-99c5" primary="true" name="Player"/>
         <categoryLink targetId="a85a-6d18-702c-787d" id="ccda-91fb-4303-988d" primary="false" name="Elf Catcher"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="b193-e81e-087b-c4c6" primary="false" name="Positional"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Elf Blitzer" hidden="false" id="beb8-a957-9b94-4800">
@@ -234,6 +237,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="7150-6ac7-972e-7b60" primary="true" name="Player"/>
         <categoryLink targetId="016a-94b8-a2e3-bcae" id="4d9b-afb9-cf8a-ea5d" primary="false" name="Elf Blitzer"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="c2b4-dac5-a203-5122" primary="false" name="Positional"/>
       </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>

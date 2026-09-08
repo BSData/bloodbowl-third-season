@@ -72,6 +72,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="60be-d1eb-c7e4-f4be" primary="true" name="Player"/>
         <categoryLink targetId="d67e-c3f7-2515-f20d" id="eda0-957a-a745-5303" primary="false" name="Rotter Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="3554-08f8-50f1-64c7" primary="false" name="Lineman"/>
       </categoryLinks>
       <profiles>
         <profile name="Rotter Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="b00a-023d-e381-1628">
@@ -118,6 +119,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="01f0-0a16-398b-38ea" primary="true" name="Player"/>
         <categoryLink targetId="7414-afb6-739c-1ac8" id="8732-5e8d-fe0c-9475" primary="false" name="Pestigor"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="b3ab-b2aa-c31a-689d" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Pestigor" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="ca3d-6de0-22fe-ab4d">
@@ -173,6 +175,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="b597-730f-dfba-33ab" primary="true" name="Player"/>
         <categoryLink targetId="b8ba-c3e0-eb99-5c78" id="7c98-a566-7c7f-98e2" primary="false" name="Bloater"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="8d6d-ae4c-cf8d-7ce9" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Bloater" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="2f3b-5d51-51a0-e0b4">
@@ -228,6 +231,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="3329-f861-b0f6-14b7" primary="true" name="Player"/>
         <categoryLink targetId="f6a8-ca71-699e-c36d" id="90e8-1fee-6887-287a" primary="false" name="Rotspawn"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="9170-781d-2189-5313" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Rotspawn" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="e4fa-91f7-10ab-391c">

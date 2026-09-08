@@ -26,6 +26,7 @@
     <selectionEntry type="model" import="true" name="High Elf Lineman" hidden="false" id="d815-c010-af2b-6447">
       <categoryLinks>
         <categoryLink targetId="1394-d1be-93b9-a721" id="8c86-48a7-5d91-e657" primary="false" name="High Elf Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="6909-7677-77ae-a7b5" primary="false" name="Lineman"/>
       </categoryLinks>
       <profiles>
         <profile name="High Elf Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="6c8c-526b-aa33-f889">
@@ -68,7 +69,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Phoenix Warrior" hidden="false" id="d55f-e6b7-6987-01ad">
       <categoryLinks>
-        <categoryLink targetId="1976-5d9c-2a24-a692" id="9fcd-b906-e132-2361" primary="false" name="High Elf Thrower"/>
+        <categoryLink targetId="1976-5d9c-2a24-a692" id="9fcd-b906-e132-2361" primary="false" name="Phoenix Warrior"/>
         <categoryLink targetId="0c44-468c-6a37-e6c8" id="b505-daec-f39f-0eae" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
@@ -123,7 +124,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Dragon Prince" hidden="false" id="ce6d-73b1-07b1-5dc1">
       <categoryLinks>
-        <categoryLink targetId="24cc-eff6-694d-bda8" id="9850-1c10-f6d5-386b" primary="false" name="High Elf Catcher"/>
+        <categoryLink targetId="24cc-eff6-694d-bda8" id="9850-1c10-f6d5-386b" primary="false" name="Dragon Prince"/>
         <categoryLink targetId="0c44-468c-6a37-e6c8" id="1af9-dc90-8454-6ca8" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
@@ -176,7 +177,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="White Lion" hidden="false" id="f7bf-a686-4375-4bf5">
       <categoryLinks>
-        <categoryLink targetId="392e-2665-f148-2f3c" id="2db3-07c3-206a-c50f" primary="false" name="High Elf Blitzer"/>
+        <categoryLink targetId="392e-2665-f148-2f3c" id="2db3-07c3-206a-c50f" primary="false" name="White Lion"/>
         <categoryLink targetId="0c44-468c-6a37-e6c8" id="b0f1-1ced-758a-7b5c" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
@@ -229,12 +230,12 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
-    <entryLink import="true" name="High Elf Blitzer" hidden="false" id="a7d0-8b18-c31e-67f8" type="selectionEntry" targetId="f7bf-a686-4375-4bf5" sortIndex="2">
+    <entryLink import="true" name="White Lion" hidden="false" id="a7d0-8b18-c31e-67f8" type="selectionEntry" targetId="f7bf-a686-4375-4bf5" sortIndex="2">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="a668-80ff-8dae-3eb3" primary="true" name="Player"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="High Elf Catcher" hidden="false" id="5cd9-8f0f-7d0d-5c53" type="selectionEntry" targetId="ce6d-73b1-07b1-5dc1" sortIndex="4">
+    <entryLink import="true" name="Dragon Prince" hidden="false" id="5cd9-8f0f-7d0d-5c53" type="selectionEntry" targetId="ce6d-73b1-07b1-5dc1" sortIndex="4">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="db11-557e-15b1-218c" primary="true" name="Player"/>
       </categoryLinks>
@@ -244,7 +245,7 @@
         <categoryLink targetId="69f8-eb37-db8c-47de" id="985d-681a-3c04-687c" primary="true" name="Player"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="High Elf Thrower" hidden="false" id="3c25-eb87-1876-2cab" type="selectionEntry" targetId="d55f-e6b7-6987-01ad" sortIndex="3">
+    <entryLink import="true" name="Phoenix Warrior" hidden="false" id="3c25-eb87-1876-2cab" type="selectionEntry" targetId="d55f-e6b7-6987-01ad" sortIndex="3">
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="984f-4a92-f983-5fc2" primary="true" name="Player"/>
       </categoryLinks>

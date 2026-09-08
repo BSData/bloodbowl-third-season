@@ -5,6 +5,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="805a-f8bd-e30c-ff32" primary="true" name="Player"/>
         <categoryLink targetId="95f3-11b7-e672-d70e" id="357c-2b6a-4b13-700d" primary="false" name="Beastmen Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="9ba7-23c4-cf58-e8e8" primary="false" name="Lineman"/>
       </categoryLinks>
       <profiles>
         <profile name="Beastmen Lineman" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="d28f-9734-1087-dce0">
@@ -56,6 +57,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="e868-117d-2359-35e8" primary="true" name="Player"/>
         <categoryLink targetId="607a-905a-1f3f-f98e" id="6fc6-49f7-5108-f966" primary="false" name="Chaos Chosen"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="0066-2f19-165c-1870" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Chaos Chosen" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="c405-78b9-a553-2c12">
@@ -104,6 +106,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="b028-11bc-f206-d16a" primary="true" name="Player"/>
         <categoryLink targetId="885c-a787-73ad-c86c" id="390c-ae7e-562d-efa2" primary="false" name="Big Guy"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="c797-5716-a7d6-e232" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Troll" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="84a2-b934-ff19-b7e8">
@@ -158,6 +161,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="1dc0-300a-5f87-9d7a" primary="true" name="Player"/>
         <categoryLink targetId="885c-a787-73ad-c86c" id="36e2-863d-e293-b669" primary="false" name="Big Guy"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="1eb0-714b-7645-223c" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Ogre" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="de42-51de-4f7d-7bf3">
@@ -210,6 +214,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="f257-43e2-0382-2967" primary="true" name="Player"/>
         <categoryLink targetId="885c-a787-73ad-c86c" id="6f8a-5b01-aff3-e373" primary="false" name="Big Guy"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="536e-4a59-0e9c-4139" primary="false" name="Positional"/>
       </categoryLinks>
       <profiles>
         <profile name="Minotaur" typeId="8471-fde9-4157-5b28" typeName="Player" hidden="false" id="3fbe-9fb7-99f8-6a56">

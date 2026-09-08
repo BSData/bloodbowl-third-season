@@ -22,6 +22,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="eccd-d6d7-6c89-4aee" primary="true" name="Player"/>
         <categoryLink targetId="0e28-f117-7a31-5e27" id="1c7d-c161-09ca-c206" primary="false" name="Flamesmith"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="7cb3-2212-196b-9e79" primary="false" name="Positional"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Brawler (Active)" id="321c-978a-5792-eef9" hidden="false" type="rule" targetId="d839-ffbd-92cc-0ec0"/>
@@ -104,6 +105,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="3500-ff2d-7e7d-26e0" primary="true" name="Player"/>
         <categoryLink targetId="3ba4-e9d0-1bac-92f7" id="1c38-5690-172e-6a12" primary="false" name="Chaos Dwarf Blocker"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="ee13-cdd4-2a27-9fb3" primary="false" name="Positional"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Hobgoblin Lineman" hidden="false" id="1b41-182d-9b3c-a0b0">
@@ -127,6 +129,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="d2e7-1fb0-559a-2302" primary="true" name="Player"/>
         <categoryLink targetId="553b-6d18-8ac0-77cd" id="7785-e291-a298-712f" primary="false" name="Hobgoblin Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="5514-f1df-cfea-611f" primary="false" name="Lineman"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Primary Skill" hidden="false" id="f106-7b62-bef2-301f" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
@@ -168,6 +171,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="36c9-0e16-1611-a7d1" primary="true" name="Player"/>
         <categoryLink targetId="3d3b-777b-8c7d-a187" id="7d75-056c-590a-717a" primary="false" name="Minotaur"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="9b04-2d75-cd9c-7fbe" primary="false" name="Positional"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Frenzy* (Active)" id="e316-ad7e-052c-d308" hidden="false" type="rule" targetId="23bd-8f90-1641-a278"/>
@@ -223,6 +227,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="30cb-9bf8-ce02-c608" primary="true" name="Player"/>
         <categoryLink targetId="0969-47b5-9a25-9322" id="d310-8f6a-2424-fa33" primary="false" name="Sneaky Stabba"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="1c74-3684-f22c-ffb6" primary="false" name="Positional"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Shadowing (Active)" id="b925-3c9a-9ec5-6d44" hidden="false" type="rule" targetId="5263-3b6c-910f-3a9d"/>
@@ -301,6 +306,7 @@
       <categoryLinks>
         <categoryLink targetId="69f8-eb37-db8c-47de" id="d6b7-230d-c0f5-ba0c" primary="true" name="Player"/>
         <categoryLink targetId="5ad4-a76e-f6a6-3438" id="5d68-0805-f4f8-d093" primary="false" name="Bull Centaur"/>
+        <categoryLink targetId="0c44-468c-6a37-e6c8" id="aa11-0d2d-c1e0-9e3e" primary="false" name="Positional"/>
       </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>

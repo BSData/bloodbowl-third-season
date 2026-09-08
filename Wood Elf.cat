@@ -108,6 +108,7 @@
     <selectionEntry type="model" import="true" name="Wood Elf Lineman" hidden="false" id="0890-7eb1-a341-09bd">
       <categoryLinks>
         <categoryLink targetId="4b56-0a22-2172-d4bf" id="1bd8-cb81-1e44-d13a" primary="false" name="Wood Elf Lineman"/>
+        <categoryLink targetId="febf-78f5-fbf5-a88f" id="8090-2508-0c3a-71af" primary="false" name="Lineman"/>
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Primary Skill" hidden="false" id="0f87-fbe7-35cb-7f42" type="selectionEntryGroup" targetId="f398-0d58-6146-99f7">
