@@ -5211,7 +5211,7 @@ If a team has a choice of any alignment, they can choose from any of the followi
     </selectionEntry>
     <selectionEntry name="Primary Skill" id="24b1-712d-1b55-0e5c" hidden="false" import="true" sortIndex="31" type="upgrade">
       <modifiers>
-        <modifier field="name" join=" " type="prepend" value="Random">
+        <modifier field="name" join=" " type="set" value="Random Primary Skill">
           <comment>Sevens modification</comment>
           <conditions>
             <condition childId="ce3d-3ed3-cb13-dd55" childName="Random Skills" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
@@ -5221,7 +5221,7 @@ If a team has a choice of any alignment, they can choose from any of the followi
     </selectionEntry>
     <selectionEntry name="Secondary Skill" id="eeb0-8b2b-d19e-868d" hidden="false" import="true" sortIndex="32" type="upgrade">
       <modifiers>
-        <modifier field="name" join=" " type="prepend" value="Random">
+        <modifier field="name" join=" " type="set" value="Random Secondary Skill">
           <comment>Sevens modification</comment>
           <conditions>
             <condition childId="ce3d-3ed3-cb13-dd55" childName="Random Skills" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
@@ -6509,9 +6509,19 @@ If the money is paid, the player remains on the team. However, to reflect the in
               </costs>
             </entryLink>
           </entryLinks>
-          <modifiers>
-            <modifier field="info" type="add" value="{this} for each player in Sevens is discounted"/>
-          </modifiers>
+          <rules>
+            <rule name="Sevens first skill discount" id="fa42-7d4f-d7dd-1dd6" hidden="true">
+              <comment>Sevens modification</comment>
+              <description>The First advancement for each player in Sevens is discounted</description>
+              <modifiers>
+                <modifier field="hidden" type="set" value="false">
+                  <conditions>
+                    <condition childId="ce3d-3ed3-cb13-dd55" childName="Random Skills" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </rule>
+          </rules>
         </selectionEntryGroup>
         <selectionEntryGroup name="Fourth Advancement" id="283d-1301-3fe0-f6f9" collapsible="true" hidden="true" sortIndex="4">
           <constraints>
